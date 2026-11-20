@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>POLAD Claude</title>
+<meta name="description" content="Daily digest of institutional statements on European security: NATO, Ukraine, the Coalition of the Willing and BRICS positions on Europe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Daily political-adviser brief: one scrolling page, newest day first, institutional statements flagged first */
+:root{
+  color-scheme:light dark;
+  --bg:light-dark(#F3F5F7,#0E141B);
+  --paper:light-dark(#FFFFFF,#151D26);
+  --ink:light-dark(#15202B,#E3E8EE);
+  --muted:light-dark(#5B6877,#93A0AE);
+  --line:light-dark(#D8DEE4,#283340);
+  --navy:light-dark(#1A335C,#8FB3E6);
+  --navy-soft:light-dark(#E6EDF7,#1B2838);
+  --official:light-dark(#1F6B3A,#7CC795);
+  --official-bg:light-dark(#E5F3EA,#16291D);
+  --media:light-dark(#8C5C0D,#E0B465);
+  --media-bg:light-dark(#F7EEDD,#2B2213);
+  --analysis:light-dark(#55407A,#B9A3E0);
+  --analysis-bg:light-dark(#EEE9F6,#231C30);
+  --f-head:"IBM Plex Sans Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",Arial,system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--f-body);overflow-x:clip}
+a{color:var(--navy)}
+:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
+.wrap{max-width:920px;margin:0 auto;padding:0 max(16px,4vw)}
+
+header.mast{background:var(--navy);color:#fff}
+@media (prefers-color-scheme:dark){header.mast{background:#13243F}}
+.mast .wrap{padding-block:28px 22px;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:flex-end;justify-content:space-between}
+.mast h1{font-family:var(--f-head);font-weight:700;font-size:clamp(32px,6vw,46px);line-height:1.02;margin:0;letter-spacing:-.01em}
+.mast p{margin:6px 0 0;max-width:56ch;font-size:15px;color:#D6E0EE}
+.mast .latest{font-family:var(--f-mono);font-size:13px;color:#D6E0EE;text-align:right}
+.mast .latest b{display:block;font-family:var(--f-head);font-size:20px;color:#fff;font-weight:600}
+
+.tools{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.tools .wrap{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;padding-block:12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--paper)}
+.seg button{font:500 14px var(--f-body);border:0;background:transparent;color:var(--muted);padding:0 14px;min-height:40px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--navy);color:#fff}
+.tools input{flex:1 1 220px;font:16px var(--f-body);color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:0 12px;min-height:40px}
+.count{font-family:var(--f-mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+.legend{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 16px;padding-top:18px}
+.tag{display:inline-block;font:600 11px var(--f-body);letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:4px;white-space:nowrap;vertical-align:2px}
+.tag.official{color:var(--official);background:var(--official-bg)}
+.tag.media{color:var(--media);background:var(--media-bg)}
+.tag.publication{color:var(--analysis);background:var(--analysis-bg)}
+
+.day{margin-top:34px}
+.day>h2{font-family:var(--f-head);font-weight:700;font-size:28px;color:var(--navy);margin:0;padding-top:12px;border-top:3px solid var(--navy);display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
+.day>h2 small{font:500 13px var(--f-mono);color:var(--muted)}
+.judgement{background:var(--navy-soft);border-radius:6px;padding:14px 18px;margin-top:14px;font-size:16.5px;max-width:70ch}
+.judgement b{color:var(--navy)}
+.cover{font-size:13px;color:var(--muted);font-style:italic;margin:10px 0 0;max-width:80ch}
+.ent{margin-top:22px}
+.ent h3{font:600 15px var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--navy);margin:0 0 8px;display:flex;gap:10px;align-items:baseline}
+.ent h3 span{font:500 12px var(--f-mono);letter-spacing:0;color:var(--muted);text-transform:none}
+.item{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:14px 16px;margin-top:8px}
+.item .who{font-weight:600}
+.item .who .role{font-weight:400;color:var(--muted)}
+.meta{font-size:13px;color:var(--muted);margin-top:2px}
+.q{margin:10px 0 0;padding-left:12px;border-left:2px solid var(--line);font-style:italic}
+.q .lab{font-style:normal;font-size:12.5px;color:var(--muted)}
+.ctx{margin:8px 0 0;max-width:75ch}
+.src{margin-top:8px;font-size:13.5px;overflow-wrap:anywhere}
+.src span{color:var(--muted)}
+.empty{margin-top:40px;color:var(--muted)}
+footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;max-width:80ch}
+@media (max-width:600px){.mast .latest{text-align:left}.day>h2{font-size:24px}}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <div>
+      <h1>POLAD Claude</h1>
+      <p>Daily digest of institutional statements on European security: NATO, Ukraine, the Coalition of the Willing and BRICS positions on Europe.</p>
+    </div>
+    <div class="latest">Latest report<b id="latest">–</b></div>
+  </div>
+</header>
+
+<div class="tools">
+  <div class="wrap">
+    <div class="seg" role="group" aria-label="Source type">
+      <button type="button" data-src="all" aria-pressed="true">All sources</button>
+      <button type="button" data-src="official" aria-pressed="false">Official only</button>
+    </div>
+    <input id="q" type="search" placeholder="Search a country, a name, a topic" aria-label="Search">
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="legend">
+    <span><span class="tag official">Official statement</span> published on the institution's own channel</span>
+    <span><span class="tag media">Media-reported</span> known through press or agency reporting</span>
+    <span><span class="tag publication">Analysis</span> think tank or research output</span>
+  </div>
+  <div id="days"><p class="empty">Loading reports…</p></div>
+  <footer>Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.</footer>
+</main>
+
+<script>
+{
+const S={reports:[],src:"all",q:""};
+const CAT={executive:"Executive / Government",political:"Political figure",parliament:"Parliament",thinktank:"Think tank"};
+const TAG={official:"Official statement",media:"Media-reported",publication:"Analysis"};
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safe=u=>{try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:"#"}catch(e){return "#"}};
+const fmt=d=>{try{return new Date(d+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"UTC"})}catch(e){return d}};
+
+function match(it){
+  if(S.src==="official"&&it.sourceType!=="official")return false;
+  if(!S.q)return true;
+  const h=[it.entity,it.actor,it.role,it.topic,it.context,it.sourceName,it.docType,it.reference,...(it.quotes||[]).map(q=>q.text)].join(" ").toLowerCase();
+  return h.includes(S.q);
+}
+function item(it){
+  const st=it.category==="thinktank"?"publication":(it.sourceType||"media");
+  const meta=[CAT[it.category]||it.category,it.topic,it.docType,it.reference,it.status,(it.date||"")+(it.firstReported?` (first reported ${it.firstReported})`:"")].filter(Boolean).map(esc).join(" · ");
+  const qs=(it.quotes||[]).map(q=>{
+    const parts=q.label?[q.label]:[];
+    if(q.paraphrase&&!(parts[0]||"").toLowerCase().startsWith("paraphrase"))parts.unshift("paraphrase");
+    const body=q.paraphrase?esc(q.text):`“${esc(q.text)}”`;
+    return `<p class="q">${body}${parts.length?` <span class="lab">[${esc(parts.join(", "))}]</span>`:""}</p>`;
+  }).join("");
+  return `<article class="item"><div class="who">${esc(it.actor)}${it.role?`<span class="role">, ${esc(it.role)}</span>`:""} <span class="tag ${st}">${TAG[st]}</span></div>
+  <div class="meta">${meta}</div>${qs}${it.context?`<p class="ctx">${esc(it.context)}</p>`:""}
+  <div class="src"><span>Source: </span><a href="${safe(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.sourceName||"link")}</a></div></article>`;
+}
+function render(){
+  let n=0;
+  const html=S.reports.map(r=>{
+    const items=(r.items||[]).filter(match);
+    if((S.q||S.src!=="all")&&!items.length)return "";
+    n+=items.length;
+    const order=[];
+    items.slice().sort((a,b)=>(a.tier||2)-(b.tier||2)||(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1))
+      .forEach(i=>{if(!order.includes(i.entity))order.push(i.entity)});
+    const groups=order.map(e=>{
+      const g=items.filter(i=>i.entity===e).sort((a,b)=>(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1));
+      return `<section class="ent"><h3>${esc(e)} <span>Tier ${esc(g[0].tier||"")}</span></h3>${g.map(item).join("")}</section>`;
+    }).join("");
+    const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
+    return `<section class="day" id="d${esc(r.date)}"><h2>${esc(fmt(r.date))}<small>${(r.items||[]).length} items · ${off} official</small></h2>
+      ${r.synthesis?`<div class="judgement"><b>Key judgement.</b> ${esc(r.synthesis)}</div>`:""}
+      ${r.note?`<p class="cover">Coverage: ${esc(r.note)}</p>`:""}
+      ${groups||'<p class="cover">No statement met the time and scope criteria for this cycle.</p>'}</section>`;
+  }).join("");
+  document.getElementById("days").innerHTML=html||'<p class="empty">No item matches these filters.</p>';
+  document.getElementById("count").textContent=n+" items";
+}
+document.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x===b));
+  S.src=b.dataset.src;render();
+}));
+let t;document.getElementById("q").addEventListener("input",e=>{clearTimeout(t);t=setTimeout(()=>{S.q=e.target.value.trim().toLowerCase();render()},150)});
+fetch("data/reports.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
+  S.reports=d.filter(r=>r&&r.date).sort((a,b)=>b.date.localeCompare(a.date));
+  document.getElementById("latest").textContent=S.reports[0]?fmt(S.reports[0].date):"–";
+  render();
+}).catch(()=>{document.getElementById("days").innerHTML='<p class="empty">The reports could not be loaded. Please reload the page.</p>'});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1468 @@
+[
+ {
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T10:20:00Z",
+  "synthesis": "On the same day, the Shenzhen Xi–Putin–Trump summit produced a declaration silent on Ukraine while some 40 countries in Berlin committed to fund Ukraine in 2027, set the contact line as the starting point for territorial talks and positioned 'Team Europe' for four-party negotiations. Putin ruled out direct talks with Kyiv after the Crimean bridge strike and invited Europeans to Moscow, which Merz deflected toward a neutral venue.",
+  "note": "Manual run at 11:00 Berlin time, focused on the 19 November Berlin and Shenzhen summits. Parliaments, Tier 2 states and several mandatory primary sites were not checked systematically; some quotes are rendered from German- or Russian-language reporting.",
+  "items": [
+   {
+    "entity": "COALITION OF THE WILLING",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Friedrich Merz",
+    "role": "Federal Chancellor, host of the Berlin summit (with Macron and Burnham)",
+    "topic": "Berlin summit, 2027 funding, Team Europe, contact line, security guarantees",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "We will not allow Europe to be divided anew; we are taking our fate into our own hands.",
+      "label": "translated from German"
+     }
+    ],
+    "context": "The coalition agreed to keep supporting Ukraine in 2027, said four-party talks (Ukraine, Russia, US, Team Europe = EU institutions plus E5) should take place soon with the line of contact as starting point for territorial understanding, and declared itself able to provide security guarantees after a ceasefire, in close coordination with the US. Conditional, step-by-step sanctions relief for Russia was mentioned as conceivable in return for a settlement.",
+    "sourceName": "Bundesregierung",
+    "url": "https://www.bundesregierung.de/breg-de/aktuelles/koalition-der-willigen-in-berlin-2461162",
+    "sourceType": "official"
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Friedrich Merz",
+    "role": "Federal Chancellor",
+    "topic": "Shenzhen summit, Putin's invitation to Moscow, negotiation venue",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "apparently above all a photo opportunity",
+      "label": "translated from German · on the Shenzhen summit"
+     }
+    ],
+    "context": "Merz said he was ready for talks with Russia, but at a table with the US, Russia and Ukraine and preferably at a neutral venue rather than Moscow; Trump was patched into the Berlin meeting by phone through Jared Kushner, with the content of his briefing not disclosed.",
+    "sourceName": "Joyn newstime",
+    "url": "https://newstime.joyn.de/themen/politik/air-force-one-trump-urkaine-gipfel-kanzleramt-merz-219303",
+    "sourceType": "media"
+   },
+   {
+    "entity": "FRANCE",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Emmanuel Macron",
+    "role": "President of the Republic",
+    "topic": "Ukraine NATO membership, Berlin summit",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "Given Russia's maximalist positions, the question of Ukraine's NATO accession must be reopened.",
+      "paraphrase": true,
+      "label": "paraphrase of German-language reporting"
+     }
+    ],
+    "context": "Macron put NATO membership back on the table as leverage against Moscow's demands, a departure from the line that membership is off the agenda for any settlement.",
+    "sourceName": "news.at",
+    "url": "https://www.news.at/politik/koalition-der-willigen-tagt-in-berlin",
+    "sourceType": "media"
+   },
+   {
+    "entity": "UNITED KINGDOM",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Andy Burnham",
+    "role": "Prime Minister",
+    "topic": "Aid to Ukraine, Berlin summit",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "Burnham announced an increase in UK aid to Ukraine and said the coalition is more united than ever.",
+      "paraphrase": true,
+      "label": "no amount given in the report"
+     }
+    ],
+    "context": "London co-chaired the summit with Paris and Berlin; the UK and France co-lead the Multinational Force Ukraine.",
+    "sourceName": "news.at",
+    "url": "https://www.news.at/politik/koalition-der-willigen-tagt-in-berlin",
+    "sourceType": "media"
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Volodymyr Zelenskyy",
+    "role": "President of Ukraine",
+    "topic": "2027 financing needs, Berlin summit",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "All the leaders understood that this really is a huge sum",
+      "label": "translated from German rendering"
+     }
+    ],
+    "context": "Ukraine needs about EUR 115 billion in 2027: EUR 45 billion from an EU loan backed by frozen Russian assets and EUR 45 billion from new Commission borrowing, leaving a gap of about EUR 25 billion.",
+    "sourceName": "news.at",
+    "url": "https://www.news.at/politik/koalition-der-willigen-tagt-in-berlin",
+    "sourceType": "media"
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Vladimir Putin",
+    "role": "President of Russia (press conference after the Shenzhen trilateral)",
+    "topic": "Direct talks with Ukraine, Crimean bridge strike, Europe",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "We will not negotiate after the attacks on the Crimean bridge.",
+      "label": "translated from Russian"
+     }
+    ],
+    "context": "Putin said Ukraine and Europe are 'not yet ready' for the compromises needed and would eventually see that compromise beats facing 'realities'; he also said Europeans had been invited to Moscow through diplomatic channels, once Russia understands what they intend to propose.",
+    "sourceName": "CBS News",
+    "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+    "sourceType": "media"
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Yuri Ushakov",
+    "role": "Presidential aide for foreign policy",
+    "topic": "Future of the Russia–US–China format",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "Hard to say",
+      "label": "translated from Russian · asked whether trilateral talks would continue"
+     }
+    ],
+    "context": "Peskov added that Ukraine was not the central topic of the trilateral; Putin called the talks very useful and 'very frank'. The Shenzhen declaration covers nuclear risk, UN reform, energy supply and immunities of officials, with no mention of Ukraine.",
+    "sourceName": "Vedomosti",
+    "url": "https://www.vedomosti.ru/politics/articles/2026/11/19/1413477-otsenili-sammit",
+    "sourceType": "media"
+   },
+   {
+    "entity": "UNITED STATES",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Donald Trump",
+    "role": "President (Shenzhen trilateral and joint declaration published by the White House)",
+    "topic": "Shenzhen summit, Ukraine, nuclear risk",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "Trump raised Ukraine in the trilateral and said the sides were moving in the right direction.",
+      "paraphrase": true,
+      "label": "paraphrase of Russian-language reporting"
+     }
+    ],
+    "context": "The White House published a joint declaration reaffirming strategic stability and that a nuclear war cannot be won, without any reference to Ukraine; Trump left Shenzhen without a substantive public statement on the war.",
+    "sourceName": "Vedomosti",
+    "url": "https://www.vedomosti.ru/politics/articles/2026/11/19/1413477-otsenili-sammit",
+    "sourceType": "media"
+   },
+   {
+    "entity": "CHINA",
+    "tier": 1,
+    "category": "executive",
+    "actor": "Xi Jinping",
+    "role": "President of the PRC, host of the Shenzhen trilateral",
+    "topic": "Trilateral summit, dialogue",
+    "date": "2026-11-19",
+    "quotes": [
+     {
+      "text": "While dialogue continues and doors remain open, hope for peace remains",
+      "label": "translated from Russian rendering"
+     }
+    ],
+    "context": "Xi called the summit positive, constructive and fruitful and urged implementation of the agreements; Beijing's Foreign Ministry published the declaration, which leaves out Ukraine and European security.",
+    "sourceName": "Vedomosti",
+    "url": "https://www.vedomosti.ru/politics/articles/2026/11/19/1413477-otsenili-sammit",
+    "sourceType": "media"
+   },
+   {
+    "entity": "COUNCIL ON FOREIGN RELATIONS (CFR)",
+    "tier": 2,
+    "category": "thinktank",
+    "actor": "Council on Foreign Relations",
+    "role": "Six Experts on the Significance of Trump, Xi, and Putin's First Trilateral Meeting",
+    "docType": "Expert roundup (Froman, Doshi, Graham, Fix, Dumbacher, McGuire)",
+    "topic": "Shenzhen trilateral, Ukraine, European security, nuclear risk",
+    "date": "2026-11-19 (publication date)",
+    "quotes": [
+     {
+      "text": "a strong signal against perceptions of the trilateral summit as a new Yalta",
+      "label": "Liana Fix, on the Berlin meeting"
+     }
+    ],
+    "context": "The experts judge that the trilateral raised Russia's standing but produced no concession on Ukraine or European security, which relieved European officials; the nuclear risk-reduction pledge is seen as the most promising, though far short of arms control.",
+    "sourceName": "CFR",
+    "url": "https://www.cfr.org/articles/six-experts-on-what-trump-xi-and-putins-first-trilateral-means",
+    "sourceType": "publication"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-16",
+  "synthesis": "In Sunday interviews, Lavrov and Peskov tied any Ukraine settlement to a new European security architecture while deriding Europe's divided, late bid for a seat, and Peskov threatened to pursue Russia's aims by force if talks fail. Kyiv answered by billing the coming Coalition of the Willing meeting as potentially historic and a source of European leverage, as Beijing formally announced the 19 November Xi–Putin–Trump summit in Shenzhen.",
+  "note": "Sunday window: no qualifying new item found within 24h for the United States, France, Germany, the United Kingdom, Poland or NATO HQ; iz.ru and several Russian primary sites were unreachable or had no new items, so Russian statements are sourced from Vedomosti and OSN; no qualifying think-tank or parliamentary item identified; Tier 2 coverage limited.",
+  "items": [
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "Zelenskyy said the Coalition of the Willing could give Europe a very strong negotiating position, argued that a trilateral Ukraine–US–Russia format should be stronger than a four-sided one, and demanded a 'result-oriented' Ramstein meeting next week centred on Patriot and NASAMS missiles, citing intelligence on new Russian ballistic strike preparations. He also announced a review of all coalitions supporting Ukraine to identify which are 'empty'.",
+    "date": "2026-11-15",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "translated from Ukrainian · on the Coalition of the Willing meeting being prepared",
+      "text": "An important meeting – it may be a historic meeting."
+     }
+    ],
+    "role": "President of Ukraine (evening video address)",
+    "sourceName": "LB.ua",
+    "tier": 1,
+    "topic": "Coalition of the Willing meeting, Ramstein, air defence, negotiation formats, review of coalitions",
+    "url": "https://lb.ua/society/2026/11/15/781350_zelenskiy_anonsuvav_istorichnu.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "Citing a report by Maj. Gen. Mykhailo Drapatyi, Zelenskyy framed the long-range campaign against Russian refineries (Samara, Volgograd and Russia's largest refinery this week) as a fitting response to Moscow's refusal to de-escalate and its strikes on Ukraine's grid, signalling continued economic pressure on Russia during the US-brokered talks.",
+    "date": "2026-11-15",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "translated from Ukrainian",
+      "text": "We have already neutralized more than 55% of Russia's oil refining capacity."
+     }
+    ],
+    "role": "President of Ukraine (evening video address)",
+    "sourceName": "The Kyiv Independent",
+    "tier": 1,
+    "topic": "Long-range strikes on Russian oil refining, energy war, coercive leverage",
+    "url": "https://kyivindependent.com/ukrainian-drone-attacks-neutralized-55-of-russias-oil-refining-capacity-zelensky-says/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Sergey Lavrov",
+    "category": "executive",
+    "context": "Lavrov said European capitals fear being left out and poorly understand their own role at the table, and that Moscow's negotiating line will remain anchored in the goals Putin set out in June 2024, which 'have not changed', a signal that the E5/EU negotiating team will not shift Russia's core demands.",
+    "date": "2026-11-15",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian · describing Europeans' bid to join the talks",
+      "text": "Jump onto the last carriage"
+     }
+    ],
+    "role": "Minister of Foreign Affairs (interview with Pavel Zarubin, Vesti)",
+    "sourceName": "OSN",
+    "tier": 1,
+    "topic": "European role in Ukraine talks, Russian negotiating goals",
+    "url": "https://www.osnmedia.ru/politika/lavrov-evropejtsy-pytayutsya-zaprygnut-v-poslednij-vagon-peregovorov-po-ukraine",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Dmitry Peskov",
+    "category": "executive",
+    "context": "Peskov said a Ukraine settlement and European security are 'parts of one whole', doubted Europe would quickly reach a common position, and warned that if Europeans do not genuinely want peace Russia would have to achieve its goals by force; he separately told TASS that EU negotiators had not yet contacted Moscow.",
+    "date": "2026-11-15",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "text": "Because of their disunity, they cannot take decisions in time."
+     }
+    ],
+    "role": "Press Secretary of the President of Russia (interview with Pavel Zarubin, Vesti)",
+    "sourceName": "Vedomosti",
+    "tier": 1,
+    "topic": "European disunity, linkage of Ukraine settlement and European security architecture, threat of force",
+    "url": "https://www.vedomosti.ru/politics/news/2026/11/15/1245443-peskov-evropa",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Ministry of Foreign Affairs of the PRC",
+    "category": "executive",
+    "context": "Beijing's first formal confirmation of the 19 November trilateral on the APEC sidelines gives no agenda; Washington says the meeting will address nuclear arms reduction and Iran but not Ukraine, whereas the Kremlin says Ukraine settlement talks with Trump will continue there.",
+    "date": "2026-11-16",
+    "entity": "CHINA",
+    "quotes": [
+     {
+      "label": "translated from Chinese",
+      "paraphrase": true,
+      "text": "Xi Jinping will hold a China-Russia-US leaders' meeting with Putin and Trump in Shenzhen."
+     }
+    ],
+    "role": "Spokesperson announcement",
+    "sourceName": "Ministry of Foreign Affairs of the PRC",
+    "tier": 1,
+    "topic": "China–Russia–US leaders' summit, Shenzhen, 19 November",
+    "url": "https://www.mfa.gov.cn/zyxw/202611/t20261116_12059654.shtml",
+    "sourceType": "official"
+   },
+   {
+    "actor": "Kaja Kallas",
+    "category": "executive",
+    "context": "Kallas said EUNAVFOR MED IRINI's boarding of the tanker MV MIDAG, under UNCLOS Article 110, confirmed it was sailing under a false flag, and that EU foreign ministers would approve new sanctions listings on 16 November targeting banks, buyers and companies supporting the shadow fleet.",
+    "date": "2026-11-15 (boarding on 13 Nov)",
+    "entity": "EUROPEAN UNION",
+    "firstReported": "2026-11-15",
+    "quotes": [
+     {
+      "text": "The EU will keep disrupting Russia's shadow fleet at sea and through diplomatic means."
+     }
+    ],
+    "role": "EU High Representative for Foreign Affairs and Security Policy",
+    "sourceName": "The Kyiv Independent",
+    "tier": 1,
+    "topic": "Shadow fleet, EUNAVFOR MED IRINI boarding, new sanctions listings",
+    "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Guido Crosetto",
+    "category": "executive",
+    "context": "Crosetto will propose renewing Italy's authorization for arms transfers to Kyiv, arguing that Moscow will only negotiate once it understands Ukraine can keep counting on its allies; Italy has just joined the European negotiating team.",
+    "date": "2026-11-15",
+    "entity": "ITALY",
+    "quotes": [
+     {
+      "label": "translated from Italian",
+      "text": "It expires on 31 December and I will propose the extension."
+     }
+    ],
+    "role": "Minister of Defence (interview with Quotidiano Nazionale)",
+    "sourceName": "LaPresse",
+    "tier": 2,
+    "topic": "Extension of the legal authorization for military aid to Ukraine beyond 31 December",
+    "url": "https://www.lapresse.it/esteri/2026/11/15/guerra-in-ucraina-le-notizie-in-diretta-oggi-15-novembre-lavrov-obiettivi-putin/",
+    "sourceType": "media"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-15",
+  "synthesis": "Washington is shifting to brokering direct Russia–Europe engagement, while Zelenskyy disclosed that US negotiators floated NATO membership in exchange for a Ukrainian withdrawal from Donbas, a trade Kyiv rejects alongside neutrality. Macron framed any rationing of aid to Ukraine as forcing an unjust peace, signalling French resistance to pressure for territorial concessions.",
+  "note": "Saturday window: no qualifying official statement found within 24h from Russia, China, Germany, UK, Poland or NATO HQ; several mandatory primary-source domains could not be checked directly, and Tier 2 coverage was limited.",
+  "items": [
+   {
+    "actor": "Jared Kushner",
+    "category": "executive",
+    "context": "In a post on X after the Abu Dhabi round and separate meetings with Putin and Zelenskyy, Kushner said the US now aims to bring Europeans directly into talks with Moscow, that preparations for the next trilateral round are under way, and that NATO remains a critical pillar of European security and of guarantees for Ukraine.",
+    "date": "2026-11-14",
+    "entity": "UNITED STATES",
+    "quotes": [
+     {
+      "label": "between Russia and European partners",
+      "text": "facilitating direct engagement"
+     }
+    ],
+    "role": "US special envoy for Ukraine talks",
+    "sourceName": "Kyiv Independent",
+    "tier": 1,
+    "topic": "Direct Russia–Europe engagement, next trilateral round, NATO as pillar of European security",
+    "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "Zelenskyy said US negotiators asked, for the first time, whether Ukraine would leave Donbas in exchange for NATO membership; he said Kyiv will not surrender territory, would put any comprehensive package to a referendum, and rejects constitutionally enshrined neutrality. He also refused Moscow's call to negotiate a wider European security agreement before a ceasefire.",
+    "date": "2026-11-13 (remarks to journalists)",
+    "entity": "UKRAINE",
+    "firstReported": "2026-11-14",
+    "quotes": [
+     {
+      "label": "translated from Ukrainian",
+      "text": "This war must be ended first."
+     }
+    ],
+    "role": "President of Ukraine",
+    "sourceName": "The Guardian (via AOL)",
+    "tier": 1,
+    "topic": "US proposal of NATO membership for Donbas withdrawal, referendum, neutrality",
+    "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-proposes-033818000.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Emmanuel Macron",
+    "category": "executive",
+    "context": "In a social media statement, Macron said those seeking to ration aid to Ukraine want to impose an unjust peace, that Putin does not want to negotiate, and that allies should spell out their postwar vision and what Europe expects from the US on long-term security.",
+    "date": "2026-11-14",
+    "entity": "FRANCE",
+    "quotes": [
+     {
+      "label": "translated from French",
+      "text": "That is a recipe for another war."
+     }
+    ],
+    "role": "President of the Republic",
+    "sourceName": "AFP via Arab News",
+    "tier": 1,
+    "topic": "Aid to Ukraine, unjust peace, postwar vision, European expectations of the US",
+    "url": "https://www.arabnews.pk/world/reducing-ukraine-aid-sets-scene-for-more-war-macron-3007060",
+    "sourceType": "media"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-14",
+  "synthesis": "EU leaders in Dublin rejected a single envoy and named a collective negotiating team (France, Germany, UK, Italy, Poland, EU institutions and NATO), while Merz warned Washington against a 'second Anchorage' ahead of expected Trump–Putin talks in China. Moscow answered by conditioning any European role on proof of 'readiness to contribute', denying that European participation was agreed in Moscow and openly rejecting Kallas as interlocutor.",
+  "note": "No qualifying new item found within 24h for NATO HQ, US executive, China or France; several primary sites (kremlin.ru, mid.ru) were unreachable, so Russian statements are sourced from Izvestia and EADaily.",
+  "items": [
+   {
+    "actor": "António Costa",
+    "category": "executive",
+    "context": "Leaders chose an expanded team (France, Germany, UK, Italy, Poland, EU institutions and NATO) rather than the single envoy requested by Kyiv, Washington and Moscow; von der Leyen insisted 'we decide on who represents us'.",
+    "date": "2026-11-13",
+    "entity": "EUROPEAN UNION",
+    "quotes": [
+     {
+      "text": "Europe must speak with one clear voice and united voice in all discussions."
+     }
+    ],
+    "role": "President of the European Council",
+    "sourceName": "Al Jazeera",
+    "tier": 1,
+    "topic": "European negotiating team for Ukraine talks, informal European Council Dublin",
+    "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Kaja Kallas",
+    "category": "executive",
+    "context": "Kallas, left out of the named team, claimed the envoy role as the EU's foreign and security policy representative and said leaders could still revise the agreement. Italy's Meloni separately criticised the 'disarray' of competing formats and backed a single envoy.",
+    "date": "2026-11-13",
+    "entity": "EUROPEAN UNION",
+    "quotes": [
+     {
+      "text": "Russians do not want me"
+     }
+    ],
+    "role": "EU High Representative for Foreign Affairs and Security Policy",
+    "sourceName": "Euronews",
+    "tier": 1,
+    "topic": "EU representation in Ukraine peace talks",
+    "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Friedrich Merz",
+    "category": "executive",
+    "context": "Merz said some leaders in Dublin fear a 'second Anchorage moment' at Trump–Putin talks expected in China next week, and asked within what framework Ukraine's post-war security can be guaranteed.",
+    "date": "2026-11-13",
+    "entity": "GERMANY",
+    "quotes": [
+     {
+      "text": "please, no surprises. Continue to play as part of 'Team Europe' and 'Team Ukraine'."
+     }
+    ],
+    "role": "Federal Chancellor",
+    "sourceName": "Reuters via 102.7 WBOW",
+    "tier": 1,
+    "topic": "Expected Trump–Putin talks in China, Anchorage precedent, security guarantees",
+    "url": "https://1027wbow.com/2026/11/13/germanys-merz-asks-trump-for-no-surprises-from-putin-talks/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Bundestag Budget Committee (Haushaltsausschuss)",
+    "category": "parliament",
+    "context": "Commitment authorisations for defence were raised by almost EUR 5 billion to EUR 296.88 billion; EUR 84.55 billion of net borrowing falls under the defence and security exemption from the debt brake.",
+    "date": "2026-11-12 to 2026-11-13 (sitting date)",
+    "docType": "Committee decision on the 2027 federal budget",
+    "entity": "GERMANY",
+    "quotes": [
+     {
+      "label": "translated from German",
+      "paraphrase": true,
+      "text": "Defence ministry budget set at EUR 109.75 billion, up EUR 27.1 billion on 2026."
+     }
+    ],
+    "role": "Final budget review session, federal budget 2027",
+    "sourceName": "Deutscher Bundestag",
+    "status": "Adopted (CDU/CSU and SPD for; AfD, Greens and Die Linke against)",
+    "tier": 1,
+    "topic": "Defence budget 2027 (Einzelplan 14), debt-brake defence exemption",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-haushalt-1231890",
+    "sourceType": "official"
+   },
+   {
+    "actor": "Donald Tusk",
+    "category": "executive",
+    "context": "Speaking on his return from Dublin, Tusk said Putin wants to 'finish off Ukraine this winter', that Europe will not accept changes to the security architecture favouring Russia, and that Poland will not add funds to PURL purchases of US weapons.",
+    "date": "2026-11-13",
+    "entity": "POLAND",
+    "quotes": [
+     {
+      "label": "translated from Polish",
+      "text": "Poland will play a key role in this format."
+     }
+    ],
+    "role": "Prime Minister",
+    "sourceName": "Rzeczpospolita",
+    "tier": 1,
+    "topic": "E5 negotiating format, Russian winter offensive, PURL funding",
+    "url": "https://www.rp.pl/swiat/art45487381-donald-tusk-polska-bedzie-odgrywala-kluczowa-role-w-rozmowach-usa-ukrainy-i-rosji",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Foreign, Commonwealth & Development Office / Ministry of Foreign Affairs of Ukraine",
+    "category": "executive",
+    "context": "Both sides call for robust, legally binding security guarantees in any settlement and prioritise winter air defence under the UK's GBP 10.5 billion package; the UK backs Coalition of the Willing preparations for the Multinational Force Ukraine.",
+    "date": "2026-11-13 (publication date)",
+    "entity": "UNITED KINGDOM / UKRAINE",
+    "quotes": [
+     {
+      "text": "Ukraine's security is the UK's security."
+     }
+    ],
+    "role": "UK–Ukraine joint statement, Strategic Dialogue (Kyiv, 11–12 Nov 2026)",
+    "sourceName": "GOV.UK (FCDO)",
+    "tier": 1,
+    "topic": "Security guarantees, air defence, PURL, Multinational Force Ukraine",
+    "url": "https://www.gov.uk/government/publications/uk-ukraine-joint-statement-strategic-dialogue-november-2026",
+    "sourceType": "official"
+   },
+   {
+    "actor": "Bipartisan Congressional Ukraine Caucus (105 House members)",
+    "category": "parliament",
+    "context": "The lawmakers demand an explanation of how and why Starshield speed restrictions were imposed and immediate restoration of full access.",
+    "date": "2026-11-12 (publication date)",
+    "docType": "Public caucus statement",
+    "entity": "UNITED STATES",
+    "quotes": [
+     {
+      "text": "a full accounting from the Trump Administration and SpaceX"
+     }
+    ],
+    "role": "US House of Representatives",
+    "sourceName": "Kyiv Post",
+    "tier": 1,
+    "topic": "Starshield restrictions in Ukraine, SpaceX, administration accountability",
+    "url": "https://www.kyivpost.com/post/90089",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Dmitry Peskov",
+    "category": "executive",
+    "context": "Peskov said no substantive discussion on a European role is under way and that Moscow must first see whether Europe will help a settlement.",
+    "date": "2026-11-13",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "paraphrase": true,
+      "text": "Russia is ready to talk to Europeans if they genuinely want dialogue; an expanded format could then follow."
+     }
+    ],
+    "role": "Kremlin Press Secretary",
+    "sourceName": "Izvestia",
+    "tier": 1,
+    "topic": "European participation in talks, expanded format",
+    "url": "https://iz.ru/2201160/2026-11-13/peskov-zaiavil-o-gotovnosti-rossii-k-dialogu-s-evropeiskimi-stranami",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Maria Zakharova",
+    "category": "executive",
+    "context": "Zakharova contradicted Kushner's statement that both sides agreed to include European partners in the next round, saying the issue did not come up with the US envoys.",
+    "date": "2026-11-13 (press briefing)",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "text": "was not discussed in Moscow"
+     }
+    ],
+    "role": "Spokesperson, Ministry of Foreign Affairs",
+    "sourceName": "EADaily",
+    "tier": 1,
+    "topic": "Kushner claim on European participation",
+    "url": "https://eadaily.com/ru/news/2026/11/13/hvatil-lishku-zaharova-popravila-kushnera-naschet-dopuska-evropy-za-stol-peregovorov",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Dmitry Medvedev",
+    "category": "political",
+    "context": "Posted on the Max messenger channel; Medvedev also said the EU has not been invited to the talks, reinforcing Moscow's rejection of EU institutions in any negotiating format.",
+    "date": "2026-11-13",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian · on Kaja Kallas",
+      "text": "Nobody wants her at all"
+     }
+    ],
+    "role": "Deputy Chairman of the Security Council",
+    "sourceName": "EADaily",
+    "tier": 1,
+    "topic": "Kallas as EU negotiator",
+    "url": "https://eadaily.com/ru/news/2026/11/13/eyo-voobshche-nikto-ne-hochet-medvedev-ocenil-nastyrnost-kallas",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Antti Häkkänen",
+    "category": "executive",
+    "context": "Reacting to Bild-reported Russian demands in Abu Dhabi that Finland leave NATO and no NATO bases remain in the Baltic states, Häkkänen said such things are 'not negotiable'.",
+    "date": "2026-11-13",
+    "entity": "FINLAND",
+    "quotes": [
+     {
+      "text": "We can clearly see Russia is not serious in the peace talks."
+     }
+    ],
+    "role": "Minister of Defence",
+    "sourceName": "UNITED24 Media (citing Bloomberg)",
+    "tier": 2,
+    "topic": "Reported Russian demands on Finland's NATO membership and Baltic bases",
+    "url": "https://united24media.com/world/russia-pushes-for-nato-rollback-finland-says-its-a-non-starter-24364",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Fredrik Wesslau, ECFR",
+    "category": "thinktank",
+    "context": "Argues Washington has adopted Moscow's push to rewrite Europe's security order; recommends a European counter-proposal based on the Helsinki Final Act and military risk-reduction measures.",
+    "date": "2026-11-13 (publication date)",
+    "docType": "Policy commentary",
+    "entity": "EUROPEAN COUNCIL ON FOREIGN RELATIONS (ECFR)",
+    "quotes": [
+     {
+      "text": "Europeans should quickly come up with their own proposal"
+     }
+    ],
+    "role": "After Abu Dhabi: How Europeans must reframe the European security debate",
+    "sourceName": "ECFR",
+    "tier": 2,
+    "topic": "European security architecture, Helsinki principles, risk reduction",
+    "url": "https://ecfr.eu/article/after-abu-dhabi-how-europeans-must-reframe-the-european-security-debate/",
+    "sourceType": "publication"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-13",
+  "synthesis": "After the Putin–Witkoff–Kushner meeting, Moscow offered to design a new European security architecture 'in tandem with the US' and branded Coalition of the Willing deployments a recipe for endless war, while the US envoys told Zelenskyy in Dublin that no deal can be concluded without Europeans at the table. Europe is pressing for a seat but remains divided on who should represent it.",
+  "note": "No qualifying primary-source items found within 24h for Germany, NATO HQ or US executive agencies' websites; several Dublin quotes come from live coverage rather than official transcripts.",
+  "items": [
+   {
+    "actor": "Jared Kushner",
+    "category": "executive",
+    "context": "Said at Casement Aerodrome after briefing Zelenskyy on the Kremlin meeting; Witkoff separately said the next trilateral round would include European representatives. This is the clearest US commitment yet to a European seat.",
+    "date": "2026-11-12",
+    "entity": "UNITED STATES",
+    "quotes": [
+     {
+      "text": "We cannot conclude this deal without the Europeans being at the table."
+     }
+    ],
+    "role": "US presidential envoy",
+    "sourceName": "TheJournal.ie",
+    "tier": 1,
+    "topic": "European participation, prisoner exchange, Dublin meeting with Zelenskyy",
+    "url": "https://www.thejournal.ie/analysis-epc-summit-7224424-Nov2026/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "Zelenskyy criticised the US extension of a Starshield speed limit to occupied Ukrainian territory and called US-Russian talk of a new European security order 'a little strange'.",
+    "date": "2026-11-12 (address to the European Political Community summit, Dublin)",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "on US treatment of occupied Ukrainian territory",
+      "text": "This tells us where things are going."
+     }
+    ],
+    "role": "President of Ukraine",
+    "sourceName": "Glavnoe",
+    "tier": 1,
+    "topic": "Starshield restrictions, new European security order",
+    "url": "https://glavnoe.in.ua/en/news-en/this-tells-us-where-things-are-going-zelenskyy-criticizes-us-decisions-on-starshield",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "After meeting the US envoys, Zelenskyy said the planned prisoner swap would be the biggest of the war, that Europeans will be part of the talks, and that the Coalition of the Willing will meet in Berlin.",
+    "date": "2026-11-12 (evening, Baldonnel)",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "on Europeans in the talks",
+      "text": "They will have a voice. This is important for us because the war is in Europe."
+     }
+    ],
+    "role": "President of Ukraine",
+    "sourceName": "Irish Times",
+    "tier": 1,
+    "topic": "Dublin meeting with Witkoff and Kushner, European role",
+    "url": "https://irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Emmanuel Macron",
+    "category": "executive",
+    "context": "Macron said he had no inside information on what the US envoys would bring back from Moscow and did not endorse Kaja Kallas's claim that the treaties make Costa and herself Europe's representatives.",
+    "date": "2026-11-12 (EPC summit, Dublin)",
+    "entity": "FRANCE",
+    "quotes": [
+     {
+      "label": "as reported in Irish Times live coverage",
+      "paraphrase": true,
+      "text": "Macron said US support is gone and Europe will decide its own security."
+     }
+    ],
+    "role": "President of the Republic",
+    "sourceName": "Irish Times",
+    "tier": 1,
+    "topic": "US support, European strategic autonomy",
+    "url": "https://irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Andy Burnham",
+    "category": "executive",
+    "context": "Burnham met Zelenskyy before the US envoys and co-chaired the EPC security and defence roundtable; London co-leads the Multinational Force Ukraine with Paris.",
+    "date": "2026-11-12 (EPC summit, Dublin)",
+    "entity": "UNITED KINGDOM",
+    "quotes": [
+     {
+      "paraphrase": true,
+      "text": "Burnham promised Zelenskyy complete support and said he would push for European representation in the US-brokered talks."
+     }
+    ],
+    "role": "Prime Minister",
+    "sourceName": "Irish Times",
+    "tier": 1,
+    "topic": "Support to Ukraine, European representation",
+    "url": "https://irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Donald Tusk",
+    "category": "executive",
+    "context": "Tusk said Poland is not welcome at the US-run table and that any peace must not change Eastern Europe's security architecture to suit Moscow or Washington.",
+    "date": "2026-11-12 (EPC summit, Dublin)",
+    "entity": "POLAND",
+    "quotes": [
+     {
+      "label": "translated from Polish",
+      "text": "Poland is being pushed aside due to its anti-Russian stance."
+     }
+    ],
+    "role": "Prime Minister",
+    "sourceName": "Radio Zachód",
+    "tier": 1,
+    "topic": "Poland's exclusion from talks, European security architecture",
+    "url": "https://zachod.pl/1589523/tusk-w-dublinie-polska-nie-jest-mile-widziana-przy-stole-ws-ukrainy/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Yuri Ushakov",
+    "category": "executive",
+    "context": "Ushakov said Moscow is ready to start work on a new long-term security architecture 'in tandem with the US' and called Coalition of the Willing deployments 'a recipe for endless war'; Putin and Trump are to continue at the APEC summit in China.",
+    "date": "2026-11-12",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "text": "The current system of European security does not work."
+     }
+    ],
+    "role": "Presidential aide for foreign policy",
+    "sourceName": "Rossiyskaya Gazeta",
+    "tier": 1,
+    "topic": "European security architecture, Coalition of the Willing, APEC",
+    "url": "https://rg.ru/2026/11/12/ushakov-podvel-itogi-peregovorov-putina-s-amerikancami-glavnoe.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Mao Ning",
+    "category": "executive",
+    "context": "Beijing did not deny the Kremlin's announcement of a trilateral leaders' meeting at APEC, which Moscow links to the Ukraine settlement.",
+    "date": "2026-11-12 (regular press conference)",
+    "entity": "CHINA",
+    "quotes": [
+     {
+      "text": "China is in communication with relevant parties regarding a meeting between the three heads of state."
+     }
+    ],
+    "role": "Foreign Ministry spokesperson",
+    "sourceName": "Ministry of Foreign Affairs of the PRC",
+    "tier": 1,
+    "topic": "Possible China–US–Russia leaders' meeting",
+    "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/202611/t20261112_12058413.html",
+    "sourceType": "official"
+   },
+   {
+    "actor": "Kaja Kallas",
+    "category": "executive",
+    "context": "Macron and Merz did not endorse this arrangement; the question of Europe's representative goes to the informal European Council in Dublin on 13 November.",
+    "date": "2026-11-12",
+    "entity": "EUROPEAN UNION",
+    "quotes": [
+     {
+      "paraphrase": true,
+      "text": "Kallas said the EU treaties designate António Costa and herself to represent Europe in talks with Russia."
+     }
+    ],
+    "role": "High Representative for Foreign Affairs and Security Policy",
+    "sourceName": "Kyiv Independent",
+    "tier": 1,
+    "topic": "European representation in peace talks",
+    "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Nordic defence ministers",
+    "category": "executive",
+    "context": "The five Nordic states will work toward a joint defence agreement and harmonise rules on cross-border movement of troops and equipment.",
+    "date": "2026-11-12 (Oslo)",
+    "entity": "NORWAY / SWEDEN / DENMARK / FINLAND / ICELAND",
+    "quotes": [
+     {
+      "label": "Tore Sandvik",
+      "text": "This agreement will enable closer cooperation between us and enhance deterrence"
+     }
+    ],
+    "role": "Tore Sandvik (Norway), Jeppe Bruus (Denmark) and counterparts",
+    "sourceName": "ThePrint (Reuters)",
+    "tier": 2,
+    "topic": "Nordic common defence agreement, military mobility",
+    "url": "https://theprint.in/world/nordic-countries-to-work-towards-common-defence-deal/3097108/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Kristen Michal",
+    "category": "executive",
+    "context": "A direct pushback against the Russian and US push to bundle a new European security architecture into the Ukraine settlement.",
+    "date": "2026-11-12 (EPC summit, Dublin)",
+    "entity": "ESTONIA",
+    "quotes": [
+     {
+      "paraphrase": true,
+      "text": "Michal warned Europe risks a trap if wider security questions are drawn into talks to end the war."
+     }
+    ],
+    "role": "Prime Minister",
+    "sourceName": "Irish Times",
+    "tier": 2,
+    "topic": "Scope of Ukraine talks, European security",
+    "url": "https://irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest",
+    "sourceType": "media"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-12",
+  "synthesis": "The Abu Dhabi round closed with a large prisoner-exchange deal but no convergence on territory: Medinsky hardened Moscow's territorial line and questioned the Europeans' status, while Zelenskyy, in Copenhagen and Dublin, insisted Europe must be at the table and pitched a European anti-ballistic shield (FREYJA). The US envoys are now shuttling between Moscow and Kyiv's team in Dublin.",
+  "note": "No qualifying executive item found within 24h for France, Germany, the United Kingdom, NATO HQ or China; Reuters and Politico pages were unreachable.",
+  "items": [
+   {
+    "actor": "Jared Kushner",
+    "category": "executive",
+    "context": "Kushner confirmed the prisoner-exchange agreement and said he and Steve Witkoff would fly to Moscow on 12 November to brief Putin, then meet Zelenskyy in Ireland.",
+    "date": "2026-11-11",
+    "entity": "UNITED STATES",
+    "quotes": [
+     {
+      "paraphrase": true,
+      "text": "Deep distrust between Russia and Ukraine remains a major obstacle to a deal."
+     }
+    ],
+    "role": "White House special envoy",
+    "sourceName": "The Moscow Times",
+    "tier": 1,
+    "topic": "Abu Dhabi talks outcome, prisoner exchange",
+    "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "First foreign leader to address the Folketing; he rejected the idea that Russia needs new security guarantees and announced that 11 countries have joined FREYJA, Ukraine's proposed European anti-ballistic shield.",
+    "date": "2026-11-11",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "text": "Europe must be at the table."
+     }
+    ],
+    "role": "President of Ukraine, address to the Danish Folketing",
+    "sourceName": "Office of the President of Ukraine",
+    "tier": 1,
+    "topic": "European seat at negotiations, FREYJA anti-ballistic programme",
+    "url": "https://www.president.gov.ua/en/news/zvernennya-prezidenta-u-folketingu-daniyi-107257",
+    "sourceType": "official"
+   },
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "Zelenskyy said ending the war without Europe would be 'unfair and, honestly, impossible', and urged sanctions on suppliers of Russian weapons components.",
+    "date": "2026-11-11",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "text": "We cannot let up until Russia stops."
+     }
+    ],
+    "role": "President of Ukraine, joint press conference with the Irish Taoiseach",
+    "sourceName": "Office of the President of Ukraine",
+    "tier": 1,
+    "topic": "Abu Dhabi talks, US envoys, sanctions",
+    "url": "https://www.president.gov.ua/en/news/zayava-prezidenta-ukrayini-pid-chas-spilnogo-z-premyer-minis-107265",
+    "sourceType": "official"
+   },
+   {
+    "actor": "Rustem Umerov",
+    "category": "executive",
+    "context": "Umerov said the second day produced agreement on a large-scale exchange; Russian Gen. Alexander Zorin, cited by TASS, said it would involve more than 1,000 people per side.",
+    "date": "2026-11-11",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "text": "large-scale prisoner exchange"
+     }
+    ],
+    "role": "Head of the Ukrainian delegation",
+    "sourceName": "The Kyiv Independent",
+    "tier": 1,
+    "topic": "Prisoner exchange, close of Abu Dhabi round",
+    "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Yevhen Khmara",
+    "category": "executive",
+    "context": "The ministers discussed transferring Patriot missiles from partners' stocks against already contracted future deliveries, and joint ventures.",
+    "date": "2026-11-11",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "Ukrainian MoD statement",
+      "text": "One of the key areas is strengthening air defense, particularly for countering ballistic threats."
+     }
+    ],
+    "role": "Minister of Defence of Ukraine (talks with Dutch Defence Minister)",
+    "sourceName": "Interfax-Ukraine",
+    "tier": 1,
+    "topic": "Air defence, Patriot stock swaps",
+    "url": "https://en.interfax.com.ua/news/general/1235057.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Karol Nawrocki",
+    "category": "executive",
+    "context": "Addressed to allies and adversaries as Warsaw awaits a White House decision, expected in early December, on a permanent US base.",
+    "date": "2026-11-11",
+    "entity": "POLAND",
+    "quotes": [
+     {
+      "label": "translated from Polish",
+      "text": "Poland will be a solid, stable and predictable ally on security."
+     }
+    ],
+    "role": "President of Poland, Independence Day address",
+    "sourceName": "Defence24",
+    "tier": 1,
+    "topic": "Alliance reliability",
+    "url": "https://defence24.pl/polityka-obronna/nawrocki-polska-bedzie-przewidywalnym-sojusznikiem-bezpieczenstwo-ponad-podzialami",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Vladimir Medinsky",
+    "category": "executive",
+    "context": "At his closing press conference Medinsky said understanding was reached 'in some places' only and questioned what status the Europeans have.",
+    "date": "2026-11-11",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "text": "Every inch of our land will be returned to Russia. One way or another."
+     }
+    ],
+    "role": "Presidential aide, head of the Russian delegation",
+    "sourceName": "The Moscow Times",
+    "tier": 1,
+    "topic": "Close of Abu Dhabi round, territory, European participation",
+    "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
+    "sourceType": "media"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-11",
+  "synthesis": "The Abu Dhabi round opened with Europeans confined to sideline meetings: Washington says the trilateral should eventually include them and pitches a new European security framework, while Moscow publicly derides their presence. Kyiv is pressing Europe to name a single negotiator, and Denmark and Italy are moving new aid packages in parallel.",
+  "note": "No qualifying item found within the window for France, the UK, NATO HQ (statement only via joint text), China or Germany.",
+  "items": [
+   {
+    "actor": "Marco Rubio",
+    "category": "executive",
+    "context": "Speaking at the G7 ministerial in Paris, Rubio called the first day in Abu Dhabi 'very productive' and said it is Washington's goal to expand the trilateral.",
+    "date": "2026-11-10",
+    "entity": "UNITED STATES",
+    "quotes": [
+     {
+      "text": "We think the trilateral should eventually include our European partners at the table"
+     }
+    ],
+    "role": "Secretary of State",
+    "sourceName": "Kent Online (PA)",
+    "tier": 1,
+    "topic": "Abu Dhabi talks, European participation",
+    "url": "https://www.kentonline.co.uk/news/national/rubio-pushes-for-uk-and-european-allies-to-have-seat-at-ukraine-peace-talks-174127/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Jared Kushner",
+    "category": "executive",
+    "context": "Kushner said the US had 'narrowed the gaps' between the sides and framed the goal as a structure securing 'decades, if not centuries, of peace'.",
+    "date": "2026-11-10",
+    "entity": "UNITED STATES",
+    "quotes": [
+     {
+      "paraphrase": true,
+      "text": "The US hopes to create a new security framework between Ukraine, Russia and Europe."
+     }
+    ],
+    "role": "US presidential envoy",
+    "sourceName": "Arab News (AFP)",
+    "tier": 1,
+    "topic": "European security framework",
+    "url": "https://www.arabnews.com/world/us-calls-for-new-europe-security-at-russia-ukraine-talks-in-abu-dhabi-3011087",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Pete Hegseth",
+    "category": "executive",
+    "context": "Receiving Poland's defence minister at the Pentagon, Hegseth said both sides plan to sign a declaration of intent to expand defence-industrial cooperation; no signature was confirmed.",
+    "date": "2026-11-10",
+    "entity": "UNITED STATES",
+    "quotes": [
+     {
+      "label": "translated from Polish rendering",
+      "paraphrase": true,
+      "text": "Poland is a model for other NATO allies."
+     }
+    ],
+    "role": "Secretary of War",
+    "sourceName": "Wirtualna Polska",
+    "tier": 1,
+    "topic": "US-Poland alliance, defence-industrial cooperation",
+    "url": "https://wiadomosci.wp.pl/hegseth-przyjal-szefa-mon-padly-slowa-o-polsce-7349568357665216a",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "In Copenhagen, Zelenskyy called the talks 'constructive and quite substantive' and said it was time for Europe to choose a representative.",
+    "date": "2026-11-10 (Copenhagen)",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "text": "I see changes. I'm very happy with what I hear."
+     }
+    ],
+    "role": "President of Ukraine",
+    "sourceName": "EWN (AFP)",
+    "tier": 1,
+    "topic": "Abu Dhabi talks, US approach",
+    "url": "https://www.ewn.co.za/2026/11/11/ukraines-zelensky-welcomes-changes-in-us-approach-during-talks-with-russia",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Rustem Umerov",
+    "category": "executive",
+    "context": "Before the trilateral session, the delegation met representatives of the UK, France, Germany, Italy, NATO and the European Commission.",
+    "date": "2026-11-10",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "translated from Ukrainian",
+      "text": "Our key priorities are ending the fighting, securing reliable postwar security guarantees"
+     }
+    ],
+    "role": "Head of the Ukrainian delegation",
+    "sourceName": "Kyiv Independent",
+    "tier": 1,
+    "topic": "Negotiating priorities, security guarantees",
+    "url": "https://kyivindependent.com/ukraine-meets-with-european-us-officials-in-abu-dhabi-ahead-of-renewed-peace-talks-with-russia/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Andrii Sybiha",
+    "category": "executive",
+    "context": "At the G7 session on Ukraine he urged partners to use current momentum for a full ceasefire.",
+    "date": "2026-11-10",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "translated from Ukrainian",
+      "text": "Ukraine has practical proposals for restoring freedom of navigation in the Black Sea"
+     }
+    ],
+    "role": "Minister of Foreign Affairs",
+    "sourceName": "LIGA.net",
+    "tier": 1,
+    "topic": "G7 foreign ministers Paris, Black Sea navigation",
+    "url": "https://news.liga.net/en/politics/news/g7-meeting-attended-by-rubio-discusses-stronger-air-defenses-for-ukraine-and-sanctions-on-russias-shadow-fleet",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Władysław Kosiniak-Kamysz",
+    "category": "executive",
+    "context": "After meeting Hegseth he said Poland had become a strategic partner of the US; a decision on a permanent land-forces base may follow the US review of its European posture.",
+    "date": "2026-11-10",
+    "entity": "POLAND",
+    "quotes": [
+     {
+      "label": "translated from Polish",
+      "text": "There is a green light from the Pentagon for a permanent US troop presence in Poland"
+     }
+    ],
+    "role": "Deputy Prime Minister and Minister of National Defence",
+    "sourceName": "Dziennik.pl",
+    "tier": 1,
+    "topic": "Permanent US troop presence in Poland",
+    "url": "https://wiadomosci.dziennik.pl/polityka/artykuly/11343175,spotkanie-hegsetha-z-kosiniakiem-kamyszem-oto-o-czym-rozmawiaja.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Sergey Lavrov",
+    "category": "executive",
+    "context": "Speaking at the International Forum on Collective Security in Moscow, Lavrov dismissed European participation.",
+    "date": "2026-11-10",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "text": "They flew to Abu Dhabi, so let them sit in the hotel there"
+     }
+    ],
+    "role": "Minister of Foreign Affairs",
+    "sourceName": "RIA Novosti",
+    "tier": 1,
+    "topic": "European presence in Abu Dhabi",
+    "url": "https://ria.ru/20261110/lavrov-2130663805.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Vladimir Medinsky",
+    "category": "executive",
+    "context": "Opening the session, Medinsky credited only US mediation; a TASS source said the agenda covers an 'indivisible security architecture for the entire continent'.",
+    "date": "2026-11-10",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "text": "Thanks to our American partners for their peacemaking efforts"
+     }
+    ],
+    "role": "Presidential aide, head of the Russian delegation",
+    "sourceName": "Interfax",
+    "tier": 1,
+    "topic": "Opening of Abu Dhabi talks",
+    "url": "https://www.interfax.ru/world/1128005",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Joint statement (EU, France, Germany, Italy, United Kingdom, Ukraine, United States, NATO)",
+    "category": "executive",
+    "context": "Issued after the Europeans' sideline meeting with the Ukrainian and US teams, the statement anchors Europe and NATO in the security track even as Russia rejects their seat at the table.",
+    "date": "2026-11-10",
+    "entity": "EU / NATO / PARTNERS",
+    "quotes": [
+     {
+      "text": "shared commitment to a strong post-war European security architecture"
+     }
+    ],
+    "role": "Statement on the Abu Dhabi sideline meeting",
+    "sourceName": "Arab News (AFP)",
+    "tier": 1,
+    "topic": "Post-war European security architecture",
+    "url": "https://www.arabnews.com/world/us-calls-for-new-europe-security-at-russia-ukraine-talks-in-abu-dhabi-3011087",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Mette Frederiksen",
+    "category": "executive",
+    "context": "Denmark announced a new DKK 4.8 billion (about EUR 643 million) military aid package as Zelenskyy met Nordic leaders in Copenhagen.",
+    "date": "2026-11-10",
+    "entity": "DENMARK",
+    "quotes": [
+     {
+      "text": "The Ukrainians' fight for a free Ukraine and a free Europe continues."
+     }
+    ],
+    "role": "Prime Minister",
+    "sourceName": "Euronews",
+    "tier": 2,
+    "topic": "Military aid package",
+    "url": "https://www.euronews.com/2026/11/10/denmark-pledges-643-million-in-military-aid-as-zelenskyy-meets-nordic-leaders",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Guido Crosetto",
+    "category": "parliament",
+    "context": "The package reportedly includes air-defence weapons; the enabling framework decree expires at the end of 2026.",
+    "date": "2026-11-10 (sitting date)",
+    "docType": "Ministerial presentation to committee",
+    "entity": "ITALY",
+    "quotes": [
+     {
+      "paraphrase": true,
+      "text": "Italy has always set as a caveat that no European troops be physically present in Ukraine."
+     }
+    ],
+    "role": "Minister of Defence, before Copasir",
+    "sourceName": "Euronews",
+    "status": "Pending",
+    "tier": 2,
+    "topic": "13th Ukraine aid package",
+    "url": "https://www.euronews.com/2026/11/10/italian-government-debates-aid-to-kyiv-while-abu-dhabi-holds-talks-on-ukraines-future",
+    "sourceType": "media"
+   }
+  ]
+ },
+ {
+  "date": "2026-11-10",
+  "synthesis": "On the eve of Abu Dhabi, Berlin and Kyiv are asserting a European seat while Moscow insists on a strictly trilateral format and welcomes a US security-first agenda. Washington's burden-sharing push is pushing allies such as Poland to lock in bilateral guarantees.",
+  "note": "No qualifying item found within the window for the UK, France executive, NATO HQ or Tier 2 states. Several primary sites not reached directly; agencies used.",
+  "items": [
+   {
+    "actor": "Pete Hegseth",
+    "category": "executive",
+    "context": "Remarks at the US Naval War College framed under the new defence strategy, which requires European allies to take primary responsibility for their own security. Primary transcript not available; reported via TASS.",
+    "date": "2026-11-09",
+    "entity": "UNITED STATES",
+    "quotes": [
+     {
+      "label": "paraphrased from Russian-language TASS report",
+      "paraphrase": true,
+      "text": "The US is reviewing its relationship with Europe and ending the era of subsidising its defence."
+     }
+    ],
+    "role": "Secretary of War",
+    "sourceName": "Vzglyad (citing TASS)",
+    "tier": 1,
+    "topic": "Burden sharing, Europe",
+    "url": "https://vz.ru/news/2026/11/10/1474288.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Volodymyr Zelenskyy",
+    "category": "executive",
+    "context": "The Ukrainian delegation arrived in the UAE for the first US-Russia-Ukraine trilateral meeting since February, alongside separate talks with European partners.",
+    "date": "2026-11-09 (evening video address)",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "translated from Ukrainian",
+      "text": "Partners from Europe will also be there, and there will be separate formats with them"
+     }
+    ],
+    "role": "President of Ukraine",
+    "sourceName": "Interfax-Ukraine",
+    "tier": 1,
+    "topic": "Abu Dhabi trilateral talks, European participation",
+    "url": "https://en.interfax.com.ua/news/general/1233752.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Andrii Sybiha",
+    "category": "executive",
+    "context": "Sybiha announced a UN Security Council meeting on Ukraine called to increase pressure on Russia over strikes on hospitals and energy sites.",
+    "date": "2026-11-09",
+    "entity": "UKRAINE",
+    "quotes": [
+     {
+      "label": "translated from Ukrainian",
+      "text": "These are not isolated incidents. They are part of a systematic campaign against civilians"
+     }
+    ],
+    "role": "Minister of Foreign Affairs",
+    "sourceName": "LB.ua",
+    "tier": 1,
+    "topic": "UN Security Council, Russian strikes",
+    "url": "https://lb.ua/world/2026/11/09/779730_sibiga_sogodni_vidbudetsya.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Friedrich Merz",
+    "category": "executive",
+    "context": "Merz said Europeans would take part in Abu Dhabi in close coordination with their national security advisers and that he had pressed for the UK and Norway to be involved.",
+    "date": "2026-11-09 (ZDF interview)",
+    "entity": "GERMANY",
+    "quotes": [
+     {
+      "label": "translated from German",
+      "text": "I don't have excessively high expectations; it is a process that is progressing"
+     }
+    ],
+    "role": "Federal Chancellor",
+    "sourceName": "ZDFheute",
+    "tier": 1,
+    "topic": "Abu Dhabi talks, European participation",
+    "url": "https://www.zdfheute.de/politik/ausland/ukraine-gespraeche-beteiligung-europa-merz-100.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Johann Wadephul",
+    "category": "executive",
+    "context": "Speaking at the G7 foreign ministers' meeting in Paris, Wadephul warned Moscow against a 'negotiation show'.",
+    "date": "2026-11-09",
+    "entity": "GERMANY",
+    "quotes": [
+     {
+      "label": "translated from German",
+      "text": "The prerequisite is that Russia finally abandons its maximalist demands."
+     }
+    ],
+    "role": "Federal Foreign Minister",
+    "sourceName": "Arab News (AFP)",
+    "tier": 1,
+    "topic": "Abu Dhabi talks, G7",
+    "url": "https://www.arabnews.com/world/abu-dhabi-talks-must-show-if-russia-genuinely-prepared-to-negotiate-german-fm-3010785",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Bundestag, Defence Committee",
+    "category": "parliament",
+    "context": "The bill drops the principle of double voluntariness and allows compulsory call-ups of reservists. Most experts backed it; one lawyer raised constitutional concerns.",
+    "date": "2026-11-09 (sitting date)",
+    "docType": "Hearing",
+    "entity": "GERMANY",
+    "quotes": [
+     {
+      "label": "translated from German · André Wüstner, German Armed Forces Association",
+      "text": "Without a strong reserve, national and alliance defence cannot be achieved"
+     }
+    ],
+    "reference": "BT-Drucksache 21/8407 (Reservestärkungsgesetz)",
+    "role": "Public hearing",
+    "sourceName": "Deutscher Bundestag",
+    "status": "Pending",
+    "tier": 1,
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-verteidigung-1225512",
+    "sourceType": "official"
+   },
+   {
+    "actor": "Franco-German Parliamentary Assembly",
+    "category": "parliament",
+    "context": "Vautrin called for a strong and sovereign defence-industrial base; both ministers regretted the failure of FCAS, which Pistorius attributed to industry rather than governments.",
+    "date": "2026-11-09 (sitting date)",
+    "docType": "Hearing of defence ministers Pistorius and Vautrin",
+    "entity": "FRANCE / GERMANY",
+    "quotes": [
+     {
+      "label": "translated from German · Boris Pistorius",
+      "text": "Deterrence only works militarily if the defence industry can deliver at scale"
+     }
+    ],
+    "role": "14th session, Berlin",
+    "sourceName": "news.de (dpa)",
+    "tier": 1,
+    "url": "https://www.news.de/politik/860174482/berlin-und-paris-wollen-leistungsfaehigere-ruestungsindustrie-deutsch-und-frankreich-news-der-dpa-aktuell-zu-bundestag-parlament-und-verteidigung/1/",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Ministry of National Defence",
+    "category": "executive",
+    "context": "The exercise runs from 9 to 22 November with about 2,800 personnel from 11 countries.",
+    "date": "2026-11-09",
+    "entity": "POLAND",
+    "quotes": [
+     {
+      "paraphrase": true,
+      "text": "Poland hosts the main part of the exercise but does not plan to send troops to Ukraine after the conflict ends."
+     }
+    ],
+    "role": "No named official",
+    "sourceName": "Xinhua",
+    "tier": 1,
+    "topic": "Coalition of the Willing, Exercise KOALICJA 26.2",
+    "url": "https://english.news.cn/20261110/7f96f4cafcd841689ad0f3bffd92ca84/c.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Władysław Kosiniak-Kamysz",
+    "category": "executive",
+    "context": "Ahead of his meeting with Hegseth he said a defence-industrial cooperation agreement was ready for signing and that a decision on a permanent US base would go to the White House in December.",
+    "date": "2026-11-09 (TVN24 interview)",
+    "entity": "POLAND",
+    "quotes": [
+     {
+      "label": "translated from Polish · on a permanent US base",
+      "text": "It should be announced at the beginning of December"
+     }
+    ],
+    "role": "Deputy Prime Minister and Minister of National Defence",
+    "sourceName": "TVN24",
+    "tier": 1,
+    "topic": "Permanent US base in Poland",
+    "url": "https://tvn24.pl/polska/wladyslaw-kosiniak-kamysz-o-spotkaniu-z-szefem-pentagonu-jezeli-uda-sie-wszystko-dopiac-podpiszemy-wazne-porozumienie-st9330951",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Dmitry Peskov",
+    "category": "executive",
+    "context": "Peskov stressed the talks are strictly trilateral, relegating European involvement to separate US and Ukrainian channels.",
+    "date": "2026-11-09",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "text": "The Americans have their own channels of communication with the Europeans"
+     }
+    ],
+    "role": "Kremlin spokesman",
+    "sourceName": "RIA Novosti",
+    "tier": 1,
+    "topic": "Abu Dhabi talks format",
+    "url": "https://ria.ru/20261109/peskov-2130281031.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Sergey Lavrov",
+    "category": "executive",
+    "context": "Lavrov welcomed Rubio's statement that security issues are central, signalling Moscow's aim to negotiate European security directly with Washington.",
+    "date": "2026-11-09",
+    "entity": "RUSSIA",
+    "quotes": [
+     {
+      "label": "translated from Russian",
+      "text": "We can only welcome such an approach"
+     }
+    ],
+    "role": "Minister of Foreign Affairs",
+    "sourceName": "RIA Novosti",
+    "tier": 1,
+    "topic": "Security guarantees, Abu Dhabi agenda",
+    "url": "https://ria.ru/20261109/lavrov-2130335384.html",
+    "sourceType": "media"
+   },
+   {
+    "actor": "Sun Lei",
+    "category": "executive",
+    "context": "China called on all parties to reach a comprehensive, lasting and binding peace agreement, without mentioning Europe.",
+    "date": "2026-11-09",
+    "entity": "CHINA",
+    "quotes": [
+     {
+      "label": "translated from Chinese",
+      "text": "The Ukraine issue is at a critical moment for a negotiated settlement"
+     }
+    ],
+    "role": "Deputy Permanent Representative of China to the UN",
+    "sourceName": "Xinhua",
+    "tier": 1,
+    "topic": "UN Security Council meeting on Ukraine",
+    "url": "http://www.xinhuanet.com/20261110/39398e5c86a6412fae93a992ceb89c43/c.html",
+    "sourceType": "media"
+   }
+  ]
+ }
+]
