@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Espace Officiers · Brunssum</title>
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:light-dark(#F3F5F7,#0E141B);
+  --paper:light-dark(#FFFFFF,#151D26);
+  --ink:light-dark(#15202B,#E3E8EE);
+  --muted:light-dark(#5B6877,#93A0AE);
+  --line:light-dark(#D8DEE4,#283340);
+  --navy:light-dark(#1A335C,#8FB3E6);
+  --navy-soft:light-dark(#E6EDF7,#1B2838);
+  --err:light-dark(#A12A2A,#F08C8C);
+  --f:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--f)}
+header{background:var(--navy);color:light-dark(#fff,#0E141B);padding:18px 20px}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px}
+header h1{margin:0;font-size:1.25rem;letter-spacing:.02em}
+header p{margin:2px 0 0;font-size:.85rem;opacity:.85}
+.wrap{max-width:760px;margin:0 auto}
+main{padding:24px 16px 48px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:24px}
+#gate{max-width:380px;margin:40px auto;text-align:center}
+#gate h2{margin:0 0 6px;font-size:1.15rem}
+#gate p{margin:0 0 18px;color:var(--muted);font-size:.95rem}
+#code{width:100%;font:600 1.8rem/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.5em;text-align:center;padding:14px 0 14px .5em;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+#code:focus{outline:2px solid var(--navy);outline-offset:1px}
+button{font:600 1rem var(--f);border:0;border-radius:8px;padding:12px 18px;cursor:pointer;background:var(--navy);color:light-dark(#fff,#0E141B)}
+button:disabled{opacity:.6;cursor:wait}
+#submit{width:100%;margin-top:12px}
+#error{min-height:1.4em;margin-top:10px;color:var(--err);font-size:.9rem}
+#lock{background:transparent;border:1px solid currentColor;color:inherit;padding:6px 12px;font-size:.85rem}
+#app section{margin-bottom:28px}
+#app h2{font-size:1.1rem;color:var(--navy);border-bottom:1px solid var(--line);padding-bottom:6px;margin:0 0 10px}
+#app .note{background:var(--navy-soft);border-radius:6px;padding:10px 12px;font-size:.92rem}
+#app .date{display:inline-block;min-width:88px;font-weight:600;color:var(--navy)}
+#app ul{padding-left:20px}
+#app ul.agenda{list-style:none;padding:0}
+#app ul.agenda li{padding:6px 0;border-bottom:1px dashed var(--line)}
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding:0 16px 24px}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div><h1>Espace Officiers</h1><p>Communauté des officiers · Brunssum</p></div>
+  <button id="lock" hidden type="button">Verrouiller</button>
+</div></header>
+<main class="wrap">
+  <form id="gate" class="card" autocomplete="off">
+    <h2>Accès réservé</h2>
+    <p>Saisissez le code à 6 chiffres.</p>
+    <input id="code" inputmode="numeric" pattern="[0-9]*" maxlength="6" aria-label="Code d'accès à 6 chiffres" autofocus>
+    <button id="submit" type="submit">Entrer</button>
+    <div id="error" role="alert"></div>
+  </form>
+  <div id="app" class="card" hidden></div>
+</main>
+<footer>Informations non classifiées uniquement.</footer>
+<script>
+const P = {"s": "+abOWFQPo6FjSn7p+T/llA==", "i": "C9qLg4CVyoN48Iyd", "c": "v9WcQjixojt/FMYHCm7xHDzj/tGbOgeeys5g9VsyEedfG99EnsQ7Bb9nhD7A+HBenlEls2nBlWUcb+SS7oBtaz3nbGdPi+tw+FL94yl8p5qX9j2NfiF+SJJSuTvWolfqkr9g+LFjhJUKyjSZ9FD+bOvI5NH0+dYUBJ2MnaJUGOf2CO7zkjPSlKfYfVKFhDQv2hhdJjj3aT6VMQSRG5MD0gJcTVa2h5Kbp9u1sSpAUs5Y525msaQCYFZdtQRiq45uTlgN1xdKHhpIbPavGq9AI4jHpbw7NfR5OLyDBlusjyWbX9Ms1p8oYeiskLGg3hunPH7OL3YvRwuTee6iD5haAK7Wq3yIfH2tKrXUiS53y5Ki9G80TvoPuiSRvw0+iRf0zj8WwGzijV9LGkP5AhQisBkPchCMtQ/hCLtSId8E0QDrsZBXT+pN9RfcSs48dooHs20T9G8zN45ms6kWE9t3juOD6ich5IMXvE5fwFxDH5BHQhY68SiJk698BT8zJDIBbpXtb36NXysP1dcevHkrm3n+YVDRybnvoPS8salzp95ngbGdJxVfu9ZO1KSd3Wrf3mrCcj6wPeHyW6Ve6zB1QE5ZKwlSG0r/zUWudqsl2ErT8Zvt5VsbtHe5+5jLd/lvuOHdx8QQVwwsgrsOVO/SCGP3VCpSJEqiJ+Ac4d9YA/npnppwu5z+FXoK+8ZDWJBhsaHcwvL5kL9mnicQ2Bkc24yFnbOK674aVBqbDHpbBwNTsk25HuDgwK3clwfcFQS9EvedDb3wDr6gKR+VsvcVJ/RfE7Zf+f31u5YofSKwbnR7Ps01uYSsTVEpVDy+E3GHtI2g2aN/0XiGZKS+Y0mD6XSPmkhX7ihQaoY1VfcpuqMoxglN+H4ukFzjDblbh1JcgJ3zxj+NxpoIsOoxsKYKCLN9maHDZJuunUqqq3ZQuiAPdsX0G1FzgjZV3r9GjZKsd3OmTSueCxJOSmy2DOXmJGnmFJKYLG+RINFXMtPYfhA6cK3eDnxDtgWWlOR0irMBoAxHz8YCOdpqrGjpC6bWCkGGABYqFw08iGbSxJUDCZ1BejyXKaZQIh19UTol8LYuugbm1UQOxLOnANVvw/q5dBxzew2lNPT23SIkyRdj0EACRU+Xx8t1Nm4/LLRfGcenZinYgjiJzPB5/GM+WsBGx9EsaeHRCZf/IU4P/SCNtorY2lpUTfiHjuObc5WsL/v4HoeOmVMXay+gn9Oo0OOSHwu4466TgA==", "n": 2000000};
+const $ = id => document.getElementById(id);
+const b = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+const gate = $("gate"), input = $("code"), err = $("error"), app = $("app"), lock = $("lock"), btn = $("submit");
+
+input.addEventListener("input", () => { input.value = input.value.replace(/\D/g, "").slice(0, 6); err.textContent = ""; });
+
+async function open(code) {
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(code), "PBKDF2", false, ["deriveKey"]);
+  const key = await crypto.subtle.deriveKey({name:"PBKDF2", salt:b(P.s), iterations:P.n, hash:"SHA-256"}, base, {name:"AES-GCM", length:256}, false, ["decrypt"]);
+  const pt = await crypto.subtle.decrypt({name:"AES-GCM", iv:b(P.i)}, key, b(P.c));
+  return new TextDecoder().decode(pt);
+}
+
+gate.addEventListener("submit", async e => {
+  e.preventDefault();
+  const code = input.value;
+  if (code.length !== 6) { err.textContent = "Le code comporte 6 chiffres."; return; }
+  btn.disabled = true; btn.textContent = "Vérification…"; err.textContent = "";
+  try {
+    app.innerHTML = await open(code);
+    gate.hidden = true; app.hidden = false; lock.hidden = false;
+  } catch (_) {
+    err.textContent = "Code incorrect.";
+    input.select();
+  } finally {
+    btn.disabled = false; btn.textContent = "Entrer";
+  }
+});
+
+lock.addEventListener("click", () => {
+  app.innerHTML = ""; app.hidden = true; lock.hidden = true;
+  gate.hidden = false; input.value = ""; input.focus();
+});
+</script>
+</body>
+</html>
