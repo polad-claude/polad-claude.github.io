@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>POLAD Claude</title>
-<meta name="description" content="Daily digest of institutional statements on European security: NATO, Ukraine, the Coalition of the Willing and BRICS positions on Europe.">
+<meta name="description" content="Daily digest of institutional statements on European security (NATO, the EU and member states, Ukraine, the Coalition of the Willing) and of hybrid activity targeting Europe.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -24,6 +24,8 @@
   --media-bg:light-dark(#F7EEDD,#2B2213);
   --analysis:light-dark(#55407A,#B9A3E0);
   --analysis-bg:light-dark(#EEE9F6,#231C30);
+  --hyb:light-dark(#A12A2A,#F08C8C);
+  --hyb-bg:light-dark(#F8E6E6,#2E1818);
   --f-head:"IBM Plex Sans Condensed","Arial Narrow",Arial,sans-serif;
   --f-body:"IBM Plex Sans",Arial,system-ui,sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
@@ -58,6 +60,12 @@ header.mast{background:var(--navy);color:#fff}
 .tag.official{color:var(--official);background:var(--official-bg)}
 .tag.media{color:var(--media);background:var(--media-bg)}
 .tag.publication{color:var(--analysis);background:var(--analysis-bg)}
+.tag.att-official{color:var(--hyb);background:var(--hyb-bg)}
+.tag.att-pattern{color:var(--media);background:var(--media-bg)}
+.tag.att-unconfirmed{color:var(--muted);background:var(--navy-soft)}
+.hyb{margin-top:30px;padding-top:6px;border-top:1px dashed var(--line)}
+.ent.hyb h3{color:var(--hyb)}
+.hyb .item{border-left:3px solid var(--hyb)}
 
 .day{margin-top:34px}
 .day>h2{font-family:var(--f-head);font-weight:700;font-size:28px;color:var(--navy);margin:0;padding-top:12px;border-top:3px solid var(--navy);display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline}
@@ -101,7 +109,7 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
   <div class="wrap">
     <div>
       <h1>POLAD Claude</h1>
-      <p data-i="tagline">Daily digest of institutional statements on European security: NATO, Ukraine, the Coalition of the Willing and BRICS positions on Europe.</p>
+      <p data-i="tagline">Daily digest of institutional statements on European security (NATO, the EU and member states, Ukraine, the Coalition of the Willing) and of hybrid activity targeting Europe.</p>
     </div>
     <div class="latest"><button type="button" class="langbtn" id="lang" aria-label="Lire en français">FR</button><div><span data-i="latestLbl">Latest report</span><b id="latest">–</b></div></div>
   </div>
@@ -123,6 +131,7 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
     <span><span class="tag official" data-i="tagOff">Official statement</span> <span data-i="legOff">published on the institution's own channel</span></span>
     <span><span class="tag media" data-i="tagMed">Media-reported</span> <span data-i="legMed">known through press or agency reporting</span></span>
     <span><span class="tag publication" data-i="tagPub">Analysis</span> <span data-i="legPub">think tank or research output</span></span>
+    <span><span class="tag att-official" data-i="hyb">Hybrid activity</span> <span data-i="legHyb">hybrid incident, with its attribution status</span></span>
   </div>
   <div class="tabs" role="tablist">
     <button type="button" role="tab" id="t-latest" aria-selected="true" data-i="tabLatest">Latest report</button>
@@ -137,8 +146,8 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
 const S={reports:[],src:"all",q:"",tab:"latest",lang:"en"};
 try{const l=localStorage.getItem("polad-lang");if(l==="fr"||l==="en")S.lang=l}catch(e){}
 const T={
- en:{tagline:"Daily digest of institutional statements on European security: NATO, Ukraine, the Coalition of the Willing and BRICS positions on Europe.",latestLbl:"Latest report",all:"All sources",offOnly:"Official only",tagOff:"Official statement",tagMed:"Media-reported",tagPub:"Analysis",legOff:"published on the institution's own channel",legMed:"known through press or agency reporting",legPub:"think tank or research output",tabLatest:"Latest report",tabArch:"Archive",footer:"Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.",search:"Search in this tab: country, name, topic",items:"items",official:"official",matching:"matching",kj:"Key judgement.",cov:"Coverage:",src:"Source:",none:"No statement met the time and scope criteria for this cycle.",nomatch:"No item matches these filters in this tab.",noearlier:"No earlier report yet.",loading:"Loading reports…",fail:"The reports could not be loaded. Please reload the page.",first:"first reported",para:"paraphrase",btn:"FR",btnLbl:"Lire en français",locale:"en-GB",title:"POLAD Claude"},
- fr:{tagline:"Synthèse quotidienne des déclarations institutionnelles sur la sécurité européenne : OTAN, Ukraine, Coalition des volontaires et positions des BRICS sur l’Europe.",latestLbl:"Dernier rapport",all:"Toutes sources",offOnly:"Officiel uniquement",tagOff:"Déclaration officielle",tagMed:"Rapporté par la presse",tagPub:"Analyse",legOff:"publiée sur le canal propre de l’institution",legMed:"connue par la presse ou une agence",legPub:"think tank ou publication de recherche",tabLatest:"Dernier rapport",tabArch:"Archives",footer:"Synthèse en sources ouvertes établie chaque matin vers 7 h (heure de Berlin). Traduction française des citations et des analyses ; la version anglaise fait foi. Traductions et paraphrases signalées. Vérifiez chaque élément via son lien source avant tout usage. Fenêtres : 24 h pour l’exécutif, 72 h pour les think tanks, 96 h pour les parlements.",search:"Rechercher dans cet onglet : pays, nom, thème",items:"éléments",official:"officiels",matching:"correspondants",kj:"Appréciation.",cov:"Couverture :",src:"Source :",none:"Aucune déclaration ne remplit les critères de temps et de périmètre pour ce cycle.",nomatch:"Aucun élément ne correspond à ces filtres dans cet onglet.",noearlier:"Pas encore de rapport antérieur.",loading:"Chargement des rapports…",fail:"Impossible de charger les rapports. Rechargez la page.",first:"première mention",para:"paraphrase",btn:"EN",btnLbl:"Read in English",locale:"fr-FR",title:"POLAD Claude"}};
+ en:{tagline:"Daily digest of institutional statements on European security (NATO, the EU and member states, Ukraine, the Coalition of the Willing) and of hybrid activity targeting Europe.",latestLbl:"Latest report",all:"All sources",offOnly:"Official only",tagOff:"Official statement",tagMed:"Media-reported",tagPub:"Analysis",legOff:"published on the institution's own channel",legMed:"known through press or agency reporting",legPub:"think tank or research output",tabLatest:"Latest report",tabArch:"Archive",footer:"Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.",search:"Search in this tab: country, name, topic",items:"items",official:"official",matching:"matching",kj:"Key judgement.",cov:"Coverage:",src:"Source:",none:"No statement met the time and scope criteria for this cycle.",nomatch:"No item matches these filters in this tab.",noearlier:"No earlier report yet.",loading:"Loading reports…",fail:"The reports could not be loaded. Please reload the page.",first:"first reported",para:"paraphrase",btn:"FR",btnLbl:"Lire en français",locale:"en-GB",title:"POLAD Claude",hyb:"Hybrid activity",hybSub:"incidents against NATO and EU states, last 48 h",attOff:"Officially attributed",attPat:"Fits the pattern",attUnc:"Unconfirmed",tracker:"Flagged by",inc:"incidents",legHyb:"hybrid incident, with its attribution status"},
+ fr:{tagline:"Synthèse quotidienne des déclarations institutionnelles sur la sécurité européenne (OTAN, UE et États membres, Ukraine, Coalition des volontaires) et des activités hybrides visant l’Europe.",latestLbl:"Dernier rapport",all:"Toutes sources",offOnly:"Officiel uniquement",tagOff:"Déclaration officielle",tagMed:"Rapporté par la presse",tagPub:"Analyse",legOff:"publiée sur le canal propre de l’institution",legMed:"connue par la presse ou une agence",legPub:"think tank ou publication de recherche",tabLatest:"Dernier rapport",tabArch:"Archives",footer:"Synthèse en sources ouvertes établie chaque matin vers 7 h (heure de Berlin). Traduction française des citations et des analyses ; la version anglaise fait foi. Traductions et paraphrases signalées. Vérifiez chaque élément via son lien source avant tout usage. Fenêtres : 24 h pour l’exécutif, 72 h pour les think tanks, 96 h pour les parlements.",search:"Rechercher dans cet onglet : pays, nom, thème",items:"éléments",official:"officiels",matching:"correspondants",kj:"Appréciation.",cov:"Couverture :",src:"Source :",none:"Aucune déclaration ne remplit les critères de temps et de périmètre pour ce cycle.",nomatch:"Aucun élément ne correspond à ces filtres dans cet onglet.",noearlier:"Pas encore de rapport antérieur.",loading:"Chargement des rapports…",fail:"Impossible de charger les rapports. Rechargez la page.",first:"première mention",para:"paraphrase",btn:"EN",btnLbl:"Read in English",locale:"fr-FR",title:"POLAD Claude",hyb:"Activités hybrides",hybSub:"incidents visant des États de l’OTAN et de l’UE, dernières 48 h",attOff:"Officiellement attribué",attPat:"Compatible avec le schéma",attUnc:"Non confirmé",tracker:"Signalé par",inc:"incidents",legHyb:"incident hybride, avec son statut d’attribution"}};
 const t=k=>T[S.lang][k];
 const offW=n=>S.lang==="fr"?(n>1?"officiels":"officiel"):"official";
 const ENT={"UNITED STATES":"ÉTATS-UNIS","UKRAINE":"UKRAINE","FRANCE":"FRANCE","GERMANY":"ALLEMAGNE","UNITED KINGDOM":"ROYAUME-UNI","POLAND":"POLOGNE","RUSSIA":"RUSSIE","CHINA":"CHINE","ITALY":"ITALIE","DENMARK":"DANEMARK","FINLAND":"FINLANDE","ESTONIA":"ESTONIE","NORWAY":"NORVÈGE","SWEDEN":"SUÈDE","ICELAND":"ISLANDE","EUROPEAN UNION":"UNION EUROPÉENNE","EU":"UE","NATO":"OTAN","PARTNERS":"PARTENAIRES","COALITION OF THE WILLING":"COALITION DES VOLONTAIRES","TURKEY":"TURQUIE","TÜRKIYE":"TURQUIE","CANADA":"CANADA","NETHERLANDS":"PAYS-BAS","BELGIUM":"BELGIQUE","SPAIN":"ESPAGNE","PORTUGAL":"PORTUGAL","GREECE":"GRÈCE","ROMANIA":"ROUMANIE","BULGARIA":"BULGARIE","HUNGARY":"HONGRIE","SLOVAKIA":"SLOVAQUIE","CZECH REPUBLIC":"RÉPUBLIQUE TCHÈQUE","CZECHIA":"TCHÉQUIE","LITHUANIA":"LITUANIE","LATVIA":"LETTONIE","INDIA":"INDE","BRAZIL":"BRÉSIL","SOUTH AFRICA":"AFRIQUE DU SUD","IRAN":"IRAN","EGYPT":"ÉGYPTE","UNITED ARAB EMIRATES":"ÉMIRATS ARABES UNIS","UAE":"ÉMIRATS ARABES UNIS","ETHIOPIA":"ÉTHIOPIE","INDONESIA":"INDONÉSIE","BELARUS":"BIÉLORUSSIE","MOLDOVA":"MOLDAVIE","GEORGIA":"GÉORGIE","CROATIA":"CROATIE","SLOVENIA":"SLOVÉNIE","ALBANIA":"ALBANIE","MONTENEGRO":"MONTÉNÉGRO","NORTH MACEDONIA":"MACÉDOINE DU NORD","LUXEMBOURG":"LUXEMBOURG"};
@@ -158,6 +167,26 @@ function match(it){
   if(!S.q)return true;
   const h=[it.entity,ent(it.entity),it.actor,L(it,"role"),L(it,"topic"),L(it,"context"),it.sourceName,L(it,"docType"),it.reference,...(it.quotes||[]).map(q=>q.text),...((it.fr&&it.fr.quotes)||[]).map(q=>q.text)].join(" ").toLowerCase();
   return h.includes(S.q);
+}
+function hmatch(h){
+  if(S.src==="official"&&h.attribution!=="official")return false;
+  if(!S.q)return true;
+  return [h.country,ent(h.country),L(h,"type"),L(h,"summary"),h.actor,h.sourceName,(h.quote||{}).text,((h.fr||{}).quote||{}).text].join(" ").toLowerCase().includes(S.q);
+}
+function hitem(h){
+  const a=h.attribution||"unconfirmed";
+  const at={official:t("attOff"),pattern:t("attPat"),unconfirmed:t("attUnc")}[a]||t("attUnc");
+  const q=S.lang==="fr"&&h.fr&&h.fr.quote?h.fr.quote:h.quote;
+  const qh=q&&q.text?`<p class="q">${S.lang==="fr"?`« ${esc(q.text)} »`:`“${esc(q.text)}”`}${q.label?` <span class="lab">[${esc(q.label)}]</span>`:""}</p>`:"";
+  const meta=[L(h,"type"),h.date,h.actor?L(h,"actorRole")||h.actor:""].filter(Boolean).map(esc).join(" · ");
+  return `<article class="item"><div class="who">${esc(ent(h.country))} <span class="tag att-${esc(a)}">${at}</span></div>
+  <div class="meta">${meta}</div><p class="ctx">${esc(L(h,"summary"))}</p>${qh}
+  <div class="src"><span>${t("src")} </span><a href="${safe(h.url)}" target="_blank" rel="noopener noreferrer">${esc(h.sourceName||"link")}</a>${h.tracker?` <span>· ${t("tracker")} ${esc(h.tracker)}</span>`:""}</div></article>`;
+}
+function hybHtml(r,hs){
+  if(!hs.length)return "";
+  const note=S.lang==="fr"&&r.fr&&r.fr.hybridNote?r.fr.hybridNote:r.hybridNote;
+  return `<section class="ent hyb"><h3>${t("hyb")} <span>${t("hybSub")}</span></h3>${note?`<p class="cover" style="margin-top:0">${esc(note)}</p>`:""}${hs.map(hitem).join("")}</section>`;
 }
 function item(it){
   const st=it.category==="thinktank"?"publication":(it.sourceType||"media");
@@ -179,7 +208,8 @@ function item(it){
   <div class="meta">${meta}</div>${qs}${ctx?`<p class="ctx">${esc(ctx)}</p>`:""}
   <div class="src"><span>${t("src")} </span><a href="${safe(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.sourceName||"link")}</a></div></article>`;
 }
-function dayHtml(r,items){
+function dayHtml(r,items,hs){
+  hs=hs||[];
   const order=[];
   items.slice().sort((a,b)=>(a.tier||2)-(b.tier||2)||(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1))
     .forEach(i=>{if(!order.includes(i.entity))order.push(i.entity)});
@@ -190,10 +220,10 @@ function dayHtml(r,items){
   const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
   const syn=S.lang==="fr"&&r.fr&&r.fr.synthesis?r.fr.synthesis:r.synthesis;
   const note=S.lang==="fr"&&r.fr&&r.fr.note?r.fr.note:r.note;
-  return `<section class="day"><h2>${esc(fmt(r.date))}<small>${(r.items||[]).length} ${t("items")} · ${off} ${offW(off)}</small></h2>
+  return `<section class="day"><h2>${esc(fmt(r.date))}<small>${(r.items||[]).length} ${t("items")} · ${off} ${offW(off)}${(r.hybrid||[]).length?` · ${(r.hybrid||[]).length} ${t("inc")}`:""}</small></h2>
     ${syn?`<div class="judgement"><b>${t("kj")}</b> ${esc(syn)}</div>`:""}
     ${note?`<p class="cover">${t("cov")} ${esc(note)}</p>`:""}
-    ${groups||`<p class="cover">${t("none")}</p>`}</section>`;
+    ${groups||`<p class="cover">${t("none")}</p>`}${hybHtml(r,hs)}</section>`;
 }
 function render(){
   const filtering=!!S.q||S.src!=="all";
@@ -201,12 +231,13 @@ function render(){
   const list=S.tab==="latest"?S.reports.slice(0,1):S.reports.slice(1);
   const parts=list.map(r=>{
     const items=(r.items||[]).filter(match);
-    if(filtering&&!items.length)return "";
-    n+=items.length;
-    if(S.tab==="latest")return dayHtml(r,items);
+    const hs=(r.hybrid||[]).filter(hmatch);
+    if(filtering&&!items.length&&!hs.length)return "";
+    n+=items.length+hs.length;
+    if(S.tab==="latest")return dayHtml(r,items,hs);
     const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
     const syn=S.lang==="fr"&&r.fr&&r.fr.synthesis?r.fr.synthesis:r.synthesis;
-    return `<details class="arch"${filtering?" open":""}><summary><b>${esc(fmt(r.date))}</b><small>${filtering?items.length+" "+t("matching"):(r.items||[]).length+" "+t("items")+" · "+off+" "+offW(off)}</small>${syn?`<span class="sum">${esc(syn)}</span>`:""}</summary>${dayHtml(r,items)}</details>`;
+    return `<details class="arch"${filtering?" open":""}><summary><b>${esc(fmt(r.date))}</b><small>${filtering?(items.length+hs.length)+" "+t("matching"):(r.items||[]).length+" "+t("items")+" · "+off+" "+offW(off)+((r.hybrid||[]).length?" · "+(r.hybrid||[]).length+" "+t("inc"):"")}</small>${syn?`<span class="sum">${esc(syn)}</span>`:""}</summary>${dayHtml(r,items,hs)}</details>`;
   }).join("");
   document.getElementById("days").innerHTML=parts||`<p class="empty">${filtering?t("nomatch"):t("noearlier")}</p>`;
   document.getElementById("count").textContent=n+" "+t("items");

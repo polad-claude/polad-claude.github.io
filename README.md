@@ -1,6 +1,6 @@
 # POLAD Claude
 
-Daily digest of institutional statements on European security (NATO, Ukraine, the Coalition of the Willing, BRICS positions on Europe).
+Daily digest of institutional statements on European security (NATO, the EU and member states, Ukraine, the Coalition of the Willing) and of hybrid activity targeting Europe.
 
 - Page: `index.html` (GitHub Pages)
 - Data: `data/reports.json`, one entry per day, newest first. Updated each morning by a scheduled Claude task.

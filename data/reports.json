@@ -312,8 +312,37 @@
   ],
   "fr": {
    "synthesis": "Le même jour, le sommet Xi–Poutine–Trump de Shenzhen a produit une déclaration muette sur l’Ukraine, tandis qu’une quarantaine de pays réunis à Berlin s’engageaient à financer l’Ukraine en 2027, retenaient la ligne de contact comme point de départ des discussions territoriales et positionnaient la « Team Europe » pour des négociations à quatre. Poutine a exclu toute négociation directe avec Kiev après la frappe sur le pont de Crimée et invité les Européens à Moscou, invitation que Merz a renvoyée vers un lieu neutre.",
-   "note": "Passage manuel à 11 h (heure de Berlin), centré sur les sommets de Berlin et de Shenzhen du 19 novembre. Parlements, États du Tier 2 et plusieurs sites officiels obligatoires non vérifiés systématiquement ; certaines citations sont rendues à partir de comptes rendus en allemand ou en russe."
-  }
+   "note": "Passage manuel à 11 h (heure de Berlin), centré sur les sommets de Berlin et de Shenzhen du 19 novembre. Parlements, États du Tier 2 et plusieurs sites officiels obligatoires non vérifiés systématiquement ; certaines citations sont rendues à partir de comptes rendus en allemand ou en russe.",
+   "hybridNote": "Sources examinées : tracker du Sahaidachnyi Security Center et Hybrid Warfare Tracker. Un incident retenu après recoupement avec une source officielle ou de presse ; une allégation de piratage de la Commission européenne (19 nov.), relayée uniquement sur X, a été écartée faute de confirmation."
+  },
+  "hybrid": [
+   {
+    "date": "2026-11-20",
+    "country": "POLAND",
+    "attribution": "official",
+    "type": "Airspace violation: missiles and drone",
+    "summary": "During one of Russia's largest missile and drone strikes on Ukraine, two missiles and a jet-powered drone entered Polish airspace and came down at three sites in south-eastern Poland. Defence Minister Władysław Kosiniak-Kamysz said one was very probably a Kh-101 cruise missile, found near Nowy Lipowiec (Lublin province), and called the incursion a Russian provocation. No injuries or damage to critical infrastructure reported. Poland will ask NATO for further support.",
+    "quote": {
+     "text": "We are witnessing yet another provocation from the Russian Federation.",
+     "label": "translated from Polish, via Reuters"
+    },
+    "actor": "Władysław Kosiniak-Kamysz",
+    "actorRole": "Defence Minister W. Kosiniak-Kamysz, press conference",
+    "sourceName": "The Copenhagen Post (Reuters)",
+    "url": "https://cphpost.dk/2026-11-20/global/suspected-russian-cruise-missile-falls-in-poland/",
+    "tracker": "Hybrid Warfare Tracker (hwt.lv)",
+    "fr": {
+     "type": "Violation de l’espace aérien : missiles et drone",
+     "summary": "Lors de l’une des plus importantes frappes russes de missiles et de drones sur l’Ukraine, deux missiles et un drone à réaction ont pénétré l’espace aérien polonais et sont tombés sur trois sites du sud-est de la Pologne. Le ministre de la Défense Władysław Kosiniak-Kamysz a indiqué que l’un d’eux était très probablement un missile de croisière Kh-101, retrouvé près de Nowy Lipowiec (voïvodie de Lublin), et a qualifié l’incursion de provocation russe. Aucun blessé ni dommage aux infrastructures critiques signalé. La Pologne va demander un soutien supplémentaire à l’OTAN.",
+     "quote": {
+      "text": "Nous assistons à une nouvelle provocation de la Fédération de Russie.",
+      "label": "traduit du polonais, via Reuters"
+     },
+     "actorRole": "Ministre de la Défense W. Kosiniak-Kamysz, conférence de presse"
+    }
+   }
+  ],
+  "hybridNote": "Sources screened: Sahaidachnyi Security Center tracker and Hybrid Warfare Tracker. One incident retained after cross-check with official or press sources; an X-only claim of a European Commission hack (19 Nov) was discarded as unverified."
  },
  {
   "date": "2026-11-16",
