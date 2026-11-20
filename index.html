@@ -40,6 +40,8 @@ header.mast{background:var(--navy);color:#fff}
 .mast .wrap{padding-block:28px 22px;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:flex-end;justify-content:space-between}
 .mast h1{font-family:var(--f-head);font-weight:700;font-size:clamp(32px,6vw,46px);line-height:1.02;margin:0;letter-spacing:-.01em}
 .mast p{margin:6px 0 0;max-width:56ch;font-size:15px;color:#D6E0EE}
+.langbtn{font:600 13px var(--f-mono);color:#fff;background:transparent;border:1px solid rgba(255,255,255,.55);border-radius:6px;min-height:36px;padding:0 12px;cursor:pointer;margin-bottom:10px;letter-spacing:.06em}
+.langbtn:hover{background:rgba(255,255,255,.12)}
 .mast .latest{font-family:var(--f-mono);font-size:13px;color:#D6E0EE;text-align:right}
 .mast .latest b{display:block;font-family:var(--f-head);font-size:20px;color:#fff;font-weight:600}
 
@@ -99,17 +101,17 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
   <div class="wrap">
     <div>
       <h1>POLAD Claude</h1>
-      <p>Daily digest of institutional statements on European security: NATO, Ukraine, the Coalition of the Willing and BRICS positions on Europe.</p>
+      <p data-i="tagline">Daily digest of institutional statements on European security: NATO, Ukraine, the Coalition of the Willing and BRICS positions on Europe.</p>
     </div>
-    <div class="latest">Latest report<b id="latest">–</b></div>
+    <div class="latest"><button type="button" class="langbtn" id="lang" aria-label="Lire en français">FR</button><div><span data-i="latestLbl">Latest report</span><b id="latest">–</b></div></div>
   </div>
 </header>
 
 <div class="tools">
   <div class="wrap">
     <div class="seg" role="group" aria-label="Source type">
-      <button type="button" data-src="all" aria-pressed="true">All sources</button>
-      <button type="button" data-src="official" aria-pressed="false">Official only</button>
+      <button type="button" data-src="all" aria-pressed="true" data-i="all">All sources</button>
+      <button type="button" data-src="official" aria-pressed="false" data-i="offOnly">Official only</button>
     </div>
     <input id="q" type="search" placeholder="Search in this tab: country, name, topic" aria-label="Search">
     <span class="count" id="count"></span>
@@ -118,45 +120,64 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
 
 <main class="wrap">
   <div class="legend">
-    <span><span class="tag official">Official statement</span> published on the institution's own channel</span>
-    <span><span class="tag media">Media-reported</span> known through press or agency reporting</span>
-    <span><span class="tag publication">Analysis</span> think tank or research output</span>
+    <span><span class="tag official" data-i="tagOff">Official statement</span> <span data-i="legOff">published on the institution's own channel</span></span>
+    <span><span class="tag media" data-i="tagMed">Media-reported</span> <span data-i="legMed">known through press or agency reporting</span></span>
+    <span><span class="tag publication" data-i="tagPub">Analysis</span> <span data-i="legPub">think tank or research output</span></span>
   </div>
   <div class="tabs" role="tablist">
-    <button type="button" role="tab" id="t-latest" aria-selected="true">Latest report</button>
-    <button type="button" role="tab" id="t-archive" aria-selected="false">Archive</button>
+    <button type="button" role="tab" id="t-latest" aria-selected="true" data-i="tabLatest">Latest report</button>
+    <button type="button" role="tab" id="t-archive" aria-selected="false" data-i="tabArch">Archive</button>
   </div>
   <div id="days"><p class="empty">Loading reports…</p></div>
-  <footer>Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.</footer>
+  <footer data-i="footer">Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.</footer>
 </main>
 
 <script>
 {
-const S={reports:[],src:"all",q:"",tab:"latest"};
+const S={reports:[],src:"all",q:"",tab:"latest",lang:"en"};
+try{const l=localStorage.getItem("polad-lang");if(l==="fr"||l==="en")S.lang=l}catch(e){}
+const T={
+ en:{tagline:"Daily digest of institutional statements on European security: NATO, Ukraine, the Coalition of the Willing and BRICS positions on Europe.",latestLbl:"Latest report",all:"All sources",offOnly:"Official only",tagOff:"Official statement",tagMed:"Media-reported",tagPub:"Analysis",legOff:"published on the institution's own channel",legMed:"known through press or agency reporting",legPub:"think tank or research output",tabLatest:"Latest report",tabArch:"Archive",footer:"Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.",search:"Search in this tab: country, name, topic",items:"items",official:"official",matching:"matching",kj:"Key judgement.",cov:"Coverage:",src:"Source:",none:"No statement met the time and scope criteria for this cycle.",nomatch:"No item matches these filters in this tab.",noearlier:"No earlier report yet.",loading:"Loading reports…",fail:"The reports could not be loaded. Please reload the page.",first:"first reported",para:"paraphrase",btn:"FR",btnLbl:"Lire en français",locale:"en-GB",title:"POLAD Claude"},
+ fr:{tagline:"Synthèse quotidienne des déclarations institutionnelles sur la sécurité européenne : OTAN, Ukraine, Coalition des volontaires et positions des BRICS sur l’Europe.",latestLbl:"Dernier rapport",all:"Toutes sources",offOnly:"Officiel uniquement",tagOff:"Déclaration officielle",tagMed:"Rapporté par la presse",tagPub:"Analyse",legOff:"publiée sur le canal propre de l’institution",legMed:"connue par la presse ou une agence",legPub:"think tank ou publication de recherche",tabLatest:"Dernier rapport",tabArch:"Archives",footer:"Synthèse en sources ouvertes établie chaque matin vers 7 h (heure de Berlin). Traduction française des citations et des analyses ; la version anglaise fait foi. Traductions et paraphrases signalées. Vérifiez chaque élément via son lien source avant tout usage. Fenêtres : 24 h pour l’exécutif, 72 h pour les think tanks, 96 h pour les parlements.",search:"Rechercher dans cet onglet : pays, nom, thème",items:"éléments",official:"officiels",matching:"correspondants",kj:"Appréciation.",cov:"Couverture :",src:"Source :",none:"Aucune déclaration ne remplit les critères de temps et de périmètre pour ce cycle.",nomatch:"Aucun élément ne correspond à ces filtres dans cet onglet.",noearlier:"Pas encore de rapport antérieur.",loading:"Chargement des rapports…",fail:"Impossible de charger les rapports. Rechargez la page.",first:"première mention",para:"paraphrase",btn:"EN",btnLbl:"Read in English",locale:"fr-FR",title:"POLAD Claude"}};
+const t=k=>T[S.lang][k];
+const offW=n=>S.lang==="fr"?(n>1?"officiels":"officiel"):"official";
+const ENT={"UNITED STATES":"ÉTATS-UNIS","UKRAINE":"UKRAINE","FRANCE":"FRANCE","GERMANY":"ALLEMAGNE","UNITED KINGDOM":"ROYAUME-UNI","POLAND":"POLOGNE","RUSSIA":"RUSSIE","CHINA":"CHINE","ITALY":"ITALIE","DENMARK":"DANEMARK","FINLAND":"FINLANDE","ESTONIA":"ESTONIE","NORWAY":"NORVÈGE","SWEDEN":"SUÈDE","ICELAND":"ISLANDE","EUROPEAN UNION":"UNION EUROPÉENNE","EU":"UE","NATO":"OTAN","PARTNERS":"PARTENAIRES","COALITION OF THE WILLING":"COALITION DES VOLONTAIRES","TURKEY":"TURQUIE","TÜRKIYE":"TURQUIE","CANADA":"CANADA","NETHERLANDS":"PAYS-BAS","BELGIUM":"BELGIQUE","SPAIN":"ESPAGNE","PORTUGAL":"PORTUGAL","GREECE":"GRÈCE","ROMANIA":"ROUMANIE","BULGARIA":"BULGARIE","HUNGARY":"HONGRIE","SLOVAKIA":"SLOVAQUIE","CZECH REPUBLIC":"RÉPUBLIQUE TCHÈQUE","CZECHIA":"TCHÉQUIE","LITHUANIA":"LITUANIE","LATVIA":"LETTONIE","INDIA":"INDE","BRAZIL":"BRÉSIL","SOUTH AFRICA":"AFRIQUE DU SUD","IRAN":"IRAN","EGYPT":"ÉGYPTE","UNITED ARAB EMIRATES":"ÉMIRATS ARABES UNIS","UAE":"ÉMIRATS ARABES UNIS","ETHIOPIA":"ÉTHIOPIE","INDONESIA":"INDONÉSIE","BELARUS":"BIÉLORUSSIE","MOLDOVA":"MOLDAVIE","GEORGIA":"GÉORGIE","CROATIA":"CROATIE","SLOVENIA":"SLOVÉNIE","ALBANIA":"ALBANIE","MONTENEGRO":"MONTÉNÉGRO","NORTH MACEDONIA":"MACÉDOINE DU NORD","LUXEMBOURG":"LUXEMBOURG"};
+const ent=e=>S.lang==="fr"?e.split(" / ").map(x=>ENT[x]||x).join(" / "):e;
+const CATFR={executive:"Exécutif / gouvernement",political:"Personnalité politique",parliament:"Parlement",thinktank:"Think tank"};
+const LBL=[[/^translated from Ukrainian/,"traduit de l’ukrainien"],[/^translated from Russian/,"traduit du russe"],[/^translated from German/,"traduit de l’allemand"],[/^translated from Polish/,"traduit du polonais"],[/^translated from French/,"traduit du français"],[/^translated from Chinese/,"traduit du chinois"],[/^translated from Italian/,"traduit de l’italien"],[/^translated from Spanish/,"traduit de l’espagnol"],[/^translated from ([A-Za-z]+)/,"traduit ($1)"]];
+function frLabel(l){for(const [re,r] of LBL)if(re.test(l))return l.replace(re,r);return l}
+function L(it,k){return S.lang==="fr"&&it.fr&&it.fr[k]?it.fr[k]:it[k]}
 const CAT={executive:"Executive / Government",political:"Political figure",parliament:"Parliament",thinktank:"Think tank"};
 const TAG={official:"Official statement",media:"Media-reported",publication:"Analysis"};
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safe=u=>{try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:"#"}catch(e){return "#"}};
-const fmt=d=>{try{return new Date(d+"T12:00:00Z").toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"UTC"})}catch(e){return d}};
+const fmt=d=>{try{return new Date(d+"T12:00:00Z").toLocaleDateString(t("locale"),{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"UTC"})}catch(e){return d}};
 
 function match(it){
   if(S.src==="official"&&it.sourceType!=="official")return false;
   if(!S.q)return true;
-  const h=[it.entity,it.actor,it.role,it.topic,it.context,it.sourceName,it.docType,it.reference,...(it.quotes||[]).map(q=>q.text)].join(" ").toLowerCase();
+  const h=[it.entity,ent(it.entity),it.actor,L(it,"role"),L(it,"topic"),L(it,"context"),it.sourceName,L(it,"docType"),it.reference,...(it.quotes||[]).map(q=>q.text),...((it.fr&&it.fr.quotes)||[]).map(q=>q.text)].join(" ").toLowerCase();
   return h.includes(S.q);
 }
 function item(it){
   const st=it.category==="thinktank"?"publication":(it.sourceType||"media");
-  const meta=[CAT[it.category]||it.category,it.topic,it.docType,it.reference,it.status,(it.date||"")+(it.firstReported?` (first reported ${it.firstReported})`:"")].filter(Boolean).map(esc).join(" · ");
-  const qs=(it.quotes||[]).map(q=>{
-    const parts=q.label?[q.label]:[];
-    if(q.paraphrase&&!(parts[0]||"").toLowerCase().startsWith("paraphrase"))parts.unshift("paraphrase");
-    const body=q.paraphrase?esc(q.text):`“${esc(q.text)}”`;
+  const tagTxt={official:t("tagOff"),media:t("tagMed"),publication:t("tagPub")}[st];
+  const cat=S.lang==="fr"?CATFR[it.category]:CAT[it.category];
+  const meta=[cat||it.category,L(it,"topic"),L(it,"docType"),it.reference,L(it,"status"),(it.date||"")+(it.firstReported?` (${t("first")} ${it.firstReported})`:"")].filter(Boolean).map(esc).join(" · ");
+  const useFr=S.lang==="fr"&&it.fr&&it.fr.quotes&&it.fr.quotes.length===(it.quotes||[]).length;
+  const qs=(it.quotes||[]).map((q,i)=>{
+    const text=useFr?it.fr.quotes[i].text:q.text;
+    let lab=useFr?(it.fr.quotes[i].label||""):(q.label||"");
+    if(S.lang==="fr"&&!useFr&&lab)lab=frLabel(lab);
+    const parts=lab?[lab]:[];
+    if(q.paraphrase&&!(parts[0]||"").toLowerCase().startsWith("paraphrase"))parts.unshift(t("para"));
+    const body=q.paraphrase?esc(text):(S.lang==="fr"?`« ${esc(text)} »`:`“${esc(text)}”`);
     return `<p class="q">${body}${parts.length?` <span class="lab">[${esc(parts.join(", "))}]</span>`:""}</p>`;
   }).join("");
-  return `<article class="item"><div class="who">${esc(it.actor)}${it.role?`<span class="role">, ${esc(it.role)}</span>`:""} <span class="tag ${st}">${TAG[st]}</span></div>
-  <div class="meta">${meta}</div>${qs}${it.context?`<p class="ctx">${esc(it.context)}</p>`:""}
-  <div class="src"><span>Source: </span><a href="${safe(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.sourceName||"link")}</a></div></article>`;
+  const role=L(it,"role"),ctx=L(it,"context");
+  return `<article class="item"><div class="who">${esc(it.actor)}${role?`<span class="role">, ${esc(role)}</span>`:""} <span class="tag ${st}">${tagTxt}</span></div>
+  <div class="meta">${meta}</div>${qs}${ctx?`<p class="ctx">${esc(ctx)}</p>`:""}
+  <div class="src"><span>${t("src")} </span><a href="${safe(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.sourceName||"link")}</a></div></article>`;
 }
 function dayHtml(r,items){
   const order=[];
@@ -164,13 +185,15 @@ function dayHtml(r,items){
     .forEach(i=>{if(!order.includes(i.entity))order.push(i.entity)});
   const groups=order.map(e=>{
     const g=items.filter(i=>i.entity===e).sort((a,b)=>(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1));
-    return `<section class="ent"><h3>${esc(e)} <span>Tier ${esc(g[0].tier||"")}</span></h3>${g.map(item).join("")}</section>`;
+    return `<section class="ent"><h3>${esc(ent(e))} <span>Tier ${esc(g[0].tier||"")}</span></h3>${g.map(item).join("")}</section>`;
   }).join("");
   const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
-  return `<section class="day"><h2>${esc(fmt(r.date))}<small>${(r.items||[]).length} items · ${off} official</small></h2>
-    ${r.synthesis?`<div class="judgement"><b>Key judgement.</b> ${esc(r.synthesis)}</div>`:""}
-    ${r.note?`<p class="cover">Coverage: ${esc(r.note)}</p>`:""}
-    ${groups||'<p class="cover">No statement met the time and scope criteria for this cycle.</p>'}</section>`;
+  const syn=S.lang==="fr"&&r.fr&&r.fr.synthesis?r.fr.synthesis:r.synthesis;
+  const note=S.lang==="fr"&&r.fr&&r.fr.note?r.fr.note:r.note;
+  return `<section class="day"><h2>${esc(fmt(r.date))}<small>${(r.items||[]).length} ${t("items")} · ${off} ${offW(off)}</small></h2>
+    ${syn?`<div class="judgement"><b>${t("kj")}</b> ${esc(syn)}</div>`:""}
+    ${note?`<p class="cover">${t("cov")} ${esc(note)}</p>`:""}
+    ${groups||`<p class="cover">${t("none")}</p>`}</section>`;
 }
 function render(){
   const filtering=!!S.q||S.src!=="all";
@@ -182,10 +205,11 @@ function render(){
     n+=items.length;
     if(S.tab==="latest")return dayHtml(r,items);
     const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
-    return `<details class="arch"${filtering?" open":""}><summary><b>${esc(fmt(r.date))}</b><small>${filtering?items.length+" matching":(r.items||[]).length+" items · "+off+" official"}</small>${r.synthesis?`<span class="sum">${esc(r.synthesis)}</span>`:""}</summary>${dayHtml(r,items)}</details>`;
+    const syn=S.lang==="fr"&&r.fr&&r.fr.synthesis?r.fr.synthesis:r.synthesis;
+    return `<details class="arch"${filtering?" open":""}><summary><b>${esc(fmt(r.date))}</b><small>${filtering?items.length+" "+t("matching"):(r.items||[]).length+" "+t("items")+" · "+off+" "+offW(off)}</small>${syn?`<span class="sum">${esc(syn)}</span>`:""}</summary>${dayHtml(r,items)}</details>`;
   }).join("");
-  document.getElementById("days").innerHTML=parts||`<p class="empty">${filtering?"No item matches these filters in this tab.":"No earlier report yet."}</p>`;
-  document.getElementById("count").textContent=n+" items";
+  document.getElementById("days").innerHTML=parts||`<p class="empty">${filtering?t("nomatch"):t("noearlier")}</p>`;
+  document.getElementById("count").textContent=n+" "+t("items");
 }
 function setTab(t){
   S.tab=t;
@@ -193,18 +217,29 @@ function setTab(t){
   document.getElementById("t-archive").setAttribute("aria-selected",t==="archive");
   render();
 }
+function applyLang(){
+  document.documentElement.lang=S.lang;
+  document.querySelectorAll("[data-i]").forEach(el=>{el.textContent=t(el.dataset.i)});
+  document.getElementById("q").placeholder=t("search");
+  const b=document.getElementById("lang");b.textContent=t("btn");b.setAttribute("aria-label",t("btnLbl"));
+  if(S.reports[0])document.getElementById("latest").textContent=fmt(S.reports[0].date);
+}
+document.getElementById("lang").addEventListener("click",()=>{
+  S.lang=S.lang==="en"?"fr":"en";try{localStorage.setItem("polad-lang",S.lang)}catch(e){}
+  applyLang();render();
+});
 document.getElementById("t-latest").addEventListener("click",()=>setTab("latest"));
 document.getElementById("t-archive").addEventListener("click",()=>setTab("archive"));
 document.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{
   document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x===b));
   S.src=b.dataset.src;render();
 }));
-let t;document.getElementById("q").addEventListener("input",e=>{clearTimeout(t);t=setTimeout(()=>{S.q=e.target.value.trim().toLowerCase();render()},150)});
+let tmr;document.getElementById("q").addEventListener("input",e=>{clearTimeout(tmr);tmr=setTimeout(()=>{S.q=e.target.value.trim().toLowerCase();render()},150)});
 fetch("data/reports.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   S.reports=d.filter(r=>r&&r.date).sort((a,b)=>b.date.localeCompare(a.date));
-  document.getElementById("latest").textContent=S.reports[0]?fmt(S.reports[0].date):"–";
-  render();
-}).catch(()=>{document.getElementById("days").innerHTML='<p class="empty">The reports could not be loaded. Please reload the page.</p>'});
+  applyLang();render();
+}).catch(()=>{document.getElementById("days").innerHTML=`<p class="empty">${t("fail")}</p>`});
+applyLang();
 }
 </script>
 </body>

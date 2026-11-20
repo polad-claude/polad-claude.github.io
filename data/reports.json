@@ -22,7 +22,18 @@
     "context": "The coalition agreed to keep supporting Ukraine in 2027, said four-party talks (Ukraine, Russia, US, Team Europe = EU institutions plus E5) should take place soon with the line of contact as starting point for territorial understanding, and declared itself able to provide security guarantees after a ceasefire, in close coordination with the US. Conditional, step-by-step sanctions relief for Russia was mentioned as conceivable in return for a settlement.",
     "sourceName": "Bundesregierung",
     "url": "https://www.bundesregierung.de/breg-de/aktuelles/koalition-der-willigen-in-berlin-2461162",
-    "sourceType": "official"
+    "sourceType": "official",
+    "fr": {
+     "role": "Chancelier fédéral, hôte du sommet de Berlin (avec Macron et Burnham)",
+     "topic": "Sommet de Berlin, financement 2027, Team Europe, ligne de contact, garanties de sécurité",
+     "context": "La coalition est convenue de continuer à soutenir l’Ukraine en 2027, a souhaité que des pourparlers à quatre (Ukraine, Russie, États-Unis, Team Europe = institutions de l’UE et E5) se tiennent rapidement avec la ligne de contact comme point de départ d’un accord territorial, et s’est déclarée en mesure de fournir des garanties de sécurité après un cessez-le-feu, en étroite coordination avec les États-Unis. Une levée progressive et conditionnelle des sanctions contre la Russie a été évoquée en contrepartie d’un règlement.",
+     "quotes": [
+      {
+       "text": "Nous ne permettrons pas que l’Europe soit à nouveau partagée ; nous prenons notre destin en main.",
+       "label": "traduit de l’allemand"
+      }
+     ]
+    }
    },
    {
     "entity": "GERMANY",
@@ -41,7 +52,18 @@
     "context": "Merz said he was ready for talks with Russia, but at a table with the US, Russia and Ukraine and preferably at a neutral venue rather than Moscow; Trump was patched into the Berlin meeting by phone through Jared Kushner, with the content of his briefing not disclosed.",
     "sourceName": "Joyn newstime",
     "url": "https://newstime.joyn.de/themen/politik/air-force-one-trump-urkaine-gipfel-kanzleramt-merz-219303",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Chancelier fédéral",
+     "topic": "Sommet de Shenzhen, invitation de Poutine à Moscou, lieu des négociations",
+     "context": "Merz s’est dit prêt à discuter avec la Russie, mais autour d’une table réunissant les États-Unis, la Russie et l’Ukraine, et de préférence dans un lieu neutre plutôt qu’à Moscou ; Trump a été joint par téléphone pendant la réunion de Berlin via Jared Kushner, sans que le contenu de son compte rendu soit divulgué.",
+     "quotes": [
+      {
+       "text": "visiblement surtout une séance photo",
+       "label": "traduit de l’allemand · à propos du sommet de Shenzhen"
+      }
+     ]
+    }
    },
    {
     "entity": "FRANCE",
@@ -61,7 +83,18 @@
     "context": "Macron put NATO membership back on the table as leverage against Moscow's demands, a departure from the line that membership is off the agenda for any settlement.",
     "sourceName": "news.at",
     "url": "https://www.news.at/politik/koalition-der-willigen-tagt-in-berlin",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de la République",
+     "topic": "Adhésion de l’Ukraine à l’OTAN, sommet de Berlin",
+     "context": "Macron a remis l’adhésion à l’OTAN sur la table comme levier face aux exigences de Moscou, rompant avec la ligne selon laquelle l’adhésion est exclue de tout règlement.",
+     "quotes": [
+      {
+       "text": "Face aux positions maximalistes de la Russie, la question de l’adhésion de l’Ukraine à l’OTAN doit être rouverte.",
+       "label": "paraphrase d’un compte rendu en allemand"
+      }
+     ]
+    }
    },
    {
     "entity": "UNITED KINGDOM",
@@ -81,7 +114,18 @@
     "context": "London co-chaired the summit with Paris and Berlin; the UK and France co-lead the Multinational Force Ukraine.",
     "sourceName": "news.at",
     "url": "https://www.news.at/politik/koalition-der-willigen-tagt-in-berlin",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Premier ministre",
+     "topic": "Aide à l’Ukraine, sommet de Berlin",
+     "context": "Londres a coprésidé le sommet avec Paris et Berlin ; le Royaume-Uni et la France codirigent la Force multinationale Ukraine.",
+     "quotes": [
+      {
+       "text": "Burnham a annoncé une hausse de l’aide britannique à l’Ukraine et estimé que la coalition n’a jamais été aussi unie.",
+       "label": "paraphrase, montant non précisé"
+      }
+     ]
+    }
    },
    {
     "entity": "UKRAINE",
@@ -100,7 +144,18 @@
     "context": "Ukraine needs about EUR 115 billion in 2027: EUR 45 billion from an EU loan backed by frozen Russian assets and EUR 45 billion from new Commission borrowing, leaving a gap of about EUR 25 billion.",
     "sourceName": "news.at",
     "url": "https://www.news.at/politik/koalition-der-willigen-tagt-in-berlin",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Besoins de financement 2027, sommet de Berlin",
+     "context": "L’Ukraine a besoin d’environ 115 milliards d’euros en 2027 : 45 milliards via un prêt de l’UE adossé aux avoirs russes gelés et 45 milliards via un nouvel emprunt de la Commission, soit un manque d’environ 25 milliards.",
+     "quotes": [
+      {
+       "text": "Tous les dirigeants ont compris qu’il s’agit vraiment d’une somme énorme",
+       "label": "traduit d’une version allemande"
+      }
+     ]
+    }
    },
    {
     "entity": "RUSSIA",
@@ -119,7 +174,18 @@
     "context": "Putin said Ukraine and Europe are 'not yet ready' for the compromises needed and would eventually see that compromise beats facing 'realities'; he also said Europeans had been invited to Moscow through diplomatic channels, once Russia understands what they intend to propose.",
     "sourceName": "CBS News",
     "url": "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de la Russie (conférence de presse après le sommet de Shenzhen)",
+     "topic": "Négociations directes avec l’Ukraine, frappe sur le pont de Crimée, Europe",
+     "context": "Poutine a estimé que l’Ukraine et l’Europe ne sont « pas encore prêtes » aux compromis nécessaires et finiront par voir qu’un compromis vaut mieux que d’affronter les « réalités » ; il a ajouté que les Européens avaient été invités à Moscou par les canaux diplomatiques, une fois que la Russie aura compris ce qu’ils comptent proposer.",
+     "quotes": [
+      {
+       "text": "Nous ne négocierons pas après les attaques contre le pont de Crimée.",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    },
    {
     "entity": "RUSSIA",
@@ -138,7 +204,18 @@
     "context": "Peskov added that Ukraine was not the central topic of the trilateral; Putin called the talks very useful and 'very frank'. The Shenzhen declaration covers nuclear risk, UN reform, energy supply and immunities of officials, with no mention of Ukraine.",
     "sourceName": "Vedomosti",
     "url": "https://www.vedomosti.ru/politics/articles/2026/11/19/1413477-otsenili-sammit",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Conseiller présidentiel pour la politique étrangère",
+     "topic": "Avenir du format Russie–États-Unis–Chine",
+     "context": "Peskov a précisé que l’Ukraine n’était pas le sujet central du sommet tripartite ; Poutine a jugé les discussions très utiles et « très franches ». La déclaration de Shenzhen porte sur le risque nucléaire, la réforme de l’ONU, l’approvisionnement énergétique et les immunités des responsables, sans mention de l’Ukraine.",
+     "quotes": [
+      {
+       "text": "Difficile à dire",
+       "label": "traduit du russe · interrogé sur la poursuite des réunions tripartites"
+      }
+     ]
+    }
    },
    {
     "entity": "UNITED STATES",
@@ -158,7 +235,18 @@
     "context": "The White House published a joint declaration reaffirming strategic stability and that a nuclear war cannot be won, without any reference to Ukraine; Trump left Shenzhen without a substantive public statement on the war.",
     "sourceName": "Vedomosti",
     "url": "https://www.vedomosti.ru/politics/articles/2026/11/19/1413477-otsenili-sammit",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président (sommet tripartite de Shenzhen et déclaration conjointe publiée par la Maison-Blanche)",
+     "topic": "Sommet de Shenzhen, Ukraine, risque nucléaire",
+     "context": "La Maison-Blanche a publié une déclaration conjointe réaffirmant la stabilité stratégique et le fait qu’une guerre nucléaire ne peut être gagnée, sans aucune référence à l’Ukraine ; Trump a quitté Shenzhen sans déclaration publique substantielle sur la guerre.",
+     "quotes": [
+      {
+       "text": "Trump a abordé l’Ukraine lors du sommet et estimé que les parties avançaient dans la bonne direction.",
+       "label": "paraphrase d’un compte rendu en russe"
+      }
+     ]
+    }
    },
    {
     "entity": "CHINA",
@@ -177,7 +265,18 @@
     "context": "Xi called the summit positive, constructive and fruitful and urged implementation of the agreements; Beijing's Foreign Ministry published the declaration, which leaves out Ukraine and European security.",
     "sourceName": "Vedomosti",
     "url": "https://www.vedomosti.ru/politics/articles/2026/11/19/1413477-otsenili-sammit",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de la RPC, hôte du sommet tripartite de Shenzhen",
+     "topic": "Sommet tripartite, dialogue",
+     "context": "Xi a qualifié le sommet de positif, constructif et fructueux et appelé à mettre en œuvre les accords ; le ministère chinois des Affaires étrangères a publié la déclaration, qui laisse de côté l’Ukraine et la sécurité européenne.",
+     "quotes": [
+      {
+       "text": "Tant que le dialogue se poursuit et que les portes restent ouvertes, l’espoir de paix demeure",
+       "label": "traduit d’une version russe"
+      }
+     ]
+    }
    },
    {
     "entity": "COUNCIL ON FOREIGN RELATIONS (CFR)",
@@ -197,9 +296,24 @@
     "context": "The experts judge that the trilateral raised Russia's standing but produced no concession on Ukraine or European security, which relieved European officials; the nuclear risk-reduction pledge is seen as the most promising, though far short of arms control.",
     "sourceName": "CFR",
     "url": "https://www.cfr.org/articles/six-experts-on-what-trump-xi-and-putins-first-trilateral-means",
-    "sourceType": "publication"
+    "sourceType": "publication",
+    "fr": {
+     "role": "Six experts sur la portée du premier sommet tripartite Trump–Xi–Poutine",
+     "topic": "Sommet de Shenzhen, Ukraine, sécurité européenne, risque nucléaire",
+     "context": "Les experts estiment que le sommet a renforcé le statut de la Russie sans aucune concession sur l’Ukraine ou la sécurité européenne, ce qui a soulagé les responsables européens ; l’engagement à réduire le risque nucléaire est jugé le plus prometteur, bien qu’il reste loin d’un contrôle des armements.",
+     "quotes": [
+      {
+       "text": "un signal fort contre l’idée que le sommet tripartite serait un nouveau Yalta",
+       "label": "Liana Fix, à propos de la réunion de Berlin"
+      }
+     ]
+    }
    }
-  ]
+  ],
+  "fr": {
+   "synthesis": "Le même jour, le sommet Xi–Poutine–Trump de Shenzhen a produit une déclaration muette sur l’Ukraine, tandis qu’une quarantaine de pays réunis à Berlin s’engageaient à financer l’Ukraine en 2027, retenaient la ligne de contact comme point de départ des discussions territoriales et positionnaient la « Team Europe » pour des négociations à quatre. Poutine a exclu toute négociation directe avec Kiev après la frappe sur le pont de Crimée et invité les Européens à Moscou, invitation que Merz a renvoyée vers un lieu neutre.",
+   "note": "Passage manuel à 11 h (heure de Berlin), centré sur les sommets de Berlin et de Shenzhen du 19 novembre. Parlements, États du Tier 2 et plusieurs sites officiels obligatoires non vérifiés systématiquement ; certaines citations sont rendues à partir de comptes rendus en allemand ou en russe."
+  }
  },
  {
   "date": "2026-11-16",
@@ -223,7 +337,18 @@
     "tier": 1,
     "topic": "Coalition of the Willing meeting, Ramstein, air defence, negotiation formats, review of coalitions",
     "url": "https://lb.ua/society/2026/11/15/781350_zelenskiy_anonsuvav_istorichnu.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de l’Ukraine (allocution vidéo du soir)",
+     "topic": "Réunion de la Coalition des volontaires, Ramstein, défense aérienne, formats de négociation, revue des coalitions",
+     "context": "Zelensky a estimé que la Coalition des volontaires pourrait donner à l’Europe une position de négociation très forte, plaidé pour un format tripartite Ukraine–États-Unis–Russie plutôt qu’à quatre, et réclamé une réunion de Ramstein « orientée résultats » centrée sur les missiles Patriot et NASAMS. Il a aussi annoncé une revue de toutes les coalitions de soutien pour identifier celles qui sont « vides ».",
+     "quotes": [
+      {
+       "text": "Une réunion importante, peut-être une réunion historique.",
+       "label": "traduit de l’ukrainien · à propos de la réunion de la Coalition des volontaires"
+      }
+     ]
+    }
    },
    {
     "actor": "Volodymyr Zelenskyy",
@@ -242,7 +367,18 @@
     "tier": 1,
     "topic": "Long-range strikes on Russian oil refining, energy war, coercive leverage",
     "url": "https://kyivindependent.com/ukrainian-drone-attacks-neutralized-55-of-russias-oil-refining-capacity-zelensky-says/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de l’Ukraine (allocution vidéo du soir)",
+     "topic": "Frappes à longue portée sur le raffinage russe, guerre énergétique, levier coercitif",
+     "context": "S’appuyant sur un rapport du général Drapatyi, Zelensky a présenté la campagne contre les raffineries russes comme une réponse au refus de Moscou de désescalader et à ses frappes sur le réseau ukrainien, signalant la poursuite de la pression économique pendant les pourparlers.",
+     "quotes": [
+      {
+       "text": "Nous avons déjà neutralisé plus de 55 % des capacités de raffinage russes.",
+       "label": "traduit de l’ukrainien"
+      }
+     ]
+    }
    },
    {
     "actor": "Sergey Lavrov",
@@ -261,7 +397,18 @@
     "tier": 1,
     "topic": "European role in Ukraine talks, Russian negotiating goals",
     "url": "https://www.osnmedia.ru/politika/lavrov-evropejtsy-pytayutsya-zaprygnut-v-poslednij-vagon-peregovorov-po-ukraine",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre des Affaires étrangères (entretien avec Pavel Zaroubine, Vesti)",
+     "topic": "Rôle européen dans les pourparlers, objectifs russes",
+     "context": "Lavrov a estimé que les capitales européennes craignent d’être écartées et comprennent mal leur propre rôle, et que la ligne russe restera fondée sur les objectifs fixés par Poutine en juin 2024, « inchangés » : l’équipe E5/UE ne modifiera pas les exigences de fond de Moscou.",
+     "quotes": [
+      {
+       "text": "Sauter dans le dernier wagon",
+       "label": "traduit du russe · à propos de la volonté européenne de rejoindre les pourparlers"
+      }
+     ]
+    }
    },
    {
     "actor": "Dmitry Peskov",
@@ -280,7 +427,18 @@
     "tier": 1,
     "topic": "European disunity, linkage of Ukraine settlement and European security architecture, threat of force",
     "url": "https://www.vedomosti.ru/politics/news/2026/11/15/1245443-peskov-evropa",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Porte-parole du président russe (entretien avec Pavel Zaroubine, Vesti)",
+     "topic": "Divisions européennes, lien entre règlement en Ukraine et architecture de sécurité européenne, menace de recours à la force",
+     "context": "Peskov a affirmé que le règlement en Ukraine et la sécurité européenne sont « les parties d’un même tout », douté d’une position commune européenne rapide et averti que, faute de réelle volonté de paix des Européens, la Russie devrait atteindre ses objectifs par la force.",
+     "quotes": [
+      {
+       "text": "En raison de leurs divisions, ils ne peuvent pas décider à temps.",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Ministry of Foreign Affairs of the PRC",
@@ -300,7 +458,18 @@
     "tier": 1,
     "topic": "China–Russia–US leaders' summit, Shenzhen, 19 November",
     "url": "https://www.mfa.gov.cn/zyxw/202611/t20261116_12059654.shtml",
-    "sourceType": "official"
+    "sourceType": "official",
+    "fr": {
+     "role": "Annonce de la porte-parole",
+     "topic": "Sommet Chine–Russie–États-Unis, Shenzhen, 19 novembre",
+     "context": "Première confirmation officielle de Pékin, sans ordre du jour : Washington annonce un sommet consacré au désarmement nucléaire et à l’Iran mais pas à l’Ukraine, alors que le Kremlin affirme que les discussions sur l’Ukraine s’y poursuivront.",
+     "quotes": [
+      {
+       "text": "Xi Jinping tiendra un sommet Chine–Russie–États-Unis avec Poutine et Trump à Shenzhen.",
+       "label": "paraphrase, traduit du chinois"
+      }
+     ]
+    }
    },
    {
     "actor": "Kaja Kallas",
@@ -319,7 +488,18 @@
     "tier": 1,
     "topic": "Shadow fleet, EUNAVFOR MED IRINI boarding, new sanctions listings",
     "url": "https://kyivindependent.com/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Haute représentante de l’UE pour les affaires étrangères et la politique de sécurité",
+     "topic": "Flotte fantôme, arraisonnement par EUNAVFOR MED IRINI, nouvelles sanctions",
+     "context": "Kallas a indiqué que l’arraisonnement du pétrolier MV MIDAG par l’opération IRINI, au titre de l’article 110 de la CNUDM, a confirmé qu’il naviguait sous faux pavillon, et que les ministres européens adopteraient le 16 novembre de nouvelles sanctions visant banques, acheteurs et sociétés soutenant la flotte fantôme.",
+     "quotes": [
+      {
+       "text": "L’UE continuera de perturber la flotte fantôme russe en mer et par la voie diplomatique.",
+       "label": ""
+      }
+     ]
+    }
    },
    {
     "actor": "Guido Crosetto",
@@ -338,9 +518,24 @@
     "tier": 2,
     "topic": "Extension of the legal authorization for military aid to Ukraine beyond 31 December",
     "url": "https://www.lapresse.it/esteri/2026/11/15/guerra-in-ucraina-le-notizie-in-diretta-oggi-15-novembre-lavrov-obiettivi-putin/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre de la Défense (entretien au Quotidiano Nazionale)",
+     "topic": "Prolongation de l’autorisation d’aide militaire à l’Ukraine au-delà du 31 décembre",
+     "context": "Crosetto proposera de renouveler l’autorisation italienne de transferts d’armes vers Kiev, estimant que Moscou ne négociera que lorsqu’elle aura compris que l’Ukraine peut compter sur ses alliés ; l’Italie vient de rejoindre l’équipe de négociation européenne.",
+     "quotes": [
+      {
+       "text": "Elle expire le 31 décembre et je proposerai sa prolongation.",
+       "label": "traduit de l’italien"
+      }
+     ]
+    }
    }
-  ]
+  ],
+  "fr": {
+   "synthesis": "Dans des entretiens dominicaux, Lavrov et Peskov ont lié tout règlement en Ukraine à une nouvelle architecture de sécurité européenne en raillant la candidature tardive et divisée de l’Europe à la table, Peskov menaçant d’atteindre les objectifs russes par la force en cas d’échec. Kiev a répondu en présentant la prochaine réunion de la Coalition des volontaires comme potentiellement historique, tandis que Pékin annonçait officiellement le sommet Xi–Poutine–Trump du 19 novembre à Shenzhen.",
+   "note": "Fenêtre du dimanche : aucun nouvel item qualifiant en 24 h pour les États-Unis, la France, l’Allemagne, le Royaume-Uni, la Pologne ou le siège de l’OTAN ; plusieurs sites officiels russes inaccessibles ; aucun item de think tank ou de parlement ; couverture du Tier 2 limitée."
+  }
  },
  {
   "date": "2026-11-15",
@@ -364,7 +559,18 @@
     "tier": 1,
     "topic": "Direct Russia–Europe engagement, next trilateral round, NATO as pillar of European security",
     "url": "https://kyivindependent.com/us-now-focused-on-facilitating-direct-engagement-between-russia-europe-kushner-says-after-ukraine-peace-talks/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Envoyé spécial américain pour les pourparlers sur l’Ukraine",
+     "topic": "Dialogue direct Russie–Europe, prochain cycle tripartite, OTAN pilier de la sécurité européenne",
+     "context": "Sur X, Kushner a indiqué que les États-Unis cherchent désormais à associer directement les Européens aux discussions avec Moscou, que le prochain cycle tripartite se prépare et que l’OTAN reste un pilier essentiel de la sécurité européenne et des garanties pour l’Ukraine.",
+     "quotes": [
+      {
+       "text": "faciliter un dialogue direct",
+       "label": "entre la Russie et les partenaires européens"
+      }
+     ]
+    }
    },
    {
     "actor": "Volodymyr Zelenskyy",
@@ -384,7 +590,18 @@
     "tier": 1,
     "topic": "US proposal of NATO membership for Donbas withdrawal, referendum, neutrality",
     "url": "https://www.aol.co.uk/articles/ukraine-war-briefing-us-proposes-033818000.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Proposition américaine d’adhésion à l’OTAN contre retrait du Donbass, référendum, neutralité",
+     "context": "Zelensky a indiqué que les négociateurs américains avaient demandé pour la première fois si l’Ukraine quitterait le Donbass en échange d’une adhésion à l’OTAN ; Kiev ne cédera pas de territoire, soumettrait tout accord global à référendum et rejette une neutralité inscrite dans la Constitution.",
+     "quotes": [
+      {
+       "text": "Cette guerre doit d’abord prendre fin.",
+       "label": "traduit de l’ukrainien"
+      }
+     ]
+    }
    },
    {
     "actor": "Emmanuel Macron",
@@ -403,9 +620,24 @@
     "tier": 1,
     "topic": "Aid to Ukraine, unjust peace, postwar vision, European expectations of the US",
     "url": "https://www.arabnews.pk/world/reducing-ukraine-aid-sets-scene-for-more-war-macron-3007060",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de la République",
+     "topic": "Aide à l’Ukraine, paix injuste, vision d’après-guerre, attentes européennes envers les États-Unis",
+     "context": "Dans un message, Macron a estimé que ceux qui veulent rationner l’aide à l’Ukraine cherchent à imposer une paix injuste, que Poutine ne veut pas négocier, et que les alliés doivent préciser leur vision de l’après-guerre et ce que l’Europe attend des États-Unis.",
+     "quotes": [
+      {
+       "text": "C’est la recette d’une autre guerre.",
+       "label": "traduit du français"
+      }
+     ]
+    }
    }
-  ]
+  ],
+  "fr": {
+   "synthesis": "Washington se positionne en facilitateur d’un dialogue direct Russie–Europe, tandis que Zelensky a révélé que les négociateurs américains avaient évoqué une adhésion à l’OTAN en échange d’un retrait ukrainien du Donbass, échange que Kiev rejette comme la neutralité. Macron a assimilé tout rationnement de l’aide à l’Ukraine à l’imposition d’une paix injuste.",
+   "note": "Fenêtre du samedi : aucune déclaration officielle qualifiante en 24 h pour la Russie, la Chine, l’Allemagne, le Royaume-Uni, la Pologne ou le siège de l’OTAN ; couverture du Tier 2 limitée."
+  }
  },
  {
   "date": "2026-11-14",
@@ -428,7 +660,18 @@
     "tier": 1,
     "topic": "European negotiating team for Ukraine talks, informal European Council Dublin",
     "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président du Conseil européen",
+     "topic": "Équipe européenne de négociation, Conseil européen informel de Dublin",
+     "context": "Les dirigeants ont choisi une équipe élargie plutôt que l’envoyé unique demandé par Kiev, Washington et Moscou ; von der Leyen a insisté : « c’est nous qui décidons qui nous représente ».",
+     "quotes": [
+      {
+       "text": "L’Europe doit parler d’une seule voix, claire et unie, dans toutes les discussions.",
+       "label": ""
+      }
+     ]
+    }
    },
    {
     "actor": "Kaja Kallas",
@@ -446,7 +689,18 @@
     "tier": 1,
     "topic": "EU representation in Ukraine peace talks",
     "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Haute représentante de l’UE",
+     "topic": "Représentation de l’UE dans les pourparlers",
+     "context": "Écartée de l’équipe désignée, Kallas a revendiqué le rôle d’envoyée au titre de ses fonctions et estimé que l’accord pouvait encore être revu. Meloni a critiqué le « désordre » des formats concurrents.",
+     "quotes": [
+      {
+       "text": "Les Russes ne veulent pas de moi",
+       "label": ""
+      }
+     ]
+    }
    },
    {
     "actor": "Friedrich Merz",
@@ -464,7 +718,18 @@
     "tier": 1,
     "topic": "Expected Trump–Putin talks in China, Anchorage precedent, security guarantees",
     "url": "https://1027wbow.com/2026/11/13/germanys-merz-asks-trump-for-no-surprises-from-putin-talks/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Chancelier fédéral",
+     "topic": "Pourparlers Trump–Poutine attendus en Chine, précédent d’Anchorage, garanties de sécurité",
+     "context": "Merz a indiqué que certains dirigeants craignent un « second Anchorage » lors des pourparlers Trump–Poutine attendus en Chine, et demandé dans quel cadre la sécurité de l’Ukraine d’après-guerre peut être garantie.",
+     "quotes": [
+      {
+       "text": "s’il vous plaît, pas de surprises. Continuez à jouer dans l’équipe Europe et l’équipe Ukraine.",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Bundestag Budget Committee (Haushaltsausschuss)",
@@ -486,7 +751,20 @@
     "tier": 1,
     "topic": "Defence budget 2027 (Einzelplan 14), debt-brake defence exemption",
     "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-haushalt-1231890",
-    "sourceType": "official"
+    "sourceType": "official",
+    "fr": {
+     "role": "Séance de révision finale, budget fédéral 2027",
+     "topic": "Budget de la défense 2027, exemption défense du frein à l’endettement",
+     "context": "Les autorisations d’engagement pour la défense ont été relevées de près de 5 milliards d’euros, à 296,88 milliards ; 84,55 milliards d’emprunt net relèvent de l’exemption défense et sécurité du frein à l’endettement.",
+     "quotes": [
+      {
+       "text": "Budget du ministère de la Défense fixé à 109,75 milliards d’euros, en hausse de 27,1 milliards sur 2026.",
+       "label": "paraphrase, traduit de l’allemand"
+      }
+     ],
+     "status": "Adopté (CDU/CSU et SPD pour ; AfD, Verts et Die Linke contre)",
+     "docType": "Décision de commission sur le budget fédéral 2027"
+    }
    },
    {
     "actor": "Donald Tusk",
@@ -505,7 +783,18 @@
     "tier": 1,
     "topic": "E5 negotiating format, Russian winter offensive, PURL funding",
     "url": "https://www.rp.pl/swiat/art45487381-donald-tusk-polska-bedzie-odgrywala-kluczowa-role-w-rozmowach-usa-ukrainy-i-rosji",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Premier ministre",
+     "topic": "Format de négociation E5, offensive russe d’hiver, financement PURL",
+     "context": "De retour de Dublin, Tusk a estimé que Poutine veut « achever l’Ukraine cet hiver », que l’Europe n’acceptera pas de changement d’architecture de sécurité favorable à la Russie et que la Pologne n’abondera pas les achats d’armes américaines via PURL.",
+     "quotes": [
+      {
+       "text": "La Pologne jouera un rôle clé dans ce format.",
+       "label": "traduit du polonais"
+      }
+     ]
+    }
    },
    {
     "actor": "Foreign, Commonwealth & Development Office / Ministry of Foreign Affairs of Ukraine",
@@ -523,7 +812,18 @@
     "tier": 1,
     "topic": "Security guarantees, air defence, PURL, Multinational Force Ukraine",
     "url": "https://www.gov.uk/government/publications/uk-ukraine-joint-statement-strategic-dialogue-november-2026",
-    "sourceType": "official"
+    "sourceType": "official",
+    "fr": {
+     "role": "Déclaration conjointe Royaume-Uni–Ukraine, dialogue stratégique (Kiev, 11–12 nov. 2026)",
+     "topic": "Garanties de sécurité, défense aérienne, PURL, Force multinationale Ukraine",
+     "context": "Les deux pays appellent à des garanties de sécurité solides et juridiquement contraignantes et donnent la priorité à la défense aérienne hivernale dans le cadre du paquet britannique de 10,5 milliards de livres ; le Royaume-Uni soutient la préparation de la Force multinationale Ukraine.",
+     "quotes": [
+      {
+       "text": "La sécurité de l’Ukraine est la sécurité du Royaume-Uni.",
+       "label": ""
+      }
+     ]
+    }
    },
    {
     "actor": "Bipartisan Congressional Ukraine Caucus (105 House members)",
@@ -542,7 +842,19 @@
     "tier": 1,
     "topic": "Starshield restrictions in Ukraine, SpaceX, administration accountability",
     "url": "https://www.kyivpost.com/post/90089",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Chambre des représentants des États-Unis",
+     "topic": "Restrictions Starshield en Ukraine, SpaceX, responsabilité de l’administration",
+     "context": "Les élus demandent des explications sur la mise en place des restrictions de débit Starshield et le rétablissement immédiat d’un accès complet.",
+     "quotes": [
+      {
+       "text": "un compte rendu complet de l’administration Trump et de SpaceX",
+       "label": ""
+      }
+     ],
+     "docType": "Déclaration publique du caucus"
+    }
    },
    {
     "actor": "Dmitry Peskov",
@@ -562,7 +874,18 @@
     "tier": 1,
     "topic": "European participation in talks, expanded format",
     "url": "https://iz.ru/2201160/2026-11-13/peskov-zaiavil-o-gotovnosti-rossii-k-dialogu-s-evropeiskimi-stranami",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Porte-parole du Kremlin",
+     "topic": "Participation européenne, format élargi",
+     "context": "Peskov a indiqué qu’aucune discussion de fond n’était en cours sur un rôle européen et que Moscou devait d’abord voir si l’Europe aidera à un règlement.",
+     "quotes": [
+      {
+       "text": "La Russie est prête à parler aux Européens s’ils veulent vraiment dialoguer ; un format élargi pourrait suivre.",
+       "label": "paraphrase, traduit du russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Maria Zakharova",
@@ -581,7 +904,18 @@
     "tier": 1,
     "topic": "Kushner claim on European participation",
     "url": "https://eadaily.com/ru/news/2026/11/13/hvatil-lishku-zaharova-popravila-kushnera-naschet-dopuska-evropy-za-stol-peregovorov",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Porte-parole du ministère des Affaires étrangères",
+     "topic": "Déclaration de Kushner sur la participation européenne",
+     "context": "Zakharova a contredit Kushner, affirmant que la participation européenne au prochain cycle n’avait pas été abordée avec les envoyés américains.",
+     "quotes": [
+      {
+       "text": "n’a pas été discuté à Moscou",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Dmitry Medvedev",
@@ -600,7 +934,18 @@
     "tier": 1,
     "topic": "Kallas as EU negotiator",
     "url": "https://eadaily.com/ru/news/2026/11/13/eyo-voobshche-nikto-ne-hochet-medvedev-ocenil-nastyrnost-kallas",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Vice-président du Conseil de sécurité",
+     "topic": "Kallas comme négociatrice de l’UE",
+     "context": "Sur la messagerie Max, Medvedev a aussi affirmé que l’UE n’avait pas été invitée, confirmant le rejet par Moscou des institutions européennes dans tout format de négociation.",
+     "quotes": [
+      {
+       "text": "Personne ne veut d’elle",
+       "label": "traduit du russe · à propos de Kaja Kallas"
+      }
+     ]
+    }
    },
    {
     "actor": "Antti Häkkänen",
@@ -618,7 +963,18 @@
     "tier": 2,
     "topic": "Reported Russian demands on Finland's NATO membership and Baltic bases",
     "url": "https://united24media.com/world/russia-pushes-for-nato-rollback-finland-says-its-a-non-starter-24364",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre de la Défense",
+     "topic": "Exigences russes rapportées sur l’OTAN en Finlande et les bases baltes",
+     "context": "Réagissant aux exigences russes rapportées par Bild (sortie de la Finlande de l’OTAN, aucune base de l’OTAN dans les pays baltes), Häkkänen a jugé qu’elles ne sont « pas négociables ».",
+     "quotes": [
+      {
+       "text": "Nous voyons clairement que la Russie n’est pas sérieuse dans les pourparlers de paix.",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Fredrik Wesslau, ECFR",
@@ -637,9 +993,25 @@
     "tier": 2,
     "topic": "European security architecture, Helsinki principles, risk reduction",
     "url": "https://ecfr.eu/article/after-abu-dhabi-how-europeans-must-reframe-the-european-security-debate/",
-    "sourceType": "publication"
+    "sourceType": "publication",
+    "fr": {
+     "role": "Après Abu Dhabi : comment les Européens doivent recadrer le débat sur la sécurité européenne",
+     "topic": "Architecture de sécurité européenne, principes d’Helsinki, réduction des risques",
+     "context": "L’auteur estime que Washington a repris la volonté de Moscou de réécrire l’ordre de sécurité européen et recommande une contre-proposition européenne fondée sur l’Acte final d’Helsinki et des mesures de réduction des risques militaires.",
+     "quotes": [
+      {
+       "text": "Les Européens devraient rapidement présenter leur propre proposition",
+       "label": ""
+      }
+     ],
+     "docType": "Commentaire"
+    }
    }
-  ]
+  ],
+  "fr": {
+   "synthesis": "À Dublin, les dirigeants européens ont écarté l’idée d’un envoyé unique et désigné une équipe collective (France, Allemagne, Royaume-Uni, Italie, Pologne, institutions de l’UE et OTAN), tandis que Merz mettait Washington en garde contre un « second Anchorage ». Moscou a conditionné tout rôle européen à une « volonté de contribuer », démenti tout accord sur une participation européenne et rejeté ouvertement Kallas.",
+   "note": "Aucun nouvel item qualifiant en 24 h pour le siège de l’OTAN, l’exécutif américain, la Chine ou la France ; plusieurs sites officiels russes inaccessibles."
+  }
  },
  {
   "date": "2026-11-13",
@@ -662,7 +1034,18 @@
     "tier": 1,
     "topic": "European participation, prisoner exchange, Dublin meeting with Zelenskyy",
     "url": "https://www.thejournal.ie/analysis-epc-summit-7224424-Nov2026/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Envoyé présidentiel américain",
+     "topic": "Participation européenne, échange de prisonniers, rencontre de Dublin",
+     "context": "Déclaration faite à l’aérodrome de Baldonnel après avoir informé Zelensky de la rencontre au Kremlin ; Witkoff a indiqué que le prochain cycle inclurait des représentants européens. C’est l’engagement américain le plus clair à ce jour.",
+     "quotes": [
+      {
+       "text": "Nous ne pouvons pas conclure cet accord sans que les Européens soient à la table.",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Volodymyr Zelenskyy",
@@ -681,7 +1064,18 @@
     "tier": 1,
     "topic": "Starshield restrictions, new European security order",
     "url": "https://glavnoe.in.ua/en/news-en/this-tells-us-where-things-are-going-zelenskyy-criticizes-us-decisions-on-starshield",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Restrictions Starshield, nouvel ordre de sécurité européen",
+     "context": "Zelensky a critiqué l’extension aux territoires occupés d’une limitation de débit Starshield et jugé « un peu étrange » l’idée américano-russe d’un nouvel ordre de sécurité européen.",
+     "quotes": [
+      {
+       "text": "Cela nous dit dans quelle direction vont les choses.",
+       "label": "à propos du traitement américain des territoires occupés"
+      }
+     ]
+    }
    },
    {
     "actor": "Volodymyr Zelenskyy",
@@ -700,7 +1094,18 @@
     "tier": 1,
     "topic": "Dublin meeting with Witkoff and Kushner, European role",
     "url": "https://irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Rencontre de Dublin avec Witkoff et Kushner, rôle européen",
+     "context": "Après avoir rencontré les envoyés américains, Zelensky a indiqué que l’échange prévu serait le plus important de la guerre, que les Européens participeront aux pourparlers et que la Coalition des volontaires se réunira à Berlin.",
+     "quotes": [
+      {
+       "text": "Ils auront voix au chapitre. C’est important pour nous car la guerre est en Europe.",
+       "label": "à propos des Européens dans les pourparlers"
+      }
+     ]
+    }
    },
    {
     "actor": "Emmanuel Macron",
@@ -720,7 +1125,18 @@
     "tier": 1,
     "topic": "US support, European strategic autonomy",
     "url": "https://irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de la République",
+     "topic": "Soutien américain, autonomie stratégique européenne",
+     "context": "Macron a dit ne pas savoir ce que les envoyés américains rapporteraient de Moscou et n’a pas soutenu l’affirmation de Kallas selon laquelle les traités font de Costa et d’elle les représentants de l’Europe.",
+     "quotes": [
+      {
+       "text": "Macron a estimé que le soutien américain a disparu et que l’Europe décidera elle-même de sa sécurité.",
+       "label": "paraphrase, selon le direct de l’Irish Times"
+      }
+     ]
+    }
    },
    {
     "actor": "Andy Burnham",
@@ -739,7 +1155,18 @@
     "tier": 1,
     "topic": "Support to Ukraine, European representation",
     "url": "https://irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Premier ministre",
+     "topic": "Soutien à l’Ukraine, représentation européenne",
+     "context": "Burnham a rencontré Zelensky avant les envoyés américains et coprésidé la table ronde sécurité et défense de la CPE ; Londres codirige la Force multinationale Ukraine avec Paris.",
+     "quotes": [
+      {
+       "text": "Burnham a promis un soutien total à Zelensky et dit qu’il plaiderait pour une représentation européenne dans les pourparlers.",
+       "label": "paraphrase"
+      }
+     ]
+    }
    },
    {
     "actor": "Donald Tusk",
@@ -758,7 +1185,18 @@
     "tier": 1,
     "topic": "Poland's exclusion from talks, European security architecture",
     "url": "https://zachod.pl/1589523/tusk-w-dublinie-polska-nie-jest-mile-widziana-przy-stole-ws-ukrainy/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Premier ministre",
+     "topic": "Exclusion de la Pologne, architecture de sécurité européenne",
+     "context": "Tusk a estimé que la Pologne n’est pas la bienvenue à la table américaine et que la paix ne doit pas modifier l’architecture de sécurité de l’Europe de l’Est au profit de Moscou ou de Washington.",
+     "quotes": [
+      {
+       "text": "La Pologne est écartée en raison de sa position antirusse.",
+       "label": "traduit du polonais"
+      }
+     ]
+    }
    },
    {
     "actor": "Yuri Ushakov",
@@ -777,7 +1215,18 @@
     "tier": 1,
     "topic": "European security architecture, Coalition of the Willing, APEC",
     "url": "https://rg.ru/2026/11/12/ushakov-podvel-itogi-peregovorov-putina-s-amerikancami-glavnoe.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Conseiller présidentiel pour la politique étrangère",
+     "topic": "Architecture de sécurité européenne, Coalition des volontaires, APEC",
+     "context": "Ouchakov s’est dit prêt à travailler à une nouvelle architecture de sécurité de long terme « en tandem avec les États-Unis » et a qualifié les déploiements de la Coalition des volontaires de « recette pour une guerre sans fin » ; Poutine et Trump poursuivront à l’APEC en Chine.",
+     "quotes": [
+      {
+       "text": "Le système actuel de sécurité européenne ne fonctionne pas.",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Mao Ning",
@@ -795,7 +1244,18 @@
     "tier": 1,
     "topic": "Possible China–US–Russia leaders' meeting",
     "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/202611/t20261112_12058413.html",
-    "sourceType": "official"
+    "sourceType": "official",
+    "fr": {
+     "role": "Porte-parole du ministère des Affaires étrangères",
+     "topic": "Possible sommet Chine–États-Unis–Russie",
+     "context": "Pékin n’a pas démenti l’annonce par le Kremlin d’un sommet tripartite à l’APEC, que Moscou lie au règlement en Ukraine.",
+     "quotes": [
+      {
+       "text": "La Chine est en communication avec les parties concernées au sujet d’une rencontre entre les trois chefs d’État.",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Kaja Kallas",
@@ -814,7 +1274,18 @@
     "tier": 1,
     "topic": "European representation in peace talks",
     "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Haute représentante de l’UE",
+     "topic": "Représentation européenne dans les pourparlers",
+     "context": "Macron et Merz n’ont pas soutenu cet arrangement ; la question du représentant européen est renvoyée au Conseil européen informel de Dublin le 13 novembre.",
+     "quotes": [
+      {
+       "text": "Kallas a affirmé que les traités de l’UE désignent António Costa et elle-même pour représenter l’Europe face à la Russie.",
+       "label": "paraphrase"
+      }
+     ]
+    }
    },
    {
     "actor": "Nordic defence ministers",
@@ -833,7 +1304,18 @@
     "tier": 2,
     "topic": "Nordic common defence agreement, military mobility",
     "url": "https://theprint.in/world/nordic-countries-to-work-towards-common-defence-deal/3097108/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Tore Sandvik (Norvège), Jeppe Bruus (Danemark) et homologues",
+     "topic": "Accord de défense nordique, mobilité militaire",
+     "context": "Les cinq États nordiques travailleront à un accord de défense commun et harmoniseront les règles de passage des troupes et équipements.",
+     "quotes": [
+      {
+       "text": "Cet accord permettra une coopération plus étroite et renforcera la dissuasion",
+       "label": "Tore Sandvik, traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Kristen Michal",
@@ -852,9 +1334,24 @@
     "tier": 2,
     "topic": "Scope of Ukraine talks, European security",
     "url": "https://irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Premier ministre",
+     "topic": "Périmètre des pourparlers sur l’Ukraine, sécurité européenne",
+     "context": "Une réponse directe à la volonté russe et américaine d’inclure une nouvelle architecture de sécurité européenne dans le règlement ukrainien.",
+     "quotes": [
+      {
+       "text": "Michal a averti que l’Europe tomberait dans un piège si les questions de sécurité plus larges étaient intégrées aux pourparlers.",
+       "label": "paraphrase"
+      }
+     ]
+    }
    }
-  ]
+  ],
+  "fr": {
+   "synthesis": "Après la rencontre Poutine–Witkoff–Kushner, Moscou a proposé de concevoir une nouvelle architecture de sécurité européenne « en tandem avec les États-Unis » et qualifié les déploiements de la Coalition des volontaires de recette pour une guerre sans fin, tandis que les envoyés américains assuraient à Zelensky à Dublin qu’aucun accord ne se fera sans les Européens. L’Europe réclame un siège mais reste divisée sur son représentant.",
+   "note": "Aucun item officiel qualifiant en 24 h pour l’Allemagne, le siège de l’OTAN ou les sites de l’exécutif américain ; plusieurs citations de Dublin proviennent de directs de presse plutôt que de transcriptions officielles."
+  }
  },
  {
   "date": "2026-11-12",
@@ -878,7 +1375,18 @@
     "tier": 1,
     "topic": "Abu Dhabi talks outcome, prisoner exchange",
     "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Envoyé spécial de la Maison-Blanche",
+     "topic": "Issue des pourparlers d’Abu Dhabi, échange de prisonniers",
+     "context": "Kushner a confirmé l’accord d’échange de prisonniers et annoncé que Witkoff et lui iraient à Moscou le 12 novembre informer Poutine, puis rencontreraient Zelensky en Irlande.",
+     "quotes": [
+      {
+       "text": "La profonde méfiance entre la Russie et l’Ukraine reste un obstacle majeur à un accord.",
+       "label": "paraphrase"
+      }
+     ]
+    }
    },
    {
     "actor": "Volodymyr Zelenskyy",
@@ -896,7 +1404,18 @@
     "tier": 1,
     "topic": "European seat at negotiations, FREYJA anti-ballistic programme",
     "url": "https://www.president.gov.ua/en/news/zvernennya-prezidenta-u-folketingu-daniyi-107257",
-    "sourceType": "official"
+    "sourceType": "official",
+    "fr": {
+     "role": "Président de l’Ukraine, discours au Folketing danois",
+     "topic": "Siège européen à la table, programme antibalistique FREYJA",
+     "context": "Premier dirigeant étranger à s’exprimer devant le Folketing, il a rejeté l’idée que la Russie ait besoin de nouvelles garanties et annoncé que 11 pays ont rejoint FREYJA, le bouclier antibalistique européen proposé par l’Ukraine.",
+     "quotes": [
+      {
+       "text": "L’Europe doit être à la table.",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Volodymyr Zelenskyy",
@@ -914,7 +1433,18 @@
     "tier": 1,
     "topic": "Abu Dhabi talks, US envoys, sanctions",
     "url": "https://www.president.gov.ua/en/news/zayava-prezidenta-ukrayini-pid-chas-spilnogo-z-premyer-minis-107265",
-    "sourceType": "official"
+    "sourceType": "official",
+    "fr": {
+     "role": "Président de l’Ukraine, conférence de presse avec le Taoiseach irlandais",
+     "topic": "Pourparlers d’Abu Dhabi, envoyés américains, sanctions",
+     "context": "Zelensky a jugé qu’achever la guerre sans l’Europe serait « injuste et, honnêtement, impossible » et appelé à sanctionner les fournisseurs de composants d’armes russes.",
+     "quotes": [
+      {
+       "text": "Nous ne pouvons pas relâcher la pression tant que la Russie ne s’arrête pas.",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Rustem Umerov",
@@ -932,7 +1462,18 @@
     "tier": 1,
     "topic": "Prisoner exchange, close of Abu Dhabi round",
     "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Chef de la délégation ukrainienne",
+     "topic": "Échange de prisonniers, fin du cycle d’Abu Dhabi",
+     "context": "Oumerov a indiqué que la deuxième journée avait abouti à un accord d’échange de grande ampleur ; selon le général russe Zorine, cité par TASS, il concernerait plus de 1 000 personnes de chaque côté.",
+     "quotes": [
+      {
+       "text": "échange de prisonniers à grande échelle",
+       "label": ""
+      }
+     ]
+    }
    },
    {
     "actor": "Yevhen Khmara",
@@ -951,7 +1492,18 @@
     "tier": 1,
     "topic": "Air defence, Patriot stock swaps",
     "url": "https://en.interfax.com.ua/news/general/1235057.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre de la Défense de l’Ukraine (entretien avec la ministre néerlandaise)",
+     "topic": "Défense aérienne, échanges de stocks de Patriot",
+     "context": "Les ministres ont discuté du transfert de missiles Patriot prélevés sur les stocks partenaires en échange de livraisons futures déjà contractées, ainsi que de coentreprises.",
+     "quotes": [
+      {
+       "text": "L’un des axes clés est le renforcement de la défense aérienne, notamment contre les menaces balistiques.",
+       "label": "communiqué du ministère ukrainien"
+      }
+     ]
+    }
    },
    {
     "actor": "Karol Nawrocki",
@@ -970,7 +1522,18 @@
     "tier": 1,
     "topic": "Alliance reliability",
     "url": "https://defence24.pl/polityka-obronna/nawrocki-polska-bedzie-przewidywalnym-sojusznikiem-bezpieczenstwo-ponad-podzialami",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de la Pologne, discours de la fête de l’Indépendance",
+     "topic": "Fiabilité de l’alliance",
+     "context": "Message adressé aux alliés comme aux adversaires alors que Varsovie attend une décision de la Maison-Blanche, prévue début décembre, sur une base américaine permanente.",
+     "quotes": [
+      {
+       "text": "La Pologne sera un allié solide, stable et prévisible en matière de sécurité.",
+       "label": "traduit du polonais"
+      }
+     ]
+    }
    },
    {
     "actor": "Vladimir Medinsky",
@@ -989,9 +1552,24 @@
     "tier": 1,
     "topic": "Close of Abu Dhabi round, territory, European participation",
     "url": "https://www.themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Conseiller présidentiel, chef de la délégation russe",
+     "topic": "Fin du cycle d’Abu Dhabi, territoire, participation européenne",
+     "context": "Lors de sa conférence de presse finale, Medinsky a indiqué qu’une entente n’avait été trouvée que « par endroits » et s’est interrogé sur le statut des Européens.",
+     "quotes": [
+      {
+       "text": "Chaque pouce de notre terre reviendra à la Russie. D’une manière ou d’une autre.",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    }
-  ]
+  ],
+  "fr": {
+   "synthesis": "Le cycle d’Abu Dhabi s’est conclu sur un vaste échange de prisonniers mais sans convergence territoriale : Medinsky a durci la ligne russe et contesté le statut des Européens, tandis que Zelensky, à Copenhague et Dublin, a insisté pour que l’Europe soit à la table et présenté un bouclier antibalistique européen (FREYJA).",
+   "note": "Aucun item exécutif qualifiant en 24 h pour la France, l’Allemagne, le Royaume-Uni, le siège de l’OTAN ou la Chine ; pages Reuters et Politico inaccessibles."
+  }
  },
  {
   "date": "2026-11-11",
@@ -1014,7 +1592,18 @@
     "tier": 1,
     "topic": "Abu Dhabi talks, European participation",
     "url": "https://www.kentonline.co.uk/news/national/rubio-pushes-for-uk-and-european-allies-to-have-seat-at-ukraine-peace-talks-174127/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Secrétaire d’État",
+     "topic": "Pourparlers d’Abu Dhabi, participation européenne",
+     "context": "À la réunion ministérielle du G7 à Paris, Rubio a jugé la première journée d’Abu Dhabi « très productive » et indiqué que Washington veut élargir le format tripartite.",
+     "quotes": [
+      {
+       "text": "Nous pensons que le format tripartite devrait à terme inclure nos partenaires européens à la table",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Jared Kushner",
@@ -1033,7 +1622,18 @@
     "tier": 1,
     "topic": "European security framework",
     "url": "https://www.arabnews.com/world/us-calls-for-new-europe-security-at-russia-ukraine-talks-in-abu-dhabi-3011087",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Envoyé présidentiel américain",
+     "topic": "Cadre de sécurité européen",
+     "context": "Kushner a affirmé que les États-Unis avaient « réduit les écarts » et présenté l’objectif comme une structure garantissant « des décennies, voire des siècles de paix ».",
+     "quotes": [
+      {
+       "text": "Les États-Unis espèrent créer un nouveau cadre de sécurité entre l’Ukraine, la Russie et l’Europe.",
+       "label": "paraphrase"
+      }
+     ]
+    }
    },
    {
     "actor": "Pete Hegseth",
@@ -1053,7 +1653,18 @@
     "tier": 1,
     "topic": "US-Poland alliance, defence-industrial cooperation",
     "url": "https://wiadomosci.wp.pl/hegseth-przyjal-szefa-mon-padly-slowa-o-polsce-7349568357665216a",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Secrétaire à la Guerre",
+     "topic": "Alliance américano-polonaise, coopération industrielle de défense",
+     "context": "Recevant le ministre polonais au Pentagone, Hegseth a annoncé une déclaration d’intention pour développer la coopération industrielle ; aucune signature n’a été confirmée.",
+     "quotes": [
+      {
+       "text": "La Pologne est un modèle pour les autres alliés de l’OTAN.",
+       "label": "paraphrase, d’après une version polonaise"
+      }
+     ]
+    }
    },
    {
     "actor": "Volodymyr Zelenskyy",
@@ -1071,7 +1682,18 @@
     "tier": 1,
     "topic": "Abu Dhabi talks, US approach",
     "url": "https://www.ewn.co.za/2026/11/11/ukraines-zelensky-welcomes-changes-in-us-approach-during-talks-with-russia",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Pourparlers d’Abu Dhabi, approche américaine",
+     "context": "À Copenhague, Zelensky a jugé les discussions « constructives et assez substantielles » et estimé qu’il était temps pour l’Europe de choisir un représentant.",
+     "quotes": [
+      {
+       "text": "Je vois des changements. Je suis très satisfait de ce que j’entends.",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Rustem Umerov",
@@ -1090,7 +1712,18 @@
     "tier": 1,
     "topic": "Negotiating priorities, security guarantees",
     "url": "https://kyivindependent.com/ukraine-meets-with-european-us-officials-in-abu-dhabi-ahead-of-renewed-peace-talks-with-russia/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Chef de la délégation ukrainienne",
+     "topic": "Priorités de négociation, garanties de sécurité",
+     "context": "Avant la séance tripartite, la délégation a rencontré des représentants du Royaume-Uni, de la France, de l’Allemagne, de l’Italie, de l’OTAN et de la Commission européenne.",
+     "quotes": [
+      {
+       "text": "Nos priorités sont la fin des combats et des garanties de sécurité fiables pour l’après-guerre",
+       "label": "traduit de l’ukrainien"
+      }
+     ]
+    }
    },
    {
     "actor": "Andrii Sybiha",
@@ -1109,7 +1742,18 @@
     "tier": 1,
     "topic": "G7 foreign ministers Paris, Black Sea navigation",
     "url": "https://news.liga.net/en/politics/news/g7-meeting-attended-by-rubio-discusses-stronger-air-defenses-for-ukraine-and-sanctions-on-russias-shadow-fleet",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre des Affaires étrangères",
+     "topic": "Ministres des Affaires étrangères du G7 à Paris, navigation en mer Noire",
+     "context": "Lors de la session du G7 sur l’Ukraine, il a exhorté les partenaires à profiter de la dynamique pour obtenir un cessez-le-feu complet.",
+     "quotes": [
+      {
+       "text": "L’Ukraine a des propositions concrètes pour rétablir la liberté de navigation en mer Noire",
+       "label": "traduit de l’ukrainien"
+      }
+     ]
+    }
    },
    {
     "actor": "Władysław Kosiniak-Kamysz",
@@ -1128,7 +1772,18 @@
     "tier": 1,
     "topic": "Permanent US troop presence in Poland",
     "url": "https://wiadomosci.dziennik.pl/polityka/artykuly/11343175,spotkanie-hegsetha-z-kosiniakiem-kamyszem-oto-o-czym-rozmawiaja.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Vice-Premier ministre et ministre de la Défense nationale",
+     "topic": "Présence permanente de troupes américaines en Pologne",
+     "context": "Après sa rencontre avec Hegseth, il a estimé que la Pologne était devenue un partenaire stratégique des États-Unis ; une décision sur une base terrestre permanente pourrait suivre la revue du dispositif américain en Europe.",
+     "quotes": [
+      {
+       "text": "Le Pentagone donne son feu vert à une présence permanente de troupes américaines en Pologne",
+       "label": "traduit du polonais"
+      }
+     ]
+    }
    },
    {
     "actor": "Sergey Lavrov",
@@ -1147,7 +1802,18 @@
     "tier": 1,
     "topic": "European presence in Abu Dhabi",
     "url": "https://ria.ru/20261110/lavrov-2130663805.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre des Affaires étrangères",
+     "topic": "Présence européenne à Abu Dhabi",
+     "context": "Au Forum international sur la sécurité collective à Moscou, Lavrov a balayé la participation européenne.",
+     "quotes": [
+      {
+       "text": "Ils sont allés à Abu Dhabi, qu’ils restent à l’hôtel",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Vladimir Medinsky",
@@ -1166,7 +1832,18 @@
     "tier": 1,
     "topic": "Opening of Abu Dhabi talks",
     "url": "https://www.interfax.ru/world/1128005",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Conseiller présidentiel, chef de la délégation russe",
+     "topic": "Ouverture des pourparlers d’Abu Dhabi",
+     "context": "À l’ouverture, Medinsky n’a salué que la médiation américaine ; une source de TASS évoque à l’ordre du jour une « architecture de sécurité indivisible pour tout le continent ».",
+     "quotes": [
+      {
+       "text": "Merci à nos partenaires américains pour leurs efforts de paix",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Joint statement (EU, France, Germany, Italy, United Kingdom, Ukraine, United States, NATO)",
@@ -1184,7 +1861,18 @@
     "tier": 1,
     "topic": "Post-war European security architecture",
     "url": "https://www.arabnews.com/world/us-calls-for-new-europe-security-at-russia-ukraine-talks-in-abu-dhabi-3011087",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Déclaration sur la réunion parallèle d’Abu Dhabi",
+     "topic": "Architecture de sécurité européenne d’après-guerre",
+     "context": "Publiée après la réunion parallèle des Européens avec les équipes ukrainienne et américaine, la déclaration ancre l’Europe et l’OTAN dans le volet sécurité alors que la Russie leur refuse un siège.",
+     "quotes": [
+      {
+       "text": "engagement commun en faveur d’une architecture de sécurité européenne solide après la guerre",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Mette Frederiksen",
@@ -1202,7 +1890,18 @@
     "tier": 2,
     "topic": "Military aid package",
     "url": "https://www.euronews.com/2026/11/10/denmark-pledges-643-million-in-military-aid-as-zelenskyy-meets-nordic-leaders",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Première ministre",
+     "topic": "Paquet d’aide militaire",
+     "context": "Le Danemark a annoncé une nouvelle aide militaire de 4,8 milliards de couronnes (environ 643 millions d’euros) lors de la rencontre de Zelensky avec les dirigeants nordiques à Copenhague.",
+     "quotes": [
+      {
+       "text": "Le combat des Ukrainiens pour une Ukraine libre et une Europe libre continue.",
+       "label": "traduit de l’anglais"
+      }
+     ]
+    }
    },
    {
     "actor": "Guido Crosetto",
@@ -1223,9 +1922,26 @@
     "tier": 2,
     "topic": "13th Ukraine aid package",
     "url": "https://www.euronews.com/2026/11/10/italian-government-debates-aid-to-kyiv-while-abu-dhabi-holds-talks-on-ukraines-future",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre de la Défense, devant le Copasir",
+     "topic": "13e paquet d’aide à l’Ukraine",
+     "context": "Le paquet comprendrait des armes de défense aérienne ; le décret-cadre habilitant expire fin 2026.",
+     "quotes": [
+      {
+       "text": "L’Italie a toujours posé comme condition qu’aucune troupe européenne ne soit physiquement présente en Ukraine.",
+       "label": "paraphrase"
+      }
+     ],
+     "status": "En attente",
+     "docType": "Présentation ministérielle en commission"
+    }
    }
-  ]
+  ],
+  "fr": {
+   "synthesis": "Le cycle d’Abu Dhabi s’est ouvert avec des Européens cantonnés à des réunions parallèles : Washington souhaite à terme les inclure et propose un nouveau cadre de sécurité européen, tandis que Moscou raille publiquement leur présence. Kiev presse l’Europe de désigner un négociateur unique, et le Danemark et l’Italie avancent de nouveaux paquets d’aide.",
+   "note": "Aucun item qualifiant dans la fenêtre pour la France, le Royaume-Uni, le siège de l’OTAN (déclaration conjointe seulement), la Chine ou l’Allemagne."
+  }
  },
  {
   "date": "2026-11-10",
@@ -1250,7 +1966,18 @@
     "tier": 1,
     "topic": "Burden sharing, Europe",
     "url": "https://vz.ru/news/2026/11/10/1474288.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Secrétaire à la Guerre",
+     "topic": "Partage du fardeau, Europe",
+     "context": "Propos tenus au Naval War College dans le cadre de la nouvelle stratégie de défense, qui demande aux alliés européens d’assumer la responsabilité première de leur sécurité. Transcription officielle indisponible ; rapportés par TASS.",
+     "quotes": [
+      {
+       "text": "Les États-Unis revoient leur relation avec l’Europe et mettent fin à l’ère du financement de sa défense.",
+       "label": "paraphrase d’une dépêche de TASS en russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Volodymyr Zelenskyy",
@@ -1269,7 +1996,18 @@
     "tier": 1,
     "topic": "Abu Dhabi trilateral talks, European participation",
     "url": "https://en.interfax.com.ua/news/general/1233752.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Pourparlers tripartites d’Abu Dhabi, participation européenne",
+     "context": "La délégation ukrainienne est arrivée aux Émirats pour la première réunion tripartite depuis février, accompagnée de discussions séparées avec les partenaires européens.",
+     "quotes": [
+      {
+       "text": "Des partenaires européens seront aussi présents, et il y aura des formats séparés avec eux",
+       "label": "traduit de l’ukrainien"
+      }
+     ]
+    }
    },
    {
     "actor": "Andrii Sybiha",
@@ -1288,7 +2026,18 @@
     "tier": 1,
     "topic": "UN Security Council, Russian strikes",
     "url": "https://lb.ua/world/2026/11/09/779730_sibiga_sogodni_vidbudetsya.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre des Affaires étrangères",
+     "topic": "Conseil de sécurité de l’ONU, frappes russes",
+     "context": "Sybiha a annoncé une réunion du Conseil de sécurité de l’ONU sur l’Ukraine pour accroître la pression sur la Russie après les frappes sur des hôpitaux et des sites énergétiques.",
+     "quotes": [
+      {
+       "text": "Ce ne sont pas des incidents isolés. C’est une campagne systématique contre les civils",
+       "label": "traduit de l’ukrainien"
+      }
+     ]
+    }
    },
    {
     "actor": "Friedrich Merz",
@@ -1307,7 +2056,18 @@
     "tier": 1,
     "topic": "Abu Dhabi talks, European participation",
     "url": "https://www.zdfheute.de/politik/ausland/ukraine-gespraeche-beteiligung-europa-merz-100.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Chancelier fédéral",
+     "topic": "Pourparlers d’Abu Dhabi, participation européenne",
+     "context": "Merz a indiqué que les Européens participeraient à Abu Dhabi en étroite coordination avec leurs conseillers à la sécurité nationale et qu’il avait plaidé pour associer le Royaume-Uni et la Norvège.",
+     "quotes": [
+      {
+       "text": "Je n’ai pas d’attentes excessives ; c’est un processus qui avance",
+       "label": "traduit de l’allemand"
+      }
+     ]
+    }
    },
    {
     "actor": "Johann Wadephul",
@@ -1326,7 +2086,18 @@
     "tier": 1,
     "topic": "Abu Dhabi talks, G7",
     "url": "https://www.arabnews.com/world/abu-dhabi-talks-must-show-if-russia-genuinely-prepared-to-negotiate-german-fm-3010785",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre fédéral des Affaires étrangères",
+     "topic": "Pourparlers d’Abu Dhabi, G7",
+     "context": "À la réunion des ministres des Affaires étrangères du G7 à Paris, Wadephul a mis Moscou en garde contre un « simulacre de négociation ».",
+     "quotes": [
+      {
+       "text": "La condition est que la Russie renonce enfin à ses exigences maximalistes.",
+       "label": "traduit de l’allemand"
+      }
+     ]
+    }
    },
    {
     "actor": "Bundestag, Defence Committee",
@@ -1347,7 +2118,20 @@
     "status": "Pending",
     "tier": 1,
     "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw46-pa-verteidigung-1225512",
-    "sourceType": "official"
+    "sourceType": "official",
+    "fr": {
+     "role": "Audition publique",
+     "topic": "Loi sur le renforcement de la réserve",
+     "context": "Le projet abandonne le principe du double volontariat et permet le rappel obligatoire des réservistes. La plupart des experts l’ont soutenu ; un avocat a soulevé des objections constitutionnelles.",
+     "quotes": [
+      {
+       "text": "Sans réserve solide, la défense nationale et la défense de l’Alliance sont impossibles",
+       "label": "traduit de l’allemand · André Wüstner, association des forces armées allemandes"
+      }
+     ],
+     "status": "En attente",
+     "docType": "Audition"
+    }
    },
    {
     "actor": "Franco-German Parliamentary Assembly",
@@ -1366,7 +2150,19 @@
     "sourceName": "news.de (dpa)",
     "tier": 1,
     "url": "https://www.news.de/politik/860174482/berlin-und-paris-wollen-leistungsfaehigere-ruestungsindustrie-deutsch-und-frankreich-news-der-dpa-aktuell-zu-bundestag-parlament-und-verteidigung/1/",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "14e session, Berlin",
+     "topic": "Base industrielle de défense, FCAS",
+     "context": "Vautrin a plaidé pour une base industrielle de défense forte et souveraine ; les deux ministres ont regretté l’échec du SCAF, que Pistorius attribue aux industriels plutôt qu’aux gouvernements.",
+     "quotes": [
+      {
+       "text": "La dissuasion ne fonctionne militairement que si l’industrie de défense peut livrer à grande échelle",
+       "label": "traduit de l’allemand · Boris Pistorius"
+      }
+     ],
+     "docType": "Audition des ministres de la Défense Pistorius et Vautrin"
+    }
    },
    {
     "actor": "Ministry of National Defence",
@@ -1385,7 +2181,18 @@
     "tier": 1,
     "topic": "Coalition of the Willing, Exercise KOALICJA 26.2",
     "url": "https://english.news.cn/20261110/7f96f4cafcd841689ad0f3bffd92ca84/c.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Aucun responsable nommé",
+     "topic": "Coalition des volontaires, exercice KOALICJA 26.2",
+     "context": "L’exercice se déroule du 9 au 22 novembre avec environ 2 800 militaires de 11 pays.",
+     "quotes": [
+      {
+       "text": "La Pologne accueille l’essentiel de l’exercice mais ne prévoit pas d’envoyer de troupes en Ukraine après le conflit.",
+       "label": "paraphrase"
+      }
+     ]
+    }
    },
    {
     "actor": "Władysław Kosiniak-Kamysz",
@@ -1404,7 +2211,18 @@
     "tier": 1,
     "topic": "Permanent US base in Poland",
     "url": "https://tvn24.pl/polska/wladyslaw-kosiniak-kamysz-o-spotkaniu-z-szefem-pentagonu-jezeli-uda-sie-wszystko-dopiac-podpiszemy-wazne-porozumienie-st9330951",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Vice-Premier ministre et ministre de la Défense nationale",
+     "topic": "Base américaine permanente en Pologne",
+     "context": "Avant sa rencontre avec Hegseth, il a indiqué qu’un accord de coopération industrielle était prêt et qu’une décision sur une base américaine permanente serait soumise à la Maison-Blanche en décembre.",
+     "quotes": [
+      {
+       "text": "Cela devrait être annoncé début décembre",
+       "label": "traduit du polonais · à propos d’une base américaine permanente"
+      }
+     ]
+    }
    },
    {
     "actor": "Dmitry Peskov",
@@ -1423,7 +2241,18 @@
     "tier": 1,
     "topic": "Abu Dhabi talks format",
     "url": "https://ria.ru/20261109/peskov-2130281031.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Porte-parole du Kremlin",
+     "topic": "Format des pourparlers d’Abu Dhabi",
+     "context": "Peskov a souligné le caractère strictement tripartite des pourparlers, renvoyant l’implication européenne à des canaux américains et ukrainiens séparés.",
+     "quotes": [
+      {
+       "text": "Les Américains ont leurs propres canaux de communication avec les Européens",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Sergey Lavrov",
@@ -1442,7 +2271,18 @@
     "tier": 1,
     "topic": "Security guarantees, Abu Dhabi agenda",
     "url": "https://ria.ru/20261109/lavrov-2130335384.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Ministre des Affaires étrangères",
+     "topic": "Garanties de sécurité, ordre du jour d’Abu Dhabi",
+     "context": "Lavrov a salué la déclaration de Rubio plaçant les questions de sécurité au centre, signe que Moscou veut négocier la sécurité européenne directement avec Washington.",
+     "quotes": [
+      {
+       "text": "Nous ne pouvons que saluer une telle approche",
+       "label": "traduit du russe"
+      }
+     ]
+    }
    },
    {
     "actor": "Sun Lei",
@@ -1461,8 +2301,23 @@
     "tier": 1,
     "topic": "UN Security Council meeting on Ukraine",
     "url": "http://www.xinhuanet.com/20261110/39398e5c86a6412fae93a992ceb89c43/c.html",
-    "sourceType": "media"
+    "sourceType": "media",
+    "fr": {
+     "role": "Représentant permanent adjoint de la Chine à l’ONU",
+     "topic": "Réunion du Conseil de sécurité sur l’Ukraine",
+     "context": "La Chine a appelé toutes les parties à conclure un accord de paix global, durable et contraignant, sans mentionner l’Europe.",
+     "quotes": [
+      {
+       "text": "La question ukrainienne est à un moment critique pour un règlement négocié",
+       "label": "traduit du chinois"
+      }
+     ]
+    }
    }
-  ]
+  ],
+  "fr": {
+   "synthesis": "À la veille d’Abu Dhabi, Berlin et Kiev revendiquent un siège européen tandis que Moscou s’en tient à un format strictement tripartite et salue un ordre du jour américain centré sur la sécurité. La pression américaine sur le partage du fardeau pousse des alliés comme la Pologne à verrouiller des garanties bilatérales.",
+   "note": "Aucun item qualifiant dans la fenêtre pour le Royaume-Uni, l’exécutif français, le siège de l’OTAN ou les États du Tier 2. Plusieurs sites officiels non consultés directement ; agences utilisées."
+  }
  }
 ]
