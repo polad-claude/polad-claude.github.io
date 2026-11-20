@@ -76,6 +76,20 @@ header.mast{background:var(--navy);color:#fff}
 .src{margin-top:8px;font-size:13.5px;overflow-wrap:anywhere}
 .src span{color:var(--muted)}
 .empty{margin-top:40px;color:var(--muted)}
+.tabs{display:flex;gap:4px;margin-top:22px;border-bottom:1px solid var(--line)}
+.tabs button{font:600 15px var(--f-body);color:var(--muted);background:none;border:0;border-bottom:3px solid transparent;padding:10px 14px;min-height:44px;cursor:pointer;margin-bottom:-1px}
+.tabs button[aria-selected=true]{color:var(--navy);border-bottom-color:var(--navy)}
+details.arch{background:var(--paper);border:1px solid var(--line);border-radius:6px;margin-top:10px}
+details.arch>summary{cursor:pointer;padding:12px 16px;list-style:none;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
+details.arch>summary::-webkit-details-marker{display:none}
+details.arch>summary::before{content:"\25B8";color:var(--navy);margin-right:2px}
+details.arch[open]>summary::before{content:"\25BE"}
+details.arch>summary b{font-family:var(--f-head);font-size:19px;color:var(--navy)}
+details.arch>summary small{font:500 12px var(--f-mono);color:var(--muted)}
+details.arch>summary .sum{flex-basis:100%;font-size:14px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+details.arch[open]>summary .sum{display:none}
+details.arch .day{margin:0;padding:0 16px 16px}
+details.arch .day>h2{display:none}
 footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;max-width:80ch}
 @media (max-width:600px){.mast .latest{text-align:left}.day>h2{font-size:24px}}
 </style>
@@ -97,7 +111,7 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
       <button type="button" data-src="all" aria-pressed="true">All sources</button>
       <button type="button" data-src="official" aria-pressed="false">Official only</button>
     </div>
-    <input id="q" type="search" placeholder="Search a country, a name, a topic" aria-label="Search">
+    <input id="q" type="search" placeholder="Search in this tab: country, name, topic" aria-label="Search">
     <span class="count" id="count"></span>
   </div>
 </div>
@@ -108,13 +122,17 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
     <span><span class="tag media">Media-reported</span> known through press or agency reporting</span>
     <span><span class="tag publication">Analysis</span> think tank or research output</span>
   </div>
+  <div class="tabs" role="tablist">
+    <button type="button" role="tab" id="t-latest" aria-selected="true">Latest report</button>
+    <button type="button" role="tab" id="t-archive" aria-selected="false">Archive</button>
+  </div>
   <div id="days"><p class="empty">Loading reports…</p></div>
   <footer>Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.</footer>
 </main>
 
 <script>
 {
-const S={reports:[],src:"all",q:""};
+const S={reports:[],src:"all",q:"",tab:"latest"};
 const CAT={executive:"Executive / Government",political:"Political figure",parliament:"Parliament",thinktank:"Think tank"};
 const TAG={official:"Official statement",media:"Media-reported",publication:"Analysis"};
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -140,28 +158,43 @@ function item(it){
   <div class="meta">${meta}</div>${qs}${it.context?`<p class="ctx">${esc(it.context)}</p>`:""}
   <div class="src"><span>Source: </span><a href="${safe(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.sourceName||"link")}</a></div></article>`;
 }
-function render(){
-  let n=0;
-  const html=S.reports.map(r=>{
-    const items=(r.items||[]).filter(match);
-    if((S.q||S.src!=="all")&&!items.length)return "";
-    n+=items.length;
-    const order=[];
-    items.slice().sort((a,b)=>(a.tier||2)-(b.tier||2)||(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1))
-      .forEach(i=>{if(!order.includes(i.entity))order.push(i.entity)});
-    const groups=order.map(e=>{
-      const g=items.filter(i=>i.entity===e).sort((a,b)=>(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1));
-      return `<section class="ent"><h3>${esc(e)} <span>Tier ${esc(g[0].tier||"")}</span></h3>${g.map(item).join("")}</section>`;
-    }).join("");
-    const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
-    return `<section class="day" id="d${esc(r.date)}"><h2>${esc(fmt(r.date))}<small>${(r.items||[]).length} items · ${off} official</small></h2>
-      ${r.synthesis?`<div class="judgement"><b>Key judgement.</b> ${esc(r.synthesis)}</div>`:""}
-      ${r.note?`<p class="cover">Coverage: ${esc(r.note)}</p>`:""}
-      ${groups||'<p class="cover">No statement met the time and scope criteria for this cycle.</p>'}</section>`;
+function dayHtml(r,items){
+  const order=[];
+  items.slice().sort((a,b)=>(a.tier||2)-(b.tier||2)||(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1))
+    .forEach(i=>{if(!order.includes(i.entity))order.push(i.entity)});
+  const groups=order.map(e=>{
+    const g=items.filter(i=>i.entity===e).sort((a,b)=>(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1));
+    return `<section class="ent"><h3>${esc(e)} <span>Tier ${esc(g[0].tier||"")}</span></h3>${g.map(item).join("")}</section>`;
   }).join("");
-  document.getElementById("days").innerHTML=html||'<p class="empty">No item matches these filters.</p>';
+  const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
+  return `<section class="day"><h2>${esc(fmt(r.date))}<small>${(r.items||[]).length} items · ${off} official</small></h2>
+    ${r.synthesis?`<div class="judgement"><b>Key judgement.</b> ${esc(r.synthesis)}</div>`:""}
+    ${r.note?`<p class="cover">Coverage: ${esc(r.note)}</p>`:""}
+    ${groups||'<p class="cover">No statement met the time and scope criteria for this cycle.</p>'}</section>`;
+}
+function render(){
+  const filtering=!!S.q||S.src!=="all";
+  let n=0;
+  const list=S.tab==="latest"?S.reports.slice(0,1):S.reports.slice(1);
+  const parts=list.map(r=>{
+    const items=(r.items||[]).filter(match);
+    if(filtering&&!items.length)return "";
+    n+=items.length;
+    if(S.tab==="latest")return dayHtml(r,items);
+    const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
+    return `<details class="arch"${filtering?" open":""}><summary><b>${esc(fmt(r.date))}</b><small>${filtering?items.length+" matching":(r.items||[]).length+" items · "+off+" official"}</small>${r.synthesis?`<span class="sum">${esc(r.synthesis)}</span>`:""}</summary>${dayHtml(r,items)}</details>`;
+  }).join("");
+  document.getElementById("days").innerHTML=parts||`<p class="empty">${filtering?"No item matches these filters in this tab.":"No earlier report yet."}</p>`;
   document.getElementById("count").textContent=n+" items";
 }
+function setTab(t){
+  S.tab=t;
+  document.getElementById("t-latest").setAttribute("aria-selected",t==="latest");
+  document.getElementById("t-archive").setAttribute("aria-selected",t==="archive");
+  render();
+}
+document.getElementById("t-latest").addEventListener("click",()=>setTab("latest"));
+document.getElementById("t-archive").addEventListener("click",()=>setTab("archive"));
 document.querySelectorAll(".seg button").forEach(b=>b.addEventListener("click",()=>{
   document.querySelectorAll(".seg button").forEach(x=>x.setAttribute("aria-pressed",x===b));
   S.src=b.dataset.src;render();
