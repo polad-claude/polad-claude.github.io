@@ -1,5 +1,318 @@
 [
  {
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T06:36:06Z",
+  "synthesis": "Allied reactions to the 20 November Russian missile and drone incursion into Poland converged on a deliberate provocation (Warsaw, Paris, Berlin, London) and NATO solidarity, with Poland seeking stronger eastern-flank air defence at today's North Atlantic Council rather than Article 4. The US President stood apart by calling the incursion a mistake.",
+  "note": "Catch-up edition: the automated runs of 21 and 22 November did not publish, so this report covers the period from the previous edition (20 Nov, 10:20 UTC) to 23 Nov, 06:30 UTC. Kremlin, Chinese and Ukrainian presidential channels were checked without a qualifying new item; parliaments and think tanks were not covered.",
+  "hybridNote": "Hybrid Warfare Tracker could not be read this cycle and the Sahaidachnyi tracker has no entry after 14 Nov; incidents below were found through official statements and press. The drone strike on the Russian cargo ship Sparta II in the Gulf of Finland (21–22 Nov) is not listed: Finland and Russia point to Ukrainian drones, not to hybrid action against a NATO state.",
+  "fr": {
+   "synthesis": "Les réactions alliées à l’incursion de missiles et d’un drone russes en Pologne le 20 novembre convergent vers la thèse d’une provocation délibérée (Varsovie, Paris, Berlin, Londres) et vers la solidarité de l’OTAN ; la Pologne demande un renforcement de la défense aérienne du flanc est au Conseil de l’Atlantique Nord de ce jour, sans invoquer l’article 4. Le président américain fait exception en qualifiant l’incursion d’erreur.",
+   "note": "Édition de rattrapage : les passages automatiques des 21 et 22 novembre n’ont pas publié ; ce rapport couvre la période allant de l’édition précédente (20 nov., 10 h 20 UTC) au 23 nov., 6 h 30 UTC. Les canaux du Kremlin, de la Chine et de la présidence ukrainienne ont été consultés sans élément nouveau retenu ; parlements et think tanks non couverts.",
+   "hybridNote": "Le Hybrid Warfare Tracker n’a pas pu être lu lors de ce cycle et le tracker du Sahaidachnyi Security Center ne comporte aucune entrée après le 14 novembre ; les incidents ci-dessous proviennent de déclarations officielles et de la presse. La frappe de drones contre le cargo russe Sparta II dans le golfe de Finlande (21-22 nov.) n’est pas retenue : la Finlande et la Russie évoquent des drones ukrainiens, et non une action hybride contre un État de l’OTAN."
+  },
+  "items": [
+   {
+    "entity": "NATO",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Mark Rutte",
+    "role": "NATO Secretary General, visit to Warsaw",
+    "topic": "Russian incursion into Poland, eastern flank defence, North Atlantic Council",
+    "date": "2026-11-21",
+    "quotes": [
+     {
+      "text": "NATO will defend every inch of Polish territory.",
+      "label": "paraphrase of pledge reported by Kyiv Post",
+      "paraphrase": true
+     }
+    ],
+    "context": "After consulting Prime Minister Tusk and President Nawrocki, Rutte said SACEUR Gen. Grynkewich is reviewing allied deterrence and defence for weak points, with adjustments to follow if needed; the North Atlantic Council meets on 23 November.",
+    "sourceName": "Kyiv Post",
+    "url": "https://www.kyivpost.com/post/90841",
+    "fr": {
+     "role": "Secrétaire général de l’OTAN, visite à Varsovie",
+     "topic": "Incursion russe en Pologne, défense du flanc est, Conseil de l’Atlantique Nord",
+     "context": "Après s’être entretenu avec le Premier ministre Tusk et le président Nawrocki, M. Rutte a indiqué que le SACEUR, le général Grynkewich, examine les éventuelles failles du dispositif de dissuasion et de défense, avec des ajustements si nécessaire ; le Conseil de l’Atlantique Nord se réunit le 23 novembre.",
+     "quotes": [
+      {
+       "text": "L’OTAN défendra chaque centimètre du territoire polonais.",
+       "label": "paraphrase de l’engagement rapporté par le Kyiv Post"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "POLAND",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Donald Tusk",
+    "role": "Prime Minister",
+    "topic": "Russian missiles on Polish soil, attribution",
+    "date": "2026-11-20",
+    "quotes": [
+     {
+      "text": "It appears that we are dealing with an intentional provocation.",
+      "label": "translated from Polish",
+      "paraphrase": false
+     }
+    ],
+    "context": "Tusk said the assessment that the incursion was no accident is shared by foreign partners, including within NATO, and linked its timing to the multinational exercise under way in south-eastern Poland.",
+    "sourceName": "CBS News",
+    "url": "https://www.cbsnews.com/news/ukraine-war-russia-intentional-provocation-poland-missiles-nato/",
+    "fr": {
+     "role": "Premier ministre",
+     "topic": "Missiles russes sur le sol polonais, attribution",
+     "context": "M. Tusk a indiqué que l’analyse selon laquelle l’incursion n’était pas accidentelle est partagée par des partenaires étrangers, y compris au sein de l’OTAN, et a relié son calendrier à l’exercice multinational en cours dans le sud-est de la Pologne.",
+     "quotes": [
+      {
+       "text": "Il semble que nous ayons affaire à une provocation délibérée.",
+       "label": "traduit du polonais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "POLAND",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Paweł Zalewski",
+    "role": "Deputy Minister of National Defence, Polish representative at the North Atlantic Council",
+    "topic": "North Atlantic Council, Article 4, eastern flank air defence",
+    "date": "2026-11-22",
+    "quotes": [
+     {
+      "text": "There is no need to invoke this fourth article.",
+      "label": "translated from Polish, via RBC-Ukraine citing Polsat News",
+      "paraphrase": false
+     },
+     {
+      "text": "NATO must strengthen air defenses in Poland and on the eastern flank.",
+      "label": "translated from Polish",
+      "paraphrase": false
+     }
+    ],
+    "context": "Poland will present the military details of the 20 November incursion to allies and propose reinforcement measures, choosing a North Atlantic Council discussion over formal Article 4 consultations.",
+    "sourceName": "RBC-Ukraine",
+    "url": "https://newsukraine.rbc.ua/news/poland-wants-nato-to-strengthen-defenses-1795369392.html",
+    "fr": {
+     "role": "Vice-ministre de la Défense nationale, représentant de la Pologne au Conseil de l’Atlantique Nord",
+     "topic": "Conseil de l’Atlantique Nord, article 4, défense aérienne du flanc est",
+     "context": "La Pologne présentera aux Alliés les éléments militaires de l’incursion du 20 novembre et proposera des mesures de renforcement, privilégiant une discussion au Conseil de l’Atlantique Nord plutôt que des consultations formelles au titre de l’article 4.",
+     "quotes": [
+      {
+       "text": "Il n’est pas nécessaire d’invoquer cet article 4.",
+       "label": "traduit du polonais, via RBC-Ukraine citant Polsat News"
+      },
+      {
+       "text": "L’OTAN doit renforcer la défense aérienne en Pologne et sur le flanc est.",
+       "label": "traduit du polonais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UNITED STATES",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Donald Trump",
+    "role": "President, telephone interview with Fox News",
+    "topic": "Russian incursion into Poland",
+    "date": "2026-11-21 (date reported)",
+    "quotes": [
+     {
+      "text": "a couple of little missiles, by mistake",
+      "label": "on Russian drones and missiles landing in Poland",
+      "paraphrase": false
+     }
+    ],
+    "context": "The remark contrasts with the Polish, NATO and European reading of a deliberate provocation; Tusk publicly disagreed on X.",
+    "sourceName": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond",
+    "fr": {
+     "role": "Président, entretien téléphonique avec Fox News",
+     "topic": "Incursion russe en Pologne",
+     "context": "Ce propos tranche avec la lecture polonaise, alliée et européenne d’une provocation délibérée ; M. Tusk a exprimé publiquement son désaccord sur X.",
+     "quotes": [
+      {
+       "text": "quelques petits missiles, par erreur",
+       "label": "à propos des drones et missiles russes tombés en Pologne"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "FRANCE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Emmanuel Macron",
+    "role": "President of the Republic",
+    "topic": "Russian aggressiveness in Europe, Poland, Denmark, Estonia",
+    "date": "2026-11-20 (evening, posted on X)",
+    "quotes": [
+     {
+      "text": "Russia's new aggressiveness",
+      "label": "translated from French · posted on X",
+      "paraphrase": false
+     }
+    ],
+    "context": "Macron expressed solidarity with Poland and Denmark and described Russia's aggressive agenda on European territory as an irresponsible gamble that will only isolate it further and strengthen European unity.",
+    "sourceName": "Blick",
+    "url": "https://www.blick.ch/fr/monde/paris-macron-denonce-une-nouvelle-agressivite-de-la-russie/0fn0fp5",
+    "fr": {
+     "role": "Président de la République",
+     "topic": "Agressivité russe en Europe, Pologne, Danemark, Estonie",
+     "context": "M. Macron a exprimé sa solidarité avec la Pologne et le Danemark et qualifié l’agenda agressif de la Russie sur le territoire européen de pari irresponsable qui ne peut que l’isoler davantage et renforcer l’unité des Européens.",
+     "quotes": [
+      {
+       "text": "nouvelle agressivité de la Russie",
+       "label": "publié sur X"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UNITED KINGDOM",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Andy Burnham",
+    "role": "Prime Minister",
+    "topic": "Russian incursion into Poland",
+    "date": "2026-11-20",
+    "quotes": [
+     {
+      "text": "utterly unacceptable",
+      "label": "on the violation of Polish airspace",
+      "paraphrase": false
+     }
+    ],
+    "context": "London aligned with allied condemnation while British troops take part in the Coalition of the Willing exercise near the impact sites.",
+    "sourceName": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond",
+    "fr": {
+     "role": "Premier ministre",
+     "topic": "Incursion russe en Pologne",
+     "context": "Londres s’aligne sur la condamnation alliée, alors que des troupes britanniques participent à l’exercice de la Coalition des volontaires à proximité des points d’impact.",
+     "quotes": [
+      {
+       "text": "totalement inacceptable",
+       "label": "à propos de la violation de l’espace aérien polonais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Federal Foreign Office",
+    "role": "statement posted on X",
+    "topic": "Russian incursion into Poland, solidarity with ally",
+    "date": "2026-11-20",
+    "quotes": [
+     {
+      "text": "yet another example of Russia's ongoing provocations",
+      "label": "translated from German · posted on X",
+      "paraphrase": false
+     }
+    ],
+    "context": "Berlin stressed it stands firmly with its neighbour and NATO ally Poland.",
+    "sourceName": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond",
+    "fr": {
+     "role": "déclaration publiée sur X",
+     "topic": "Incursion russe en Pologne, solidarité avec un allié",
+     "context": "Berlin a souligné son soutien ferme à son voisin et allié de l’OTAN, la Pologne.",
+     "quotes": [
+      {
+       "text": "un nouvel exemple des provocations continues de la Russie",
+       "label": "traduit de l’allemand · publié sur X"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "LITHUANIA",
+    "tier": 2,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Kęstutis Budrys",
+    "role": "Minister of Foreign Affairs",
+    "topic": "Kaliningrad air alert, Russian accusation, airspace",
+    "date": "2026-11-22",
+    "quotes": [
+     {
+      "text": "categorically rejects false claims",
+      "label": "posted on X, on alleged Lithuanian involvement in a drone attack on Kaliningrad",
+      "paraphrase": false
+     }
+    ],
+    "context": "Responding to the Kaliningrad governor's claim that an object came from Lithuania, Budrys said Lithuania has never allowed its airspace to be used for attacks on Russian targets and detected no drones that night.",
+    "sourceName": "CP24 (AP)",
+    "url": "https://www.cp24.com/news/world/2026/11/22/air-alert-sounds-in-kaliningrad-hours-after-russia-bound-ship-attacked-in-the-gulf-of-finland/",
+    "fr": {
+     "role": "Ministre des Affaires étrangères",
+     "topic": "Alerte aérienne à Kaliningrad, accusation russe, espace aérien",
+     "context": "En réponse au gouverneur de Kaliningrad, selon qui un objet serait venu de Lituanie, M. Budrys a affirmé que la Lituanie n’a jamais laissé utiliser son espace aérien pour des attaques contre des cibles russes et qu’aucun drone n’y a été détecté cette nuit-là.",
+     "quotes": [
+      {
+       "text": "rejette catégoriquement les fausses allégations",
+       "label": "publié sur X, à propos d’une prétendue implication lituanienne dans une attaque de drones contre Kaliningrad"
+      }
+     ]
+    }
+   }
+  ],
+  "hybrid": [
+   {
+    "date": "2026-11-20",
+    "country": "DENMARK",
+    "attribution": "official",
+    "type": "Assassination plot by Russian intelligence",
+    "summary": "Danish security service PET concluded that Russian intelligence services were behind a foiled plot to kill a Ukrainian-American rapper at a concert near Copenhagen, allegedly using members of a banned local gang. Denmark summoned the Russian ambassador and expelled Russia's defence attaché within seven days; the Russian embassy called the move vengeful and unsupported by evidence.",
+    "quote": {
+     "text": "Russian intelligence services attempted to carry out an execution in Denmark",
+     "label": "PET head Rasmus Kieffer-Kristensen"
+    },
+    "actor": "Lars Løkke Rasmussen",
+    "actorRole": "Foreign Minister L. Løkke Rasmussen, press conference",
+    "sourceName": "Al Jazeera",
+    "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper",
+    "fr": {
+     "type": "Projet d’assassinat attribué au renseignement russe",
+     "summary": "Le service de sécurité danois (PET) a conclu que les services de renseignement russes étaient à l’origine d’un projet déjoué d’assassinat d’un rappeur ukraino-américain lors d’un concert près de Copenhague, impliquant selon lui des membres d’un gang local interdit. Le Danemark a convoqué l’ambassadeur de Russie et expulsé l’attaché de défense russe sous sept jours ; l’ambassade de Russie dénonce une mesure vindicative, sans preuve.",
+     "quote": {
+      "text": "les services de renseignement russes ont tenté de procéder à une exécution au Danemark",
+      "label": "Rasmus Kieffer-Kristensen, directeur du PET"
+     },
+     "actorRole": "Ministre des Affaires étrangères L. Løkke Rasmussen, conférence de presse"
+    }
+   },
+   {
+    "date": "2026-11-22",
+    "country": "POLAND",
+    "attribution": "official",
+    "type": "Disinformation campaign after the missile incursion",
+    "summary": "Poland's state counter-disinformation centre reported numerous Russian false messages around the incursion and the Kaliningrad alert. The deputy digital affairs minister named four false narratives, including claims that German troops in Poland coordinated a Ukrainian attack on Kaliningrad and that NATO attacked the exclave, and urged reliance on official Polish sources.",
+    "actor": "Polish authorities",
+    "actorRole": "Polish counter-disinformation centre and Deputy Minister of Digital Affairs",
+    "sourceName": "GSC risk assessment (citing Polish authorities)",
+    "url": "https://www.gscentre.eu/post/disinformation-in-poland-risk-assessment-22-november-2026",
+    "fr": {
+     "type": "Campagne de désinformation après l’incursion de missiles",
+     "summary": "Le centre public polonais de lutte contre la désinformation a relevé de nombreux faux messages russes autour de l’incursion et de l’alerte de Kaliningrad. Le vice-ministre du Numérique a identifié quatre faux récits, notamment l’idée que des troupes allemandes stationnées en Pologne auraient coordonné une attaque ukrainienne contre Kaliningrad et que l’OTAN aurait attaqué l’enclave, et appelé à s’en tenir aux sources officielles polonaises.",
+     "actorRole": "Centre polonais de lutte contre la désinformation et vice-ministre du Numérique"
+    }
+   }
+  ]
+ },
+ {
   "date": "2026-11-20",
   "generatedAt": "2026-11-20T10:20:00Z",
   "synthesis": "On the same day, the Shenzhen Xi–Putin–Trump summit produced a declaration silent on Ukraine while some 40 countries in Berlin committed to fund Ukraine in 2027, set the contact line as the starting point for territorial talks and positioned 'Team Europe' for four-party negotiations. Putin ruled out direct talks with Kyiv after the Crimean bridge strike and invited Europeans to Moscow, which Merz deflected toward a neutral venue.",
