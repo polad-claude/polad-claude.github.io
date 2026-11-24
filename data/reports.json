@@ -1,5 +1,320 @@
 [
  {
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T07:05:00Z",
+  "synthesis": "NATO's response to the 20 November missile incursion took the form of a limited reinforcement (one forward-deployed AWACS) rather than Article 4 consultations, while a further Russian drone entered Polish airspace the same evening. Berlin used the NATO Parliamentary Assembly session to reaffirm deterrence messaging amid unconfirmed reports of a Russian nuclear-armed satellite.",
+  "note": "The hybrid trackers (hwt.lv, sahasec.org, conflictmonitor.uk) could not be read; France24, NPR, the Washington Post and US News were blocked. No qualifying new item found for the United States, France, the United Kingdom, EU institutions or China (the 23 Nov Chinese MFA briefing repeated standard lines on Ukraine); no significant opposition statement found; Tier 2 coverage limited.",
+  "hybridNote": "Trackers unreadable this cycle; incident found through official and press reporting. Not listed: the Kaliningrad drone claims against Lithuania (incident 21 Nov, outside the window; Defence Minister Kaunas called them a psychological operation on 23 Nov); the planned joint investigation team on Starlink arson in Poland, Germany, Lithuania and Bulgaria (incidents Sept–Oct); reports of a Russian nuclear-armed satellite (unverified intelligence, not a hybrid incident).",
+  "fr": {
+   "synthesis": "La réponse de l’OTAN à l’incursion de missiles du 20 novembre a pris la forme d’un renforcement limité (un AWACS en déploiement avancé) plutôt que de consultations au titre de l’article 4, tandis qu’un nouveau drone russe pénétrait dans l’espace aérien polonais le soir même. Berlin a mis à profit la session de l’Assemblée parlementaire de l’OTAN pour réaffirmer son discours de dissuasion, sur fond d’informations non confirmées relatives à un satellite russe à charge nucléaire.",
+   "note": "Les trackers hybrides (hwt.lv, sahasec.org, conflictmonitor.uk) n’ont pas pu être lus ; France24, NPR, le Washington Post et US News étaient inaccessibles. Aucun élément nouveau retenu pour les États-Unis, la France, le Royaume-Uni, les institutions de l’UE ou la Chine (le point de presse du MAE chinois du 23 nov. reprend les éléments de langage habituels sur l’Ukraine) ; aucune déclaration significative de l’opposition relevée ; couverture du Tier 2 limitée.",
+   "hybridNote": "Trackers illisibles lors de ce cycle ; l’incident retenu provient de sources officielles et de presse. Non retenus : les allégations de drone lancé depuis la Lituanie vers Kaliningrad (incident du 21 nov., hors fenêtre ; le ministre de la Défense Kaunas y a vu le 23 nov. une opération psychologique) ; le projet d’équipe commune d’enquête sur les incendies visant Starlink en Pologne, Allemagne, Lituanie et Bulgarie (faits de septembre-octobre) ; les informations sur un satellite russe à charge nucléaire (renseignement non vérifié, pas un incident hybride)."
+  },
+  "items": [
+   {
+    "entity": "NATO",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "North Atlantic Council (spokesperson Allison Hart)",
+    "role": "Statement after the extraordinary NAC meeting requested by Poland",
+    "topic": "Russian missile incursion into Poland, AWACS forward deployment",
+    "date": "2026-11-23",
+    "quotes": [
+     {
+      "text": "Russia bears full responsibility",
+      "label": "NATO statement, as reported by TASS and HNGN",
+      "paraphrase": false
+     }
+    ],
+    "context": "Allies expressed solidarity with Poland; SACEUR authorised the forward deployment of one AWACS aircraft to Poland. Poland did not invoke Article 4. The text of the statement was not found on nato.int at the time of writing.",
+    "sourceName": "HNGN",
+    "url": "https://www.hngn.com/articles/273936/20261123/nato-sends-awacs-poland-says-russia-bears-full-responsibility.htm",
+    "fr": {
+     "role": "Déclaration à l’issue de la réunion extraordinaire du CAN demandée par la Pologne",
+     "topic": "Incursion de missiles russes en Pologne, déploiement avancé d’un AWACS",
+     "context": "Les Alliés ont exprimé leur solidarité avec la Pologne ; le SACEUR a autorisé le déploiement avancé d’un avion AWACS en Pologne. La Pologne n’a pas invoqué l’article 4. Le texte de la déclaration n’était pas disponible sur nato.int au moment de la rédaction.",
+     "quotes": [
+      {
+       "text": "la Russie porte l’entière responsabilité",
+       "label": "déclaration de l’OTAN rapportée par TASS et HNGN, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "NATO",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "official",
+    "actor": "Mark Rutte",
+    "role": "NATO Secretary General, address to the NATO Parliamentary Assembly, Berlin",
+    "topic": "Defence spending, industrial output, support to Ukraine",
+    "date": "2026-11-23",
+    "quotes": [
+     {
+      "text": "Rutte called on national parliaments to vote the budgets needed to meet the new spending commitments.",
+      "label": "paraphrase",
+      "paraphrase": true
+     }
+    ],
+    "context": "Rutte cited Germany's plan to reach 3.5% of GDP on core defence by 2029 and projected allied output of about 4 million artillery shells a year by next year; he recalled the €70 billion goal for military aid to Ukraine in 2026 and 2027 agreed at the Ankara Summit. Later that day, at a press conference with Chancellor Merz, he said NATO would defend every inch of allied territory in response to reports of a Russian nuclear-armed satellite.",
+    "sourceName": "NATO",
+    "url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/11/23/address-by-the-secretary-general-to-the-npa",
+    "fr": {
+     "role": "Secrétaire général de l’OTAN, discours devant l’Assemblée parlementaire de l’OTAN, Berlin",
+     "topic": "Dépenses de défense, production industrielle, soutien à l’Ukraine",
+     "context": "M. Rutte a cité l’objectif allemand de 3,5 % du PIB consacrés à la défense au sens strict d’ici 2029 et une production alliée d’environ 4 millions d’obus d’artillerie par an dès l’an prochain ; il a rappelé l’objectif de 70 milliards d’euros d’aide militaire à l’Ukraine pour 2026 et 2027 fixé au sommet d’Ankara. Plus tard dans la journée, lors d’une conférence de presse avec le chancelier Merz, il a assuré que l’OTAN défendrait chaque parcelle du territoire allié, en réponse aux informations sur un satellite russe à charge nucléaire.",
+     "quotes": [
+      {
+       "text": "M. Rutte a appelé les parlements nationaux à voter les budgets nécessaires pour tenir les nouveaux engagements de dépenses.",
+       "label": "paraphrase"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "official",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine, video address to the NATO Parliamentary Assembly",
+    "topic": "NATO membership, security guarantees, four-party talks, air defence",
+    "date": "2026-11-23",
+    "quotes": [
+     {
+      "text": "NATO with Ukraine means real NATO.",
+      "label": "official English text",
+      "paraphrase": false
+     }
+    ],
+    "context": "Zelensky called for a four-party meeting of Ukraine, Europe, the United States and Russia as soon as possible, before Christmas according to partners, and asked for clear answers on guarantees: which states, which troops and at what cost. In his evening address he asked Washington for decisions on Patriot missiles and said Gripens are expected in January.",
+    "sourceName": "Office of the President of Ukraine",
+    "url": "https://www.president.gov.ua/en/news/vdyachnij-usim-hto-prosuvaye-same-cyu-ideyu-nato-z-ukrayinoy-107453",
+    "fr": {
+     "role": "Président de l’Ukraine, allocution vidéo devant l’Assemblée parlementaire de l’OTAN",
+     "topic": "Adhésion à l’OTAN, garanties de sécurité, pourparlers à quatre, défense aérienne",
+     "context": "M. Zelensky a appelé à une réunion à quatre (Ukraine, Europe, États-Unis, Russie) dans les meilleurs délais, avant Noël selon les partenaires, et demandé des réponses claires sur les garanties : quels États, quelles troupes, quel coût. Dans son allocution du soir, il a demandé à Washington des décisions sur les missiles Patriot et annoncé l’arrivée de Gripen en janvier.",
+     "quotes": [
+      {
+       "text": "L’OTAN avec l’Ukraine, c’est la vraie OTAN.",
+       "label": "texte officiel anglais, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "POLAND",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Paweł Zalewski",
+    "role": "Deputy Minister of National Defence, briefing after the North Atlantic Council",
+    "topic": "AWACS deployment, eastern flank air defence",
+    "date": "2026-11-23",
+    "quotes": [
+     {
+      "text": "one AWACS early warning aircraft will be placed at Poland's disposal",
+      "label": "translated from Polish",
+      "paraphrase": false
+     }
+    ],
+    "context": "Zalewski said NATO ambassadors expressed full solidarity, that SACEUR is considering additional forces for the region and that talks continue next week ahead of the foreign ministers' meeting. Defence Minister Kosiniak-Kamysz said on X that allied early-warning aircraft were already reinforcing protection of Polish airspace.",
+    "sourceName": "Radio Lublin (PAP)",
+    "url": "https://radio.lublin.pl/2026/11/szef-mon-sojusznicze-samoloty-wczesnego-ostrzegania-juz-wzmacniaja-ochrone-polskiego-nieba/",
+    "fr": {
+     "role": "Vice-ministre de la Défense nationale, point de presse après le Conseil de l’Atlantique Nord",
+     "topic": "Déploiement d’un AWACS, défense aérienne du flanc est",
+     "context": "M. Zalewski a indiqué que les ambassadeurs de l’OTAN avaient exprimé leur pleine solidarité, que le SACEUR envisage des forces supplémentaires pour la région et que les discussions se poursuivront la semaine prochaine avant la réunion des ministres des Affaires étrangères. Le ministre de la Défense Kosiniak-Kamysz a indiqué sur X que des avions alliés de détection avancée renforcent déjà la protection de l’espace aérien polonais.",
+     "quotes": [
+      {
+       "text": "un avion de détection avancée AWACS sera mis à la disposition de la Pologne",
+       "label": "traduit du polonais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Friedrich Merz",
+    "role": "Federal Chancellor, joint press conference with the NATO Secretary General, Berlin",
+    "topic": "Russian provocations, Baltic Sea, reported nuclear-armed satellite",
+    "date": "2026-11-23",
+    "quotes": [
+     {
+      "text": "Merz called on Russia to stop its dangerous provocations.",
+      "label": "paraphrase of Reuters report",
+      "paraphrase": true
+     }
+    ],
+    "context": "Merz said no NATO member has any interest in escalation in the Baltic Sea region and called reports that Russia is preparing to launch a nuclear-capable satellite shocking. German media report allied intelligence pointing to a possible launch within 60 days; the source of that intelligence is unclear.",
+    "sourceName": "Reuters (via Yahoo News)",
+    "url": "https://uk.news.yahoo.com/germanys-merz-accuses-russia-dangerous-150353774.html",
+    "fr": {
+     "role": "Chancelier fédéral, conférence de presse conjointe avec le secrétaire général de l’OTAN, Berlin",
+     "topic": "Provocations russes, mer Baltique, satellite à charge nucléaire",
+     "context": "M. Merz a affirmé qu’aucun membre de l’OTAN n’a intérêt à une escalade en mer Baltique et jugé « choquantes » les informations selon lesquelles la Russie préparerait le lancement d’un satellite à capacité nucléaire. Des médias allemands font état de renseignements alliés évoquant un lancement possible sous 60 jours ; leur origine n’est pas établie.",
+     "quotes": [
+      {
+       "text": "M. Merz a appelé la Russie à cesser ses provocations dangereuses.",
+       "label": "paraphrase de la dépêche Reuters"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "official",
+    "actor": "Boris Pistorius",
+    "role": "Federal Minister of Defence, meeting with Ukrainian Defence Minister Evgeniy Khmara, Berlin",
+    "topic": "German-Ukrainian defence industrial cooperation",
+    "date": "2026-11-23",
+    "quotes": [
+     {
+      "text": "And we are expanding this strategic cooperation further.",
+      "label": "translated from German",
+      "paraphrase": false
+     }
+    ],
+    "context": "Germany will fund about €34 million of production capacity for the Ukrainian Babka reconnaissance drone through a joint venture; the two ministers signed a memorandum of intent on the Delta battle-management system. Pistorius said Ukraine has the right to strike military targets in Russia and that the war must not spread to the Baltic region.",
+    "sourceName": "Federal Ministry of Defence (BMVg)",
+    "url": "https://www.bmvg.de/de/aktuelles/antrittsbesuch-amtskollege-ukraine-6174352",
+    "fr": {
+     "role": "Ministre fédéral de la Défense, entretien avec le ministre ukrainien de la Défense Evgueni Khmara, Berlin",
+     "topic": "Coopération industrielle de défense germano-ukrainienne",
+     "context": "L’Allemagne financera environ 34 millions d’euros de capacités de production pour le drone de reconnaissance ukrainien Babka via une coentreprise ; les deux ministres ont signé une déclaration d’intention sur le système de gestion du champ de bataille Delta. M. Pistorius a affirmé le droit de l’Ukraine de frapper des cibles militaires en Russie et souligné que la guerre ne doit pas s’étendre à la région baltique.",
+     "quotes": [
+      {
+       "text": "Et nous continuons de développer cette coopération stratégique.",
+       "label": "traduit de l’allemand"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Johann Wadephul",
+    "role": "Federal Foreign Minister, address to the NATO Parliamentary Assembly, Berlin",
+    "topic": "Deterrence on the eastern flank, appeal to end the war",
+    "date": "2026-11-23",
+    "quotes": [
+     {
+      "text": "Protecting Vilnius is protecting Berlin.",
+      "label": "translated from the German-language report of remarks made in English",
+      "paraphrase": false
+     }
+    ],
+    "context": "Wadephul called on Putin to end the war and come to the negotiating table, and reaffirmed Germany's commitment to defend allied territory; the official transcript was not located.",
+    "sourceName": "n-tv (via Headtopics)",
+    "url": "https://de.headtopics.com/news/wadephul-fordert-putin-zum-waffenstillstand-auf-90100705",
+    "fr": {
+     "role": "Ministre fédéral des Affaires étrangères, discours devant l’Assemblée parlementaire de l’OTAN, Berlin",
+     "topic": "Dissuasion sur le flanc est, appel à mettre fin à la guerre",
+     "context": "M. Wadephul a appelé M. Poutine à mettre fin à la guerre et à venir à la table des négociations, et réaffirmé l’engagement allemand à défendre le territoire allié ; la transcription officielle n’a pas été trouvée.",
+     "quotes": [
+      {
+       "text": "Protéger Vilnius, c’est protéger Berlin.",
+       "label": "traduit de l’allemand (propos tenus en anglais)"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Dmitry Peskov",
+    "role": "Kremlin spokesman",
+    "topic": "Reports of a Russian nuclear-armed satellite",
+    "date": "2026-11-24 (date reported)",
+    "quotes": [
+     {
+      "text": "hardly worth taking seriously",
+      "label": "as reported by the BBC",
+      "paraphrase": false
+     }
+    ],
+    "context": "Peskov said he had not seen the latest reports; the Russian embassy in Berlin called them a propaganda campaign. The reports, carried by NDR, WDR and Süddeutsche Zeitung, refer to a satellite dubbed Sputnik-S.",
+    "sourceName": "BBC (via Yahoo News)",
+    "url": "https://www.yahoo.com/news/world/articles/nato-chief-vows-defence-against-021604025.html",
+    "fr": {
+     "role": "Porte-parole du Kremlin",
+     "topic": "Informations sur un satellite russe à charge nucléaire",
+     "context": "M. Peskov a précisé ne pas avoir vu les dernières informations ; l’ambassade de Russie à Berlin dénonce une campagne de propagande. Les informations, publiées par NDR, WDR et la Süddeutsche Zeitung, évoquent un satellite baptisé Sputnik-S.",
+     "quotes": [
+      {
+       "text": "ne méritant guère d’être pris au sérieux",
+       "label": "rapporté par la BBC, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "NATO PARLIAMENTARY ASSEMBLY",
+    "tier": 2,
+    "category": "parliament",
+    "sourceType": "official",
+    "actor": "NATO Parliamentary Assembly / Ukraine-NATO Interparliamentary Council",
+    "role": "72nd Annual Session, Berlin",
+    "topic": "Defence-industrial partnership with Ukraine, rebalancing within NATO",
+    "date": "2026-11-22",
+    "quotes": [
+     {
+      "text": "The resolution calls for a sustained shift from short-term aid to a defence-industrial partnership with Ukraine.",
+      "label": "paraphrase",
+      "paraphrase": true
+     }
+    ],
+    "context": "More than 270 legislators attended the session; draft resolutions on rebalancing responsibilities within NATO, the defence industrial base and the Arctic were also debated.",
+    "sourceName": "NATO Parliamentary Assembly",
+    "url": "https://www.nato-pa.int/news/nato-parliamentarians-call-step-change-allied-defence",
+    "docType": "Resolution (Ukraine-NATO Interparliamentary Council)",
+    "status": "Adopted",
+    "fr": {
+     "role": "72e session annuelle, Berlin",
+     "topic": "Partenariat industriel de défense avec l’Ukraine, rééquilibrage au sein de l’OTAN",
+     "context": "Plus de 270 parlementaires ont participé à la session ; des projets de résolution sur le rééquilibrage des responsabilités au sein de l’OTAN, la base industrielle de défense et l’Arctique ont également été débattus.",
+     "quotes": [
+      {
+       "text": "La résolution appelle à passer durablement d’une aide de court terme à un partenariat industriel de défense avec l’Ukraine.",
+       "label": "paraphrase"
+      }
+     ],
+     "docType": "Résolution (Conseil interparlementaire Ukraine-OTAN)",
+     "status": "Adoptée"
+    }
+   }
+  ],
+  "hybrid": [
+   {
+    "date": "2026-11-23",
+    "country": "POLAND",
+    "attribution": "official",
+    "type": "Airspace incursion (drone)",
+    "summary": "A Russian jet-powered reconnaissance drone entered Polish airspace near Dorohusk (Lublin region) for several minutes late on 23 November during Russian strikes on western Ukraine, then returned to Ukraine. Air defence was activated and its destruction authorised, but commanders held fire for civilian-safety reasons. It is the second incursion in four days after the 20 November missile incident.",
+    "actor": "Armed Forces Operational Command",
+    "actorRole": "Polish Armed Forces Operational Command, statement",
+    "sourceName": "Kyiv Post",
+    "url": "https://www.kyivpost.com/post/90985",
+    "fr": {
+     "type": "Incursion aérienne (drone)",
+     "summary": "Un drone de reconnaissance russe à réaction a pénétré pendant plusieurs minutes dans l’espace aérien polonais près de Dorohusk (région de Lublin) dans la soirée du 23 novembre, lors de frappes russes sur l’ouest de l’Ukraine, avant de regagner l’Ukraine. La défense aérienne a été activée et sa destruction autorisée, mais les commandants n’ont pas ouvert le feu pour des raisons de sécurité des civils. Il s’agit de la deuxième incursion en quatre jours après l’incident des missiles du 20 novembre.",
+     "actorRole": "Commandement opérationnel des forces armées polonaises, communiqué"
+    }
+   }
+  ]
+ },
+ {
   "date": "2026-11-23",
   "generatedAt": "2026-11-23T06:36:06Z",
   "synthesis": "Allied reactions to the 20 November Russian missile and drone incursion into Poland converged on a deliberate provocation (Warsaw, Paris, Berlin, London) and NATO solidarity, with Poland seeking stronger eastern-flank air defence at today's North Atlantic Council rather than Article 4. The US President stood apart by calling the incursion a mistake.",
