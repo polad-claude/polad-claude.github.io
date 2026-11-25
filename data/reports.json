@@ -1,5 +1,314 @@
 [
  {
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T05:45:00Z",
+  "synthesis": "Diplomacy on a settlement is accelerating around Washington: Kyiv signals readiness for a rapid US-brokered deal while Moscow questions any European seat at the table, and NATO's Secretary General meets President Trump on 25 November. Poland is preparing strategic decisions on allied support after Warsaw judged the 23 November drone incursion deliberate.",
+  "note": "The three hybrid trackers could not be read; consilium.europa.eu (Costa invitation letter for the 26–27 Nov special European Council), pravda.com.ua, pap.pl, iz.ru, sejm.gov.pl and NBC News returned errors. No qualifying in-window item for the United States, France, the United Kingdom, EU institutions or China (the 24 Nov Chinese MFA briefing repeated standard lines); no significant opposition statement; no Tier 2 item confirmed within its window; Russian items rely on relays.",
+  "hybridNote": "Trackers hwt.lv, sahasec.org and conflictmonitor.uk unreadable; incidents found through official and press reporting. Not listed: GPS jamming affecting some 140 flights over the UK and North Sea (9 Nov, Russian involvement unconfirmed); attempted arson at Threod Systems near Tallinn (14 Nov); an earlier Polish airspace object reported for 22 Nov (date unreconciled); a possible separate Tulcea alert on 23 Nov (unverified); Medvedev's article on preventive nuclear strikes (original date unconfirmed, not a hybrid incident).",
+  "fr": {
+   "synthesis": "La diplomatie du règlement s’accélère autour de Washington : Kyiv se dit prêt à un accord rapide sous médiation américaine tandis que Moscou conteste toute place européenne à la table, et le Secrétaire général de l’OTAN rencontre le président Trump le 25 novembre. La Pologne prépare des décisions stratégiques sur le soutien allié après avoir jugé délibérée l’incursion de drone du 23 novembre.",
+   "note": "Les trois trackers hybrides n’ont pas pu être lus ; consilium.europa.eu (lettre d’invitation de M. Costa pour le Conseil européen extraordinaire des 26-27 nov.), pravda.com.ua, pap.pl, iz.ru, sejm.gov.pl et NBC News ont renvoyé des erreurs. Aucun élément retenu dans la fenêtre pour les États-Unis, la France, le Royaume-Uni, les institutions de l’UE ou la Chine (le point de presse du MAE chinois du 24 nov. reprend les éléments de langage habituels) ; aucune déclaration significative de l’opposition ; aucun élément du Tier 2 confirmé dans sa fenêtre ; les éléments russes reposent sur des relais.",
+   "hybridNote": "Trackers hwt.lv, sahasec.org et conflictmonitor.uk illisibles ; incidents identifiés par des sources officielles et de presse. Non retenus : brouillage GPS ayant affecté quelque 140 vols au-dessus du Royaume-Uni et de la mer du Nord (9 nov., implication russe non confirmée) ; tentative d’incendie chez Threod Systems près de Tallinn (14 nov.) ; un objet signalé dans l’espace aérien polonais le 22 nov. (date non recoupée) ; une éventuelle alerte distincte à Tulcea le 23 nov. (non vérifiée) ; l’article de M. Medvedev sur des frappes nucléaires préventives (date d’origine non confirmée, pas un incident hybride)."
+  },
+  "items": [
+   {
+    "entity": "NATO",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "official",
+    "actor": "Mark Rutte",
+    "role": "NATO Secretary General (media advisory)",
+    "topic": "Visit to the United States, meeting with President Trump",
+    "date": "2026-11-24",
+    "quotes": [
+     {
+      "text": "Rutte travels to Florida on 24–25 November and meets President Trump and senior Administration officials at Mar-a-Lago on 25 November.",
+      "label": "paraphrase of NATO media advisory",
+      "paraphrase": true
+     }
+    ],
+    "context": "The visit follows the 23 November extraordinary North Atlantic Council on the Russian missile incursion into Poland and Kyiv's push for four-party talks. No media opportunity is planned.",
+    "sourceName": "NATO",
+    "url": "https://www.nato.int/en/news-and-events/events/media-advisories/2026/11/24/nato-secretary-general-to-visit-the-united-states-of-america",
+    "fr": {
+     "role": "Secrétaire général de l’OTAN (avis aux médias)",
+     "topic": "Visite aux États-Unis, rencontre avec le président Trump",
+     "context": "La visite intervient après le Conseil de l’Atlantique Nord extraordinaire du 23 novembre consacré à l’incursion de missiles russes en Pologne et alors que Kyiv pousse à des pourparlers quadripartites. Aucun point presse n’est prévu.",
+     "quotes": [
+      {
+       "text": "M. Rutte se rend en Floride les 24 et 25 novembre et rencontre le président Trump et de hauts responsables de l’Administration à Mar-a-Lago le 25 novembre.",
+       "label": "paraphrase de l’avis aux médias de l’OTAN"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine (Bloomberg interview)",
+    "topic": "Settlement talks, US envoys, Patriot interceptors",
+    "date": "2026-11-24",
+    "quotes": [
+     {
+      "text": "We very much want peace too, but not at Ukraine's expense alone.",
+      "label": "Bloomberg interview, as reported by Ukrinform",
+      "paraphrase": false
+     },
+     {
+      "text": "There's a desire to move very quickly, both we and the Russians understand that.",
+      "label": "Bloomberg interview, as reported by European Pravda",
+      "paraphrase": false
+     }
+    ],
+    "context": "Zelensky said US envoys Witkoff and Kushner want a rapid deal and asked Washington to cover Ukraine's Patriot interceptor needs at least through December; if no deal is reached he would turn to the new US Congress for more aid and sanctions. The interview may have been recorded before publication.",
+    "sourceName": "Ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4188059-zelensky-to-reach-out-to-new-us-congress-if-trump-fails-to-reach-deal-with-putin-to-end-war.html",
+    "fr": {
+     "role": "Président de l’Ukraine (entretien à Bloomberg)",
+     "topic": "Négociations de règlement, émissaires américains, intercepteurs Patriot",
+     "context": "M. Zelensky indique que les émissaires américains Witkoff et Kushner souhaitent un accord rapide et demande à Washington de couvrir les besoins ukrainiens en intercepteurs Patriot au moins jusqu’à fin décembre ; faute d’accord, il se tournerait vers le nouveau Congrès pour obtenir davantage d’aide et de sanctions. L’entretien a pu être enregistré avant sa publication.",
+     "quotes": [
+      {
+       "text": "Nous voulons nous aussi vraiment la paix, mais pas aux seuls dépens de l’Ukraine.",
+       "label": "entretien à Bloomberg rapporté par Ukrinform, traduit de l’anglais"
+      },
+      {
+       "text": "Il y a une volonté d’avancer très vite, nous comme les Russes le comprenons.",
+       "label": "entretien à Bloomberg rapporté par European Pravda, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine (Bloomberg interview)",
+    "topic": "Strike on a Russian cargo ship in the Gulf of Finland, Baltic Sea concerns",
+    "date": "2026-11-24",
+    "quotes": [
+     {
+      "text": "some European partners are worried when something is happening in the Baltic Sea",
+      "label": "Bloomberg interview, as reported by Ukrinform",
+      "paraphrase": false
+     }
+    ],
+    "context": "Zelensky confirmed the 21 November strike on the cargo ship Sparta II, which he said carried weapons and was hit in Russian waters before drifting into Finnish waters; he instructed officials to brief partners in advance to avoid surprises. The statement bears on Baltic and NATO maritime security.",
+    "sourceName": "Ukrinform",
+    "url": "https://www.ukrinform.net/rubric-ato/4188087-zelensky-confirms-strike-on-russian-ship-in-gulf-of-finland.html",
+    "fr": {
+     "role": "Président de l’Ukraine (entretien à Bloomberg)",
+     "topic": "Frappe contre un cargo russe dans le golfe de Finlande, préoccupations en mer Baltique",
+     "context": "M. Zelensky a confirmé la frappe du 21 novembre contre le cargo Sparta II, qui transportait selon lui des armes et a été touché dans les eaux russes avant de dériver vers les eaux finlandaises ; il a demandé que les partenaires soient informés en amont afin d’éviter toute surprise. La déclaration touche à la sécurité maritime de la Baltique et de l’OTAN.",
+     "quotes": [
+      {
+       "text": "certains partenaires européens s’inquiètent lorsque quelque chose se passe en mer Baltique",
+       "label": "entretien à Bloomberg rapporté par Ukrinform, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine (remarks in Chop, Zakarpattia)",
+    "topic": "Conditions for a ceasefire",
+    "date": "2026-11-24",
+    "quotes": [
+     {
+      "text": "Russia will accept a ceasefire if it cannot wear Ukraine down; territorial concessions would not work.",
+      "label": "paraphrase of remarks reported by Ukrinform",
+      "paraphrase": true
+     }
+    ],
+    "context": "Speaking to the Congress of Local and Regional Authorities, Zelensky cited Russian losses of more than 50,000 troops a month and said that ceding territory would not end the war because Moscow would deceive Kyiv.",
+    "sourceName": "Ukrinform",
+    "url": "https://www.ukrinform.net/rubric-polytics/4188229-zelensky-outlines-what-could-force-russia-to-agree-to-a-ceasefire.html",
+    "fr": {
+     "role": "Président de l’Ukraine (propos tenus à Tchop, Transcarpatie)",
+     "topic": "Conditions d’un cessez-le-feu",
+     "context": "S’exprimant devant le Congrès des pouvoirs locaux et régionaux, M. Zelensky a fait état de pertes russes supérieures à 50 000 hommes par mois et estimé que céder du territoire ne mettrait pas fin à la guerre, Moscou étant selon lui appelée à tromper Kyiv.",
+     "quotes": [
+      {
+       "text": "La Russie acceptera un cessez-le-feu si elle ne parvient pas à épuiser l’Ukraine ; des concessions territoriales ne fonctionneraient pas.",
+       "label": "paraphrase de propos rapportés par Ukrinform"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "POLAND",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Władysław Kosiniak-Kamysz",
+    "role": "Deputy Prime Minister and Minister of National Defence (posted on X)",
+    "topic": "Airspace violations, NATO support, AWACS, permanent US base",
+    "date": "2026-11-24",
+    "quotes": [
+     {
+      "text": "Important weeks lie ahead for cooperation with the USA and NATO",
+      "label": "posted on X, as reported by Defence24, translated from Polish",
+      "paraphrase": false
+     }
+    ],
+    "context": "He convened the government's national security committee on the airspace violations of 20 and 23 November; the agenda covered allied support including AWACS and a permanent US base. No outcome had been published at the time of writing.",
+    "sourceName": "Defence24",
+    "url": "https://defence24.pl/polityka-obronna/naruszenia-przestrzeni-powietrznej-posiedzenie-komitetu-ds-bezpieczenstwa-narodowego",
+    "fr": {
+     "role": "Vice-Premier ministre et ministre de la Défense nationale (publié sur X)",
+     "topic": "Violations de l’espace aérien, soutien de l’OTAN, AWACS, base américaine permanente",
+     "context": "Il a réuni le comité gouvernemental pour la sécurité nationale sur les violations de l’espace aérien des 20 et 23 novembre ; l’ordre du jour portait sur le soutien allié, dont les AWACS, et sur une base américaine permanente. Aucune conclusion n’avait été publiée au moment de la rédaction.",
+     "quotes": [
+      {
+       "text": "Des semaines importantes s’annoncent pour la coopération avec les États-Unis et l’OTAN",
+       "label": "publié sur X, rapporté par Defence24, traduit du polonais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "parliament",
+    "sourceType": "official",
+    "actor": "Deutscher Bundestag",
+    "role": "Plenary, second reading of the 2027 defence budget (Einzelplan 14)",
+    "topic": "2027 defence budget",
+    "date": "2026-11-24 (vote scheduled 25 Nov)",
+    "quotes": [
+     {
+      "text": "Defence spending is set to reach €139.4bn in 2027, including €29.6bn from the Bundeswehr special fund.",
+      "label": "paraphrase of Bundestag text archive",
+      "paraphrase": true
+     }
+    ],
+    "context": "The vote follows a 90-minute debate on 25 November; the Budget Committee adopted the budget on 13 November, trimming €305m from the special-fund share. Procurement exceeds €60bn, the highest level since the Cold War.",
+    "sourceName": "Deutscher Bundestag",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-verteidigung-1232490",
+    "docType": "Budget bill",
+    "status": "Vote scheduled 25 November",
+    "fr": {
+     "role": "Séance plénière, deuxième lecture du budget de la défense 2027 (Einzelplan 14)",
+     "topic": "Budget de la défense 2027",
+     "context": "Le vote suit un débat de 90 minutes le 25 novembre ; la commission du budget a adopté le texte le 13 novembre en réduisant de 305 M€ la part du fonds spécial. Les acquisitions dépassent 60 Md€, niveau inédit depuis la guerre froide.",
+     "quotes": [
+      {
+       "text": "Les dépenses de défense doivent atteindre 139,4 Md€ en 2027, dont 29,6 Md€ issus du fonds spécial de la Bundeswehr.",
+       "label": "paraphrase des archives du Bundestag"
+      }
+     ],
+     "docType": "Projet de loi de finances",
+     "status": "Vote prévu le 25 novembre"
+    }
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Dmitry Peskov",
+    "role": "Kremlin spokesman (remarks in Minsk)",
+    "topic": "Europe's role in Ukraine talks, four-party format",
+    "date": "2026-11-24",
+    "quotes": [
+     {
+      "text": "We do not yet fully understand what added value would arise from the participation of Europeans",
+      "label": "as reported by TASS, translated from Russian",
+      "paraphrase": false
+     }
+    ],
+    "context": "Responding to Kyiv's call for four-party talks, Peskov said Moscow was still assessing the format; no date is set for the next trilateral round, but negotiations should continue.",
+    "sourceName": "TASS",
+    "url": "https://tass.com/politics/2223947",
+    "fr": {
+     "role": "Porte-parole du Kremlin (propos tenus à Minsk)",
+     "topic": "Rôle de l’Europe dans les négociations sur l’Ukraine, format quadripartite",
+     "context": "En réponse à l’appel de Kyiv à des pourparlers quadripartites, M. Peskov a indiqué que Moscou évaluait encore ce format ; aucune date n’est fixée pour le prochain cycle trilatéral, mais les négociations doivent se poursuivre.",
+     "quotes": [
+      {
+       "text": "Nous ne comprenons pas encore pleinement quelle valeur ajoutée apporterait la participation des Européens",
+       "label": "rapporté par TASS, traduit du russe"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Georgy Mikhno",
+    "role": "Russian diplomatic representative in Warsaw",
+    "topic": "Polish démarche on the 20 November missile incursion",
+    "date": "2026-11-24",
+    "quotes": [
+     {
+      "text": "No convincing and verifiable evidence has been presented to date.",
+      "label": "as reported by EADaily citing AFP, translated from Russian",
+      "paraphrase": false
+     }
+    ],
+    "context": "The Polish foreign ministry summoned the Russian representative and handed him a sharply worded note after identifying three Kh-101 missiles in Polish airspace; he rejected the accusations. His exact diplomatic rank is unconfirmed and no official Russian text was found.",
+    "sourceName": "EADaily",
+    "url": "https://eadaily.com/ru/news/2026/11/24/tri-rakety-h-101-zamshevye-polsha-vyzvala-rossiyskogo-posla-posle-zaleta",
+    "fr": {
+     "role": "Représentant diplomatique russe à Varsovie",
+     "topic": "Démarche polonaise sur l’incursion de missiles du 20 novembre",
+     "context": "Le ministère polonais des Affaires étrangères a convoqué le représentant russe et lui a remis une note au ton sévère après avoir identifié trois missiles Kh-101 dans l’espace aérien polonais ; il a rejeté les accusations. Son rang diplomatique exact n’est pas confirmé et aucun texte officiel russe n’a été trouvé.",
+     "quotes": [
+      {
+       "text": "Aucune preuve convaincante et vérifiable n’a été présentée à ce jour.",
+       "label": "rapporté par EADaily citant l’AFP, traduit du russe"
+      }
+     ]
+    }
+   }
+  ],
+  "hybrid": [
+   {
+    "date": "2026-11-23",
+    "country": "POLAND",
+    "attribution": "official",
+    "type": "Airspace incursion (drone)",
+    "summary": "Follow-up to the jet-powered Russian drone that flew about 20 km into Polish airspace for roughly nine minutes late on 23 November. On 24 November the Defence Ministry said it considered the incursion deliberate. Ground-based air defence was cleared to fire but held off to avoid civilian harm; fighters were not scrambled due to weather.",
+    "actor": "Paweł Zalewski",
+    "actorRole": "Deputy Minister of National Defence, interview with RMF24",
+    "sourceName": "European Pravda",
+    "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250673/",
+    "fr": {
+     "type": "Incursion aérienne (drone)",
+     "summary": "Suivi de l’incursion du drone russe à réaction qui a pénétré d’environ 20 km dans l’espace aérien polonais pendant près de neuf minutes dans la soirée du 23 novembre. Le 24 novembre, le ministère de la Défense a estimé que l’incursion était délibérée. La défense sol-air avait reçu l’autorisation de tirer mais s’en est abstenue pour éviter des dommages aux civils ; les chasseurs n’ont pas décollé en raison de la météo.",
+     "actorRole": "Vice-ministre de la Défense nationale, entretien à RMF24"
+    }
+   },
+   {
+    "date": "2026-11-24",
+    "country": "ROMANIA",
+    "attribution": "pattern",
+    "type": "Airspace threat (drone near the border)",
+    "summary": "Romanian military radar detected an aerial target, presumed to be a Russian strike drone, in Ukrainian airspace north of Tulcea; an RO-Alert air-raid warning was issued from 11:11 to 11:51 local time. Two Spanish F-18s on NATO air policing took off from Mihail Kogălniceanu. The Defence Ministry reported no violation of Romanian airspace.",
+    "actor": "Ministry of National Defence (MApN)",
+    "actorRole": "Romanian Defence Ministry, National Military Command Center",
+    "sourceName": "BZI.ro",
+    "url": "https://www.bzi.ro/alerta-aeriana-in-judetul-tulcea-o-drona-a-fost-detectata-in-apropierea-granitei-cu-romania-doua-avioane-f-18-au-decolat-de-la-baza-mihail-kogalniceanu-5647636",
+    "fr": {
+     "type": "Menace aérienne (drone à proximité de la frontière)",
+     "summary": "Les radars militaires roumains ont détecté une cible aérienne, présumée être un drone d’attaque russe, dans l’espace aérien ukrainien au nord de Tulcea ; une alerte RO-Alert a été diffusée de 11 h 11 à 11 h 51, heure locale. Deux F-18 espagnols assurant la police du ciel de l’OTAN ont décollé de Mihail Kogălniceanu. Le ministère de la Défense n’a signalé aucune violation de l’espace aérien roumain.",
+     "actorRole": "Ministère roumain de la Défense, Centre de commandement militaire national"
+    }
+   }
+  ]
+ },
+ {
   "date": "2026-11-24",
   "generatedAt": "2026-11-24T07:05:00Z",
   "synthesis": "NATO's response to the 20 November missile incursion took the form of a limited reinforcement (one forward-deployed AWACS) rather than Article 4 consultations, while a further Russian drone entered Polish airspace the same evening. Berlin used the NATO Parliamentary Assembly session to reaffirm deterrence messaging amid unconfirmed reports of a Russian nuclear-armed satellite.",
