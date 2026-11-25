@@ -3,12 +3,12 @@
   "date": "2026-11-25",
   "generatedAt": "2026-11-25T05:45:00Z",
   "synthesis": "Diplomacy on a settlement is accelerating around Washington: Kyiv signals readiness for a rapid US-brokered deal while Moscow questions any European seat at the table, and NATO's Secretary General meets President Trump on 25 November. Poland is preparing strategic decisions on allied support after Warsaw judged the 23 November drone incursion deliberate.",
-  "note": "The three hybrid trackers could not be read; consilium.europa.eu (Costa invitation letter for the 26–27 Nov special European Council), pravda.com.ua, pap.pl, iz.ru, sejm.gov.pl and NBC News returned errors. No qualifying in-window item for the United States, France, the United Kingdom, EU institutions or China (the 24 Nov Chinese MFA briefing repeated standard lines); no significant opposition statement; no Tier 2 item confirmed within its window; Russian items rely on relays.",
-  "hybridNote": "Trackers hwt.lv, sahasec.org and conflictmonitor.uk unreadable; incidents found through official and press reporting. Not listed: GPS jamming affecting some 140 flights over the UK and North Sea (9 Nov, Russian involvement unconfirmed); attempted arson at Threod Systems near Tallinn (14 Nov); an earlier Polish airspace object reported for 22 Nov (date unreconciled); a possible separate Tulcea alert on 23 Nov (unverified); Medvedev's article on preventive nuclear strikes (original date unconfirmed, not a hybrid incident).",
+  "note": "The hybrid trackers were unreadable during the scheduled run and were screened afterwards; consilium.europa.eu (Costa invitation letter for the 26–27 Nov special European Council), pravda.com.ua, pap.pl, iz.ru, sejm.gov.pl and NBC News returned errors. No qualifying in-window item for the United States, France, the United Kingdom, EU institutions or China (the 24 Nov Chinese MFA briefing repeated standard lines); no significant opposition statement; no Tier 2 item confirmed within its window; Russian items rely on relays.",
+  "hybridNote": "Hybrid War Tracker (hwt.lv) screened after the domains were enabled; sahasec.org loads its data by script and conflictmonitor.uk renders only by JavaScript, so neither yielded incidents. Discarded: hwt.lv signals for 23–24 Nov supported only by posts on X (GPS jamming over Sweden, drones over Germany, disinformation and a reported cross-border incident in Estonia, arms trafficking in the UK); an Estonian treason case listed for 24 Nov that dates from October 2025; the tagesschau report on a Russian satellite (not a hybrid incident). Also not listed: GPS jamming affecting some 140 flights over the UK and North Sea (9 Nov, Russian involvement unconfirmed); attempted arson at Threod Systems near Tallinn (14 Nov); an earlier Polish airspace object reported for 22 Nov (date unreconciled); a possible separate Tulcea alert on 23 Nov (unverified).",
   "fr": {
    "synthesis": "La diplomatie du règlement s’accélère autour de Washington : Kyiv se dit prêt à un accord rapide sous médiation américaine tandis que Moscou conteste toute place européenne à la table, et le Secrétaire général de l’OTAN rencontre le président Trump le 25 novembre. La Pologne prépare des décisions stratégiques sur le soutien allié après avoir jugé délibérée l’incursion de drone du 23 novembre.",
-   "note": "Les trois trackers hybrides n’ont pas pu être lus ; consilium.europa.eu (lettre d’invitation de M. Costa pour le Conseil européen extraordinaire des 26-27 nov.), pravda.com.ua, pap.pl, iz.ru, sejm.gov.pl et NBC News ont renvoyé des erreurs. Aucun élément retenu dans la fenêtre pour les États-Unis, la France, le Royaume-Uni, les institutions de l’UE ou la Chine (le point de presse du MAE chinois du 24 nov. reprend les éléments de langage habituels) ; aucune déclaration significative de l’opposition ; aucun élément du Tier 2 confirmé dans sa fenêtre ; les éléments russes reposent sur des relais.",
-   "hybridNote": "Trackers hwt.lv, sahasec.org et conflictmonitor.uk illisibles ; incidents identifiés par des sources officielles et de presse. Non retenus : brouillage GPS ayant affecté quelque 140 vols au-dessus du Royaume-Uni et de la mer du Nord (9 nov., implication russe non confirmée) ; tentative d’incendie chez Threod Systems près de Tallinn (14 nov.) ; un objet signalé dans l’espace aérien polonais le 22 nov. (date non recoupée) ; une éventuelle alerte distincte à Tulcea le 23 nov. (non vérifiée) ; l’article de M. Medvedev sur des frappes nucléaires préventives (date d’origine non confirmée, pas un incident hybride)."
+   "note": "Les trackers hybrides, illisibles lors de l’exécution planifiée, ont été passés en revue ensuite ; consilium.europa.eu (lettre d’invitation de M. Costa pour le Conseil européen extraordinaire des 26-27 nov.), pravda.com.ua, pap.pl, iz.ru, sejm.gov.pl et NBC News ont renvoyé des erreurs. Aucun élément retenu dans la fenêtre pour les États-Unis, la France, le Royaume-Uni, les institutions de l’UE ou la Chine (le point de presse du MAE chinois du 24 nov. reprend les éléments de langage habituels) ; aucune déclaration significative de l’opposition ; aucun élément du Tier 2 confirmé dans sa fenêtre ; les éléments russes reposent sur des relais.",
+   "hybridNote": "Hybrid War Tracker (hwt.lv) passé en revue après l’autorisation des domaines ; sahasec.org charge ses données par script et conflictmonitor.uk ne s’affiche qu’en JavaScript, sans incident exploitable. Écartés : les signalements hwt.lv des 23-24 nov. reposant uniquement sur des messages publiés sur X (brouillage GPS au-dessus de la Suède, drones au-dessus de l’Allemagne, désinformation et incident frontalier allégué en Estonie, trafic d’armes au Royaume-Uni) ; une affaire estonienne de trahison datée du 24 nov. par le tracker mais remontant à octobre 2025 ; l’enquête de tagesschau sur un satellite russe (pas un incident hybride). Également non retenus : brouillage GPS ayant affecté quelque 140 vols au-dessus du Royaume-Uni et de la mer du Nord (9 nov., implication russe non confirmée) ; tentative d’incendie chez Threod Systems près de Tallinn (14 nov.) ; un objet signalé dans l’espace aérien polonais le 22 nov. (date non recoupée) ; une éventuelle alerte distincte à Tulcea le 23 nov. (non vérifiée)."
   },
   "items": [
    {
@@ -288,6 +288,31 @@
      "type": "Incursion aérienne (drone)",
      "summary": "Suivi de l’incursion du drone russe à réaction qui a pénétré d’environ 20 km dans l’espace aérien polonais pendant près de neuf minutes dans la soirée du 23 novembre. Le 24 novembre, le ministère de la Défense a estimé que l’incursion était délibérée. La défense sol-air avait reçu l’autorisation de tirer mais s’en est abstenue pour éviter des dommages aux civils ; les chasseurs n’ont pas décollé en raison de la météo.",
      "actorRole": "Vice-ministre de la Défense nationale, entretien à RMF24"
+    }
+   },
+   {
+    "date": "2026-11-24",
+    "country": "UNITED KINGDOM",
+    "attribution": "official",
+    "type": "Sabotage and cyber threat to the defence supply chain (official alert)",
+    "summary": "The National Protective Security Authority (MI5) warned British firms supplying Ukraine's armed forces that they are being targeted by the Russian state through cyber attacks, sabotage and disinformation. Armed Forces Minister Louise Sandher-Jones met defence executives on 24 November; Security Minister Dan Jarvis is due to meet critical-infrastructure executives on 25 November. The alert is not tied to a single new incident.",
+    "actor": "Dan Jarvis",
+    "actorRole": "UK Security Minister; alert issued by the NPSA (MI5) and the Ministry of Defence",
+    "sourceName": "Defence Industry Europe",
+    "url": "https://defence-industry.eu/russia-is-targeting-british-firms-supplying-ukraines-armed-forces-mi5-unit-warns/",
+    "quote": {
+     "text": "Recent sabotage attempts right across Europe demonstrate the seriousness of the threats we face",
+     "label": "Dan Jarvis, as published"
+    },
+    "tracker": "Hybrid War Tracker (hwt.lv)",
+    "fr": {
+     "type": "Menace de sabotage et cyber visant la chaîne d’approvisionnement de défense (alerte officielle)",
+     "summary": "La National Protective Security Authority (MI5) a averti les entreprises britanniques qui fournissent les forces armées ukrainiennes qu’elles sont ciblées par l’État russe au moyen de cyberattaques, de sabotages et de désinformation. La ministre des Forces armées Louise Sandher-Jones a reçu des industriels de la défense le 24 novembre ; le ministre de la Sécurité Dan Jarvis doit rencontrer les opérateurs d’infrastructures critiques le 25 novembre. L’alerte ne se rattache pas à un incident nouveau.",
+     "actorRole": "Ministre britannique de la Sécurité ; alerte émise par la NPSA (MI5) et le ministère de la Défense",
+     "quote": {
+      "text": "Les récentes tentatives de sabotage dans toute l’Europe montrent la gravité des menaces auxquelles nous faisons face",
+      "label": "Dan Jarvis, traduit de l’anglais"
+     }
     }
    },
    {
