@@ -134,6 +134,8 @@ footer p{margin:0}
 .ico{display:inline-flex;gap:3px;align-items:center;margin-right:6px;vertical-align:-2px}
 .ico .fi{width:1.35em;height:1em;border-radius:2px;box-shadow:0 0 0 1px var(--line);object-fit:cover}
 .ico svg{width:1.15em;height:1.15em}
+.ico .nb{font:700 9.5px var(--f-mono);letter-spacing:.06em;color:#fff;background:var(--navy);border-radius:2px;padding:2px 4px;line-height:1.2}
+@media (prefers-color-scheme:dark){.ico .nb{color:#0E141B}}
 .ent.hyb h3 .ico svg{color:var(--hyb)}
 .ct{font:inherit;color:var(--muted);background:none;border:0;padding:0;margin-top:10px;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
 .ct:hover{color:var(--navy)}
@@ -210,7 +212,7 @@ const PIC={
 function ico(e){
   const parts=String(e||"").split(" / ");let h="";
   for(const x of parts){
-    if(x==="NATO")h+=PIC.nato;
+    if(x==="NATO")h+=`<span class="nb">${S.lang==="fr"?"OTAN":"NATO"}</span>`;
     else if(/COALITION|PARTNERS|E3|G7|G20/.test(x))h+=PIC.group;
     else if(CC[x])h+=`<img class="fi" src="flags/${CC[x]}.svg" alt="" title="${esc(ent(x))}" width="20" height="15" loading="lazy">`;
   }
