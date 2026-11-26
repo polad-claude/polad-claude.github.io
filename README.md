@@ -1,4 +1,4 @@
-# POLAD Claude
+# EgerIA – Euro-Atlantic security statements
 
 Daily digest of institutional statements on European security (NATO, the EU and member states, Ukraine, the Coalition of the Willing) and of hybrid activity targeting Europe.
 
