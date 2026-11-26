@@ -131,6 +131,10 @@ body.tab-bluesa .legend,body.tab-bluesa .seg{display:none}
 .tl .pl{font-size:13px;color:var(--muted)}
 body.tab-bluesa .tl{display:none}
 footer p{margin:0}
+.ico{display:inline-flex;gap:3px;align-items:center;margin-right:6px;vertical-align:-2px}
+.ico .fi{width:1.35em;height:1em;border-radius:2px;box-shadow:0 0 0 1px var(--line);object-fit:cover}
+.ico svg{width:1.15em;height:1.15em}
+.ent.hyb h3 .ico svg{color:var(--hyb)}
 .ct{font:inherit;color:var(--muted);background:none;border:0;padding:0;margin-top:10px;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
 .ct:hover{color:var(--navy)}
 footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;max-width:80ch}
@@ -198,6 +202,20 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 const safe=u=>{try{const x=new URL(u);return /^https?:$/.test(x.protocol)?x.href:"#"}catch(e){return "#"}};
 const fmt=d=>{try{return new Date(d+"T12:00:00Z").toLocaleDateString(t("locale"),{weekday:"long",day:"numeric",month:"long",year:"numeric",timeZone:"UTC"})}catch(e){return d}};
 
+const CC={"UNITED STATES":"us","UKRAINE":"ua","FRANCE":"fr","GERMANY":"de","UNITED KINGDOM":"gb","POLAND":"pl","RUSSIA":"ru","CHINA":"cn","ITALY":"it","DENMARK":"dk","FINLAND":"fi","ESTONIA":"ee","NORWAY":"no","SWEDEN":"se","ICELAND":"is","EUROPEAN UNION":"eu","EU":"eu","TURKEY":"tr","TÜRKIYE":"tr","CANADA":"ca","NETHERLANDS":"nl","BELGIUM":"be","SPAIN":"es","PORTUGAL":"pt","GREECE":"gr","ROMANIA":"ro","BULGARIA":"bg","HUNGARY":"hu","SLOVAKIA":"sk","CZECH REPUBLIC":"cz","CZECHIA":"cz","LITHUANIA":"lt","LATVIA":"lv","INDIA":"in","BRAZIL":"br","SOUTH AFRICA":"za","IRAN":"ir","EGYPT":"eg","UNITED ARAB EMIRATES":"ae","UAE":"ae","ETHIOPIA":"et","INDONESIA":"id","BELARUS":"by","MOLDOVA":"md","GEORGIA":"ge","CROATIA":"hr","SLOVENIA":"si","ALBANIA":"al","MONTENEGRO":"me","NORTH MACEDONIA":"mk","LUXEMBOURG":"lu","IRELAND":"ie","AUSTRIA":"at","SWITZERLAND":"ch","JAPAN":"jp","ARMENIA":"am","AZERBAIJAN":"az","SERBIA":"rs","KOSOVO":"xk","BOSNIA AND HERZEGOVINA":"ba","ISRAEL":"il","CYPRUS":"cy","MALTA":"mt","NORTH KOREA":"kp","SOUTH KOREA":"kr","AUSTRALIA":"au"};
+const PIC={
+ nato:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.4 9.2-8 11-4.6-1.8-8-6-8-11V5z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>',
+ group:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="7" r="3"/><circle cx="5" cy="10" r="2.4"/><circle cx="19" cy="10" r="2.4"/><path d="M6 21v-1a6 6 0 0112 0v1M1.5 19.5a4 4 0 016-3.4M22.5 19.5a4 4 0 00-6-3.4"/></svg>',
+ hyb:'<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2L4 14h6l-1 8 9-12h-6z"/></svg>'};
+function ico(e){
+  const parts=String(e||"").split(" / ");let h="";
+  for(const x of parts){
+    if(x==="NATO")h+=PIC.nato;
+    else if(/COALITION|PARTNERS|E3|G7|G20/.test(x))h+=PIC.group;
+    else if(CC[x])h+=`<img class="fi" src="flags/${CC[x]}.svg" alt="" title="${esc(ent(x))}" width="20" height="15" loading="lazy">`;
+  }
+  return h?`<span class="ico">${h}</span>`:"";
+}
 function match(it){
   if(S.src==="official"&&it.sourceType!=="official")return false;
   if(!S.q)return true;
@@ -215,14 +233,14 @@ function hitem(h){
   const q=S.lang==="fr"&&h.fr&&h.fr.quote?h.fr.quote:h.quote;
   const qh=q&&q.text?`<p class="q">${S.lang==="fr"?`« ${esc(q.text)} »`:`“${esc(q.text)}”`}${q.label?` <span class="lab">[${esc(q.label)}]</span>`:""}</p>`:"";
   const meta=[L(h,"type"),h.date,h.actor?L(h,"actorRole")||h.actor:""].filter(Boolean).map(esc).join(" · ");
-  return `<article class="item"><div class="who">${esc(ent(h.country))} <span class="tag att-${esc(a)}">${at}</span></div>
+  return `<article class="item"><div class="who">${ico(h.country)}${esc(ent(h.country))} <span class="tag att-${esc(a)}">${at}</span></div>
   <div class="meta">${meta}</div><p class="ctx">${esc(L(h,"summary"))}</p>${qh}
   <div class="src"><span>${t("src")} </span><a href="${safe(h.url)}" target="_blank" rel="noopener noreferrer">${esc(h.sourceName||"link")}</a>${h.tracker?` <span>· ${t("tracker")} ${esc(h.tracker)}</span>`:""}</div></article>`;
 }
 function hybHtml(r,hs){
   if(!hs.length)return "";
   const note=S.lang==="fr"&&r.fr&&r.fr.hybridNote?r.fr.hybridNote:r.hybridNote;
-  return `<section class="ent hyb"><h3>${t("hyb")} <span>${t("hybSub")}</span></h3>${note?`<p class="cover" style="margin-top:0">${esc(note)}</p>`:""}${hs.map(hitem).join("")}</section>`;
+  return `<section class="ent hyb"><h3><span class="ico">${PIC.hyb}</span>${t("hyb")} <span>${t("hybSub")}</span></h3>${note?`<p class="cover" style="margin-top:0">${esc(note)}</p>`:""}${hs.map(hitem).join("")}</section>`;
 }
 function item(it){
   const st=it.category==="thinktank"?"publication":(it.sourceType||"media");
@@ -251,7 +269,7 @@ function dayHtml(r,items,hs){
     .forEach(i=>{if(!order.includes(i.entity))order.push(i.entity)});
   const groups=order.map(e=>{
     const g=items.filter(i=>i.entity===e).sort((a,b)=>(a.sourceType==="official"?0:1)-(b.sourceType==="official"?0:1));
-    return `<section class="ent"><h3>${esc(ent(e))} <span>Tier ${esc(g[0].tier||"")}</span></h3>${g.map(item).join("")}</section>`;
+    return `<section class="ent"><h3>${ico(e)}${esc(ent(e))} <span>Tier ${esc(g[0].tier||"")}</span></h3>${g.map(item).join("")}</section>`;
   }).join("");
   const off=(r.items||[]).filter(i=>i.sourceType==="official").length;
   const syn=S.lang==="fr"&&r.fr&&r.fr.synthesis?r.fr.synthesis:r.synthesis;
