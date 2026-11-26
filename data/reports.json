@@ -1,5 +1,536 @@
 [
  {
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T05:49:03Z",
+  "synthesis": "The format of the next round of Ukraine talks is now the central dispute: Kyiv and the Commission announce a European team and await a US date for a four-party meeting, while Moscow (Ryabkov) warns the E3 against preconditions and US envoy Kushner calls the war a Europe-funded proxy war. Poland is pressing NATO to intercept Russian missiles over Ukraine, so far without allied consensus.",
+  "note": "Direct fetching was largely unavailable: the network proxy refused curl connections to official sites (HTTP 403 on CONNECT, e.g. president.gov.ua, nato.int, gov.uk, kremlin.ru), and page fetches outside search results timed out awaiting approval; official sites were therefore reached only when a search returned the page. president.gov.ua news list: the first direct fetch timed out; the list was read later through a search-returned page (items of 25 Nov reviewed; none dated 26 Nov at run time). Watched X accounts (@USWPColby, @jaredkushner, @ZelenskyyUa): profile fetches timed out awaiting approval and x.com is refused by robots.txt; no in-window post confirmed by a relay for Colby or Zelensky; Kushner's in-window statements come from a podcast, not X. Failed sources: pravda.com.ua, usnews.com, the Commission representation in Germany, nv.ua and mezha.net (client errors); justice.gov and la.lv (approval timed out); whitehouse.gov (not reachable). No qualifying in-window item for France, the United Kingdom or China (the 25 Nov Chinese MFA briefing contained nothing on Europe or Ukraine); no Tier 2 item met the significance threshold; Russian items rely on TASS.",
+  "hybridNote": "Hybrid Warfare Tracker (hwt.lv/signals) downloaded and its table parsed (20 rows, latest submitted 25 Nov). Sahaidachnyi tracker (sahasec.org) downloaded but its incident data loads by script (all counters at zero); the fallback domain search returned no dated incident. conflictmonitor.uk/hybrid returned a 4 KB JavaScript shell only. Discarded: hwt.lv leads supported only by posts on X (instrumentalised migration on the Latvian border on 24–25 Nov, GPS jamming over Sweden, disinformation in Estonia, drones over Germany, arms trafficking in the UK); an Estonian KAPO recruitment item (X post, not confirmable); a US DOJ sanctions-evasion plea and a la.lv report on a Russian 'ultimatum' to Latvia (originals could not be opened); a bne IntelliNews line on drones over Romania and Moldova on 25 November inside an August 2026 article (inconsistent dating). The Russian drone over Poland reported on 25 Nov refers to the 23 Nov incursion covered previously.",
+  "fr": {
+   "synthesis": "Le format du prochain cycle de négociations sur l’Ukraine est désormais l’enjeu central : Kyiv et la Commission annoncent une équipe européenne et attendent une date américaine pour une réunion quadripartite, tandis que Moscou (Riabkov) met en garde l’E3 contre toute condition préalable et que l’envoyé américain Kushner qualifie la guerre de guerre par procuration financée par l’Europe. La Pologne presse l’OTAN d’intercepter les missiles russes au-dessus de l’Ukraine, sans consensus allié à ce stade.",
+   "note": "La consultation directe a été largement impossible : le proxy réseau a refusé les connexions curl vers les sites officiels (HTTP 403 sur CONNECT, p. ex. president.gov.ua, nato.int, gov.uk, kremlin.ru) et les pages hors résultats de recherche n’ont pu être ouvertes faute d’approbation dans le délai ; les sites officiels n’ont donc été atteints que lorsqu’une recherche renvoyait la page. Liste des actualités de president.gov.ua : la première tentative a expiré faute d’approbation ; la liste a ensuite été lue via une page issue d’une recherche (éléments du 25 novembre examinés ; aucun daté du 26 au moment de la veille). Comptes X suivis (@USWPColby, @jaredkushner, @ZelenskyyUa) : consultation des profils expirée faute d’approbation et x.com refusé par robots.txt ; aucun message de Colby ou de Zelensky dans la période confirmé par un relais ; les propos de Kushner proviennent d’un podcast, non de X. Sources en échec : pravda.com.ua, usnews.com, la représentation de la Commission en Allemagne, nv.ua et mezha.net (erreurs client) ; justice.gov et la.lv (approbation expirée) ; whitehouse.gov (inaccessible). Aucun élément qualifiant dans la période pour la France, le Royaume-Uni ou la Chine (le point de presse du MAE chinois du 25 novembre ne traitait ni de l’Europe ni de l’Ukraine) ; aucun élément de niveau 2 n’atteint le seuil de signification ; les éléments russes reposent sur TASS.",
+   "hybridNote": "Hybrid Warfare Tracker (hwt.lv/signals) téléchargé et tableau analysé (20 lignes, dernière saisie le 25 novembre). Tracker du Sahaidachnyi Security Center (sahasec.org) téléchargé mais données chargées par script (compteurs à zéro) ; la recherche de repli sur le domaine n’a donné aucun incident daté. conflictmonitor.uk/hybrid ne renvoie qu’une coquille JavaScript de 4 Ko. Écartés : pistes de hwt.lv reposant uniquement sur des messages X (migration instrumentalisée à la frontière lettone les 24–25 novembre, brouillage GPS au-dessus de la Suède, désinformation en Estonie, drones au-dessus de l’Allemagne, trafic d’armes au Royaume-Uni) ; un recrutement signalé par la KAPO estonienne (message X, non vérifiable) ; un plaider-coupable pour contournement de sanctions au DOJ américain et un article de la.lv sur un « ultimatum » russe à la Lettonie (originaux inaccessibles) ; une mention par bne IntelliNews de drones au-dessus de la Roumanie et de la Moldavie le 25 novembre dans un article d’août 2026 (datation incohérente). Le drone russe au-dessus de la Pologne signalé le 25 novembre correspond à l’incursion du 23 novembre déjà traitée."
+  },
+  "items": [
+   {
+    "entity": "UNITED STATES / NATO",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Donald Trump and Mark Rutte",
+    "role": "US President and NATO Secretary General (joint statement released by the White House)",
+    "topic": "Mar-a-Lago meeting: Ukraine, Russia, defence spending",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "the importance of obtaining a peaceful resolution to the war as rapidly as possible",
+      "label": "joint statement, as reported by Kyiv Post",
+      "paraphrase": false
+     },
+     {
+      "text": "Both urged Russia to avoid any actions that, intentionally or unintentionally, expand the war, and stressed higher defence spending and production across NATO.",
+      "label": "paraphrase of the joint statement",
+      "paraphrase": true
+     }
+    ],
+    "context": "Closed-door meeting on 25 November, described as 'outstanding'; the statement also covered the conflict in Iran. AFP reports that Secretary of War Hegseth is expected to announce a review of the US force presence in Europe in the coming weeks. The whitehouse.gov text could not be opened during this run.",
+    "sourceName": "Kyiv Post",
+    "url": "https://www.kyivpost.com/post/91224",
+    "fr": {
+     "role": "Président des États-Unis et secrétaire général de l’OTAN (déclaration conjointe diffusée par la Maison Blanche)",
+     "topic": "Rencontre de Mar-a-Lago : Ukraine, Russie, dépenses de défense",
+     "context": "Rencontre à huis clos le 25 novembre, qualifiée d’« excellente » ; la déclaration traite aussi du conflit en Iran. Selon l’AFP, le secrétaire à la Guerre Hegseth devrait annoncer dans les prochaines semaines un réexamen de la présence militaire américaine en Europe. Le texte de whitehouse.gov n’a pas pu être consulté lors de cette veille.",
+     "quotes": [
+      {
+       "text": "l’importance de parvenir le plus rapidement possible à un règlement pacifique de la guerre",
+       "label": "déclaration conjointe, rapportée par Kyiv Post, traduit de l’anglais"
+      },
+      {
+       "text": "Les deux dirigeants appellent la Russie à éviter toute action qui, intentionnellement ou non, élargirait la guerre, et insistent sur la hausse des dépenses et de la production de défense dans l’OTAN.",
+       "label": "paraphrase de la déclaration conjointe"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "NATO",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Mark Rutte",
+    "role": "NATO Secretary General (interview with Fox News, Fox & Friends)",
+    "topic": "US approach to Putin, security guarantees for Ukraine",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "What President Trump is doing, also in the meeting in Shenzhen, is testing Putin",
+      "label": "Fox & Friends, as reported by Arab News (AFP)",
+      "paraphrase": false
+     },
+     {
+      "text": "I think it is working, and we have to keep that going.",
+      "label": "Fox & Friends, as reported by Arab News (AFP)",
+      "paraphrase": false
+     }
+    ],
+    "context": "Rutte added that any deal must include security guarantees for Ukraine and that the priority is to ensure Ukraine has what it needs to keep fighting. The reference is to the 19 November US–China–Russia meeting in Shenzhen.",
+    "sourceName": "Arab News (AFP)",
+    "url": "https://www.arabnews.com/world/trump-nato-chief-urge-russia-not-to-expand-ukraine-war-3014079",
+    "fr": {
+     "role": "Secrétaire général de l’OTAN (entretien à Fox News, Fox & Friends)",
+     "topic": "Approche américaine envers Poutine, garanties de sécurité pour l’Ukraine",
+     "context": "M. Rutte ajoute que tout accord devra comporter des garanties de sécurité pour l’Ukraine et que la priorité est de lui donner les moyens de continuer à se battre. La référence vise la rencontre États-Unis–Chine–Russie du 19 novembre à Shenzhen.",
+     "quotes": [
+      {
+       "text": "Ce que fait le président Trump, y compris à la rencontre de Shenzhen, c’est mettre Poutine à l’épreuve",
+       "label": "Fox & Friends, rapporté par Arab News (AFP), traduit de l’anglais"
+      },
+      {
+       "text": "Je pense que cela fonctionne, et nous devons continuer.",
+       "label": "Fox & Friends, rapporté par Arab News (AFP), traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UNITED STATES",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Jared Kushner",
+    "role": "US envoy in the Ukraine talks (MD Meets podcast, Axel Springer)",
+    "topic": "Nature of the war, ceasefire, territorial deadlock",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "it's effectively become a proxy war",
+      "label": "MD Meets podcast, as reported by Kyiv Post",
+      "paraphrase": false
+     },
+     {
+      "text": "This isn't about fairness or who's right or wrong.",
+      "label": "MD Meets podcast, as reported by Kyiv Post",
+      "paraphrase": false
+     },
+     {
+      "text": "Kushner described the conflict as a proxy war funded by Europe, said territorial talks are deadlocked, that Putin is not interested in a ceasefire-first approach, and warned that a miscalculation could make it escalate massively.",
+      "label": "paraphrase (Kyiv Post, AFP)",
+      "paraphrase": true
+     }
+    ],
+    "context": "Interview released on 25 November with Axel Springer CEO Mathias Döpfner. The 'proxy war' framing, attributed to European funding, departs from the US line that Washington is a neutral broker and is likely to be cited by Moscow. No post on X by Kushner was found for the window.",
+    "sourceName": "Kyiv Post",
+    "url": "https://www.kyivpost.com/post/91223",
+    "fr": {
+     "role": "Envoyé américain dans les négociations sur l’Ukraine (podcast MD Meets, Axel Springer)",
+     "topic": "Nature de la guerre, cessez-le-feu, blocage territorial",
+     "context": "Entretien diffusé le 25 novembre avec le PDG d’Axel Springer, Mathias Döpfner. La qualification de « guerre par procuration », imputée au financement européen, s’écarte de la ligne d’un Washington médiateur neutre et sera vraisemblablement reprise par Moscou. Aucun message de M. Kushner sur X n’a été trouvé pour la période.",
+     "quotes": [
+      {
+       "text": "c’est en fait devenu une guerre par procuration",
+       "label": "podcast MD Meets, rapporté par Kyiv Post, traduit de l’anglais"
+      },
+      {
+       "text": "Il ne s’agit pas d’équité ni de savoir qui a raison ou tort.",
+       "label": "podcast MD Meets, rapporté par Kyiv Post, traduit de l’anglais"
+      },
+      {
+       "text": "M. Kushner décrit le conflit comme une guerre par procuration financée par l’Europe, juge les discussions territoriales dans l’impasse, estime que Poutine ne veut pas d’un cessez-le-feu préalable et avertit qu’une erreur de calcul pourrait provoquer une escalade massive.",
+       "label": "paraphrase (Kyiv Post, AFP)"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "official",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine (meeting with Estonian Foreign Minister Margus Tsahkna, Kyiv)",
+    "topic": "Peace track, European participation, quadrilateral format",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "we are waiting for the American side to set a date",
+      "label": "official readout",
+      "paraphrase": false
+     },
+     {
+      "text": "Ukraine has done a lot to fully involve Europe in the peace track",
+      "label": "official readout",
+      "paraphrase": false
+     }
+    ],
+    "context": "Zelensky said the next meeting should now be quadrilateral (Ukraine, US, Europe, Russia). Talks also covered Russian strikes on energy, winter priorities (air defence, shelters) and the Ukraine Recovery Conference that Estonia hosts early next year; it was Tsahkna's fourth visit this year.",
+    "sourceName": "President of Ukraine",
+    "url": "https://www.president.gov.ua/en/news/prezident-obgovoriv-iz-ministrom-zakordonnih-sprav-estoniyi-107501",
+    "fr": {
+     "role": "Président de l’Ukraine (entretien avec le ministre estonien des Affaires étrangères Margus Tsahkna, Kyiv)",
+     "topic": "Volet de paix, participation européenne, format quadripartite",
+     "context": "M. Zelensky indique que la prochaine réunion devrait désormais être quadripartite (Ukraine, États-Unis, Europe, Russie). L’entretien a aussi porté sur les frappes russes contre l’énergie, les priorités hivernales (défense aérienne, abris) et la conférence sur le relèvement de l’Ukraine que l’Estonie accueillera début 2027 ; c’était la quatrième visite de M. Tsahkna cette année.",
+     "quotes": [
+      {
+       "text": "nous attendons que la partie américaine fixe une date",
+       "label": "compte rendu officiel, traduit de l’anglais"
+      },
+      {
+       "text": "L’Ukraine a beaucoup fait pour associer pleinement l’Europe au processus de paix",
+       "label": "compte rendu officiel, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "official",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine (evening address)",
+    "topic": "Air defence: PURL funding, Patriot deliveries, Norway and Germany",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "Deliveries are still delayed, unfortunately.",
+      "label": "evening address (on US Patriot missiles)",
+      "paraphrase": false
+     },
+     {
+      "text": "The main thing is that we must intercept more Russian missiles and drones.",
+      "label": "evening address",
+      "paraphrase": false
+     }
+    ],
+    "context": "After Defence Minister Khmara's report on the Ramstein meeting and talks in Berlin and Oslo, Zelensky said partners committed more than $700 million under PURL, specifically for anti-ballistic interceptors; Norway decided on air defence and new interceptor production, and Germany will raise defence cooperation to a new level in 2027. First prototypes of the FREYJA anti-ballistic programme are expected this winter.",
+    "sourceName": "President of Ukraine",
+    "url": "https://www.president.gov.ua/en/news/ramshtajn-dav-dodatkovi-paketi-sered-nih-bilsh-nizh-700-milj-107509",
+    "fr": {
+     "role": "Président de l’Ukraine (allocution du soir)",
+     "topic": "Défense aérienne : financement PURL, livraisons de Patriot, Norvège et Allemagne",
+     "context": "Après le compte rendu du ministre de la Défense Khmara sur la réunion Ramstein et ses entretiens à Berlin et Oslo, M. Zelensky indique que les partenaires ont engagé plus de 700 millions de dollars au titre de PURL, spécifiquement pour des intercepteurs antibalistiques ; la Norvège a pris des décisions sur la défense aérienne et la production de nouveaux intercepteurs, et l’Allemagne portera la coopération de défense à un nouveau niveau en 2027. Les premiers prototypes du programme antibalistique FREYJA sont attendus cet hiver.",
+     "quotes": [
+      {
+       "text": "Les livraisons sont malheureusement toujours retardées.",
+       "label": "allocution du soir (sur les missiles Patriot américains), traduit de l’anglais"
+      },
+      {
+       "text": "L’essentiel est d’intercepter davantage de missiles et de drones russes.",
+       "label": "allocution du soir, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "POLAND",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Radosław Sikorski",
+    "role": "Minister of Foreign Affairs (interview with Polskie Radio)",
+    "topic": "Intercepting Russian missiles over Ukraine; possible expulsion of the Russian ambassador",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "Shooting down a missile over Ukrainian territory at Kyiv's request would fall under self-defence.",
+      "label": "paraphrase (LB.ua, citing Polskie Radio)",
+      "paraphrase": true
+     },
+     {
+      "text": "We expect Russia to come to its senses, stop attacking its neighbors",
+      "label": "Polskie Radio, as reported by UNITED24 Media",
+      "paraphrase": false
+     }
+    ],
+    "context": "Sikorski said Warsaw is considering expelling Russia's ambassador over repeated airspace violations but has no immediate plans. According to Bloomberg, Poland asked allies at an ambassadors' meeting in Brussels to consider intercepting missiles over Ukraine heading towards NATO territory; some allies were supportive but there is no consensus. Defence Minister Kosiniak-Kamysz said on RMF FM that no country could do this on its own.",
+    "sourceName": "UNITED24 Media",
+    "url": "https://united24media.com/world/russias-airspace-violations-could-cost-moscow-its-ambassador-in-poland-24701",
+    "fr": {
+     "role": "Ministre des Affaires étrangères (entretien à Polskie Radio)",
+     "topic": "Interception de missiles russes au-dessus de l’Ukraine ; expulsion possible de l’ambassadeur russe",
+     "context": "M. Sikorski indique que Varsovie envisage d’expulser l’ambassadeur de Russie en raison des violations répétées de l’espace aérien, sans projet immédiat. Selon Bloomberg, la Pologne a demandé aux Alliés, lors d’une réunion des ambassadeurs à Bruxelles, d’étudier l’interception au-dessus de l’Ukraine de missiles se dirigeant vers le territoire de l’OTAN ; certains Alliés y sont favorables mais il n’y a pas de consensus. Le ministre de la Défense Kosiniak-Kamysz a déclaré sur RMF FM qu’aucun pays ne pouvait le faire seul.",
+     "quotes": [
+      {
+       "text": "Abattre un missile au-dessus du territoire ukrainien à la demande de Kyiv relèverait de la légitime défense.",
+       "label": "paraphrase (LB.ua, citant Polskie Radio)"
+      },
+      {
+       "text": "Nous attendons de la Russie qu’elle revienne à la raison et cesse d’attaquer ses voisins",
+       "label": "Polskie Radio, rapporté par UNITED24 Media, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "POLAND",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Cezary Tomczyk",
+    "role": "Deputy Minister of National Defence",
+    "topic": "No-fly zone along the border with Ukraine; NATO response to the interception proposal",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "Poland will introduce a no-fly zone extending more than 10 km from the Ukrainian border, with the regulation due in late December or early January; NATO is not supportive of the interception proposal.",
+      "label": "paraphrase (Kyiv Independent)",
+      "paraphrase": true
+     }
+    ],
+    "context": "The statement follows the 20 November missile and 23 November drone incursions. Tomczyk cited complications as the reason for NATO's reluctance, which contrasts with Sikorski's legal argument the same day.",
+    "sourceName": "Kyiv Independent",
+    "url": "https://kyivindependent.com/ukraine-war-latest-poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine",
+    "fr": {
+     "role": "Vice-ministre de la Défense nationale",
+     "topic": "Zone d’interdiction de vol le long de la frontière ukrainienne ; réponse de l’OTAN à la proposition d’interception",
+     "context": "La déclaration fait suite aux incursions du missile du 20 novembre et du drone du 23 novembre. M. Tomczyk invoque des complications pour expliquer la réserve de l’OTAN, ce qui contraste avec l’argument juridique de M. Sikorski le même jour.",
+     "quotes": [
+      {
+       "text": "La Pologne instaurera une zone d’interdiction de vol s’étendant à plus de 10 km de la frontière ukrainienne, par un règlement attendu fin décembre ou début janvier ; l’OTAN n’est pas favorable à la proposition d’interception.",
+       "label": "paraphrase (Kyiv Independent)"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Friedrich Merz",
+    "role": "Federal Chancellor (Bundestag general budget debate)",
+    "topic": "Russian threat, support for Ukraine",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "Russia is escalating massively here at home too.",
+      "label": "Bundestag speech, as reported by ZDFheute, translated from German",
+      "paraphrase": false
+     },
+     {
+      "text": "Merz said Russia wants more than Ukraine and that he is cautiously optimistic about peace.",
+      "label": "paraphrase (ZDFheute)",
+      "paraphrase": true
+     }
+    ],
+    "context": "Merz closed a defensive budget speech with the Russia passage, after AfD group leader Tino Chrupalla attacked Ukraine aid; he rebuked Chrupalla, without naming him, for saying nothing about Russia.",
+    "sourceName": "ZDFheute",
+    "url": "https://www.zdfheute.de/politik/merz-generaldebatte-bundestag-haushalt-opposition-100.html",
+    "fr": {
+     "role": "Chancelier fédéral (débat général budgétaire au Bundestag)",
+     "topic": "Menace russe, soutien à l’Ukraine",
+     "context": "M. Merz a conclu un discours budgétaire défensif par ce passage sur la Russie, après les attaques du chef du groupe AfD Tino Chrupalla contre l’aide à l’Ukraine ; il lui a reproché, sans le nommer, de ne rien dire de la Russie.",
+     "quotes": [
+      {
+       "text": "La Russie mène aussi chez nous une escalade massive.",
+       "label": "discours au Bundestag, rapporté par ZDFheute, traduit de l’allemand"
+      },
+      {
+       "text": "M. Merz affirme que la Russie veut davantage que l’Ukraine et se dit prudemment optimiste quant à la paix.",
+       "label": "paraphrase (ZDFheute)"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "parliament",
+    "sourceType": "official",
+    "actor": "Deutscher Bundestag",
+    "role": "Plenary, second reading of the 2027 budget",
+    "topic": "2027 defence budget (Einzelplan 14) adopted",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "The Bundestag adopted the 2027 defence budget in the committee version: €139.4 billion in total, of which €29.6 billion from the Bundeswehr special fund, with military procurement above €60 billion.",
+      "label": "paraphrase of the Bundestag text archive",
+      "paraphrase": true
+     }
+    ],
+    "context": "CDU/CSU and SPD voted in favour; AfD, Greens and Die Linke against. The core budget rises to €109.7 billion (2026: €82.7 billion); accommodation and barracks reach €19.3 billion.",
+    "sourceName": "Deutscher Bundestag",
+    "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-verteidigung-1232490",
+    "docType": "Budget (Einzelplan 14)",
+    "status": "Adopted in second reading",
+    "reference": "Drucksachen 21/9061, 21/9062",
+    "fr": {
+     "role": "Séance plénière, deuxième lecture du budget 2027",
+     "topic": "Budget de la défense 2027 (Einzelplan 14) adopté",
+     "context": "La CDU/CSU et le SPD ont voté pour ; l’AfD, les Verts et Die Linke contre. Le budget ordinaire passe à 109,7 milliards d’euros (82,7 milliards en 2026) ; les infrastructures et casernements atteignent 19,3 milliards.",
+     "quotes": [
+      {
+       "text": "Le Bundestag a adopté le budget de la défense 2027 dans la version de la commission : 139,4 milliards d’euros au total, dont 29,6 milliards du fonds spécial de la Bundeswehr, avec plus de 60 milliards pour l’acquisition d’équipements militaires.",
+       "label": "paraphrase des archives du Bundestag"
+      }
+     ],
+     "docType": "Budget (Einzelplan 14)",
+     "status": "Adopté en deuxième lecture"
+    }
+   },
+   {
+    "entity": "GERMANY",
+    "tier": 1,
+    "category": "political",
+    "sourceType": "media",
+    "actor": "Tino Chrupalla",
+    "role": "Opposition: co-leader of the AfD parliamentary group (Bundestag general debate)",
+    "topic": "Ukraine aid, government budget",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "Chrupalla called Ukraine corrupt and accused Merz of political failure.",
+      "label": "paraphrase (ZDFheute)",
+      "paraphrase": true
+     }
+    ],
+    "context": "The AfD, the largest opposition group, voted against the defence budget the same day. Opposition position, not government policy.",
+    "sourceName": "ZDFheute",
+    "url": "https://www.zdfheute.de/politik/merz-generaldebatte-bundestag-haushalt-opposition-100.html",
+    "fr": {
+     "role": "Opposition : coprésident du groupe AfD (débat général au Bundestag)",
+     "topic": "Aide à l’Ukraine, budget du gouvernement",
+     "context": "L’AfD, premier groupe d’opposition, a voté contre le budget de la défense le même jour. Position d’opposition, non politique gouvernementale.",
+     "quotes": [
+      {
+       "text": "M. Chrupalla a qualifié l’Ukraine de corrompue et accusé M. Merz d’échec politique.",
+       "label": "paraphrase (ZDFheute)"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "EU",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Ursula von der Leyen",
+    "role": "President of the European Commission (European Parliament plenary, Strasbourg)",
+    "topic": "European seat in the talks, 2027 funding for Ukraine, 22nd sanctions package",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "A strong European team will join the next round of talks; the EU will judge progress by Russia's actions, not its statements.",
+      "label": "paraphrase (Kyiv Post)",
+      "paraphrase": true
+     },
+     {
+      "text": "Von der Leyen announced a €45 billion instrument for 2027 (€20 billion budget support, €25 billion military) and a 22nd sanctions package, noting a remaining 2027 gap of about €70 billion.",
+      "label": "paraphrase (Eunews)",
+      "paraphrase": true
+     }
+    ],
+    "context": "The debate on a just and lasting peace preceded the special European Council of 26–27 November on Ukraine's 2027 financing and the next long-term budget. The Kremlin has not agreed to a European presence in the next round.",
+    "sourceName": "Eunews",
+    "url": "https://www.eunews.it/en/2026/11/25/parliament-calls-for-a-united-eu-voice-and-a-just-peace-for-ukraine-kyivs-security-is-europes-security/",
+    "fr": {
+     "role": "Présidente de la Commission européenne (session plénière du Parlement européen, Strasbourg)",
+     "topic": "Place de l’Europe dans les négociations, financement 2027 de l’Ukraine, 22e paquet de sanctions",
+     "context": "Le débat sur une paix juste et durable précède le Conseil européen extraordinaire des 26 et 27 novembre consacré au financement de l’Ukraine en 2027 et au prochain cadre financier pluriannuel. Le Kremlin n’a pas accepté de présence européenne au prochain cycle.",
+     "quotes": [
+      {
+       "text": "Une solide équipe européenne participera au prochain cycle de négociations ; l’UE jugera les progrès aux actes de la Russie, non à ses déclarations.",
+       "label": "paraphrase (Kyiv Post)"
+      },
+      {
+       "text": "Mme von der Leyen annonce un instrument de 45 milliards d’euros pour 2027 (20 milliards d’appui budgétaire, 25 milliards militaires) et un 22e paquet de sanctions, et relève un besoin non couvert d’environ 70 milliards pour 2027.",
+       "label": "paraphrase (Eunews)"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Sergei Ryabkov",
+    "role": "Deputy Minister of Foreign Affairs",
+    "topic": "E3 participation in Ukraine settlement talks",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "If they set preconditions for joining the talks, they'll lose any chance of taking part.",
+      "label": "as reported by TASS",
+      "paraphrase": false
+     }
+    ],
+    "context": "Ryabkov said the E3 (UK, France, Germany) have been invited to Moscow and that it is for them to respond; he knew of no contacts. The line is consistent with Peskov's 24 November remark that Moscow sees no 'added value' in a European role and prefers a trilateral round.",
+    "sourceName": "TASS",
+    "url": "https://tass.com/politics/2224873",
+    "fr": {
+     "role": "Vice-ministre des Affaires étrangères",
+     "topic": "Participation de l’E3 aux négociations sur l’Ukraine",
+     "context": "M. Riabkov indique que l’E3 (Royaume-Uni, France, Allemagne) a été invité à Moscou et qu’il lui revient de répondre ; il n’a connaissance d’aucun contact. La ligne rejoint la remarque de M. Peskov du 24 novembre selon laquelle Moscou ne voit pas de « valeur ajoutée » à un rôle européen et préfère un cycle trilatéral.",
+     "quotes": [
+      {
+       "text": "S’ils posent des conditions préalables pour se joindre aux négociations, ils perdront toute chance d’y participer.",
+       "label": "rapporté par TASS, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "INSTITUTE FOR THE STUDY OF WAR (ISW)",
+    "tier": 1,
+    "category": "thinktank",
+    "sourceType": "publication",
+    "actor": "Institute for the Study of War / Critical Threats",
+    "role": "Russian Offensive Campaign Assessment, 25 November 2026",
+    "topic": "Security guarantees for Ukraine in the US plan",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "may well prove impossible to execute",
+      "label": "ISW assessment, on the proposed approval chain for Article 5-like guarantees",
+      "paraphrase": false
+     }
+    ],
+    "context": "ISW notes that US negotiators describe NATO-style Article 5 guarantees for Ukraine but that the approval chain (US Congress, Russia and a European security arrangement) could delay or preclude them; Russia still demands Ukraine's withdrawal from Donbas before any ceasefire and rejects foreign troops.",
+    "sourceName": "Critical Threats (AEI) / ISW",
+    "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026",
+    "docType": "Daily assessment",
+    "fr": {
+     "role": "Institute for the Study of War / Critical Threats",
+     "topic": "Garanties de sécurité pour l’Ukraine dans le plan américain",
+     "context": "L’ISW relève que les négociateurs américains évoquent des garanties de type article 5 pour l’Ukraine, mais que la chaîne d’approbation (Congrès américain, Russie et arrangement de sécurité européen) pourrait les retarder ou les empêcher ; la Russie exige toujours le retrait ukrainien du Donbass avant tout cessez-le-feu et rejette toute présence de troupes étrangères.",
+     "quotes": [
+      {
+       "text": "pourrait bien se révéler impossible à mettre en œuvre",
+       "label": "évaluation de l’ISW, sur la chaîne d’approbation des garanties de type article 5, traduit de l’anglais"
+      }
+     ],
+     "docType": "Évaluation quotidienne"
+    }
+   }
+  ],
+  "hybrid": [
+   {
+    "date": "2026-11-24",
+    "country": "UNITED KINGDOM",
+    "attribution": "official",
+    "type": "Sabotage threat to the defence supply chain (official warning)",
+    "summary": "Follow-up: the Ministry of Defence and MI5's National Protective Security Authority warned companies supporting Ukraine's armed forces that operatives acting for Russia may target them, typically through proxies and low-sophistication methods such as arson. Closed-door security briefings for defence and critical-infrastructure leaders ran over two days (24–25 November). The Russian embassy denied the claims.",
+    "actor": "Dan Jarvis",
+    "actorRole": "Security Minister",
+    "sourceName": "Al Jazeera (Reuters)",
+    "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat",
+    "quote": {
+     "text": "Recent sabotage attempts right across Europe demonstrate the seriousness of the threats we face",
+     "label": "Security Minister Dan Jarvis"
+    },
+    "fr": {
+     "type": "Menace de sabotage contre la chaîne d’approvisionnement de défense (alerte officielle)",
+     "summary": "Suivi : le ministère de la Défense et la National Protective Security Authority du MI5 ont averti les entreprises soutenant les forces armées ukrainiennes qu’elles pourraient être visées par des agents agissant pour la Russie, généralement au moyen d’intermédiaires et de méthodes rudimentaires comme l’incendie criminel. Des réunions de sécurité à huis clos avec les dirigeants de la défense et des infrastructures critiques se sont tenues sur deux jours (24–25 novembre). L’ambassade de Russie dément.",
+     "actorRole": "Ministre chargé de la Sécurité",
+     "quote": {
+      "text": "Les récentes tentatives de sabotage dans toute l’Europe montrent la gravité des menaces auxquelles nous faisons face",
+      "label": "Dan Jarvis, ministre chargé de la Sécurité, traduit de l’anglais"
+     }
+    }
+   }
+  ]
+ },
+ {
   "date": "2026-11-25",
   "generatedAt": "2026-11-25T05:45:00Z",
   "synthesis": "Diplomacy on a settlement is accelerating around Washington: Kyiv signals readiness for a rapid US-brokered deal while Moscow questions any European seat at the table, and NATO's Secretary General meets President Trump on 25 November. Poland is preparing strategic decisions on allied support after Warsaw judged the 23 November drone incursion deliberate.",
