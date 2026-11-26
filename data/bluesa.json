@@ -3,14 +3,14 @@
   "weekStart": "2026-11-21",
   "weekEnd": "2026-11-27",
   "status": "draft",
-  "updatedAt": "2026-11-25T07:20:00Z",
+  "updatedAt": "2026-11-26T05:50:06Z",
   "sections": [
    {
     "title": "",
     "paragraphs": [
      {
-      "date": "2026-11-23",
-      "text": "NATO responded to the 20 Nov RUS missile incursion into POL with an extraordinary NAC on 23 Nov: allies said Russia “bears full responsibility” and SACEUR forward-deployed one AWACS; POL chose not to invoke Article 4. A RUS jet-powered drone flew ~20 km into POL airspace for nine minutes the same evening, which the MoD judges deliberate. Warsaw summoned the RUS representative, who said no “verifiable evidence” had been presented; Kosiniak-Kamysz convened the national security committee on 24 Nov on allied support, AWACS and a permanent US base.",
+      "date": "2026-11-25",
+      "text": "NATO responded to the 20 Nov RUS missile incursion into POL with an extraordinary NAC on 23 Nov: allies said Russia “bears full responsibility” and SACEUR forward-deployed one AWACS; POL did not invoke Article 4. A RUS jet-powered drone then flew ~20 km into POL airspace for nine minutes, which the MoD judges deliberate. On 25 Nov Warsaw went further: it has asked allies to consider intercepting RUS missiles over UKR heading for NATO territory, which FM Sikorski calls self-defence if done at Kyiv’s request, but there is no consensus and Deputy MoD Tomczyk said NATO is not supportive. POL will instead create a no-fly zone extending over 10 km from the UKR border by late Dec/early Jan, and Sikorski said expelling the RUS ambassador is under consideration, with no immediate plan.",
       "sources": [
        {
         "name": "HNGN",
@@ -21,32 +21,80 @@
         "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250673/"
        },
        {
-        "name": "Defence24",
-        "url": "https://defence24.pl/polityka-obronna/naruszenia-przestrzeni-powietrznej-posiedzenie-komitetu-ds-bezpieczenstwa-narodowego"
+        "name": "LB.ua",
+        "url": "https://en.lb.ua/news/2026/11/25/51444_bloomberg_poland_urges_nato.html"
+       },
+       {
+        "name": "Kyiv Independent",
+        "url": "https://kyivindependent.com/ukraine-war-latest-poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine"
+       },
+       {
+        "name": "UNITED24 Media",
+        "url": "https://united24media.com/world/russias-airspace-violations-could-cost-moscow-its-ambassador-in-poland-24701"
        }
       ]
      },
      {
       "date": "2026-11-25",
-      "text": "Rutte meets Trump at Mar-a-Lago on 25 Nov, following the NAC on POL and Kyiv’s push for four-party talks. No media opportunity is planned.",
+      "text": "Rutte met Trump at Mar-a-Lago on 25 Nov. Their joint statement called the meeting “outstanding”, urged RUS to avoid actions that “intentionally, or unintentionally, expand the war” and stressed higher defence spending and production across NATO; it also covered Iran. Rutte said Trump is “testing Putin” and that any deal needs security guarantees for UKR. No new commitment on Ukraine was announced; AFP reports Hegseth is expected to announce the review of US force presence in Europe in the coming weeks.",
       "sources": [
        {
-        "name": "NATO",
-        "url": "https://www.nato.int/en/news-and-events/events/media-advisories/2026/11/24/nato-secretary-general-to-visit-the-united-states-of-america"
+        "name": "Kyiv Post",
+        "url": "https://www.kyivpost.com/post/91224"
+       },
+       {
+        "name": "Arab News (AFP)",
+        "url": "https://www.arabnews.com/world/trump-nato-chief-urge-russia-not-to-expand-ukraine-war-3014079"
+       },
+       {
+        "name": "RTÉ (AFP)",
+        "url": "https://rte.ie/news/ukraine/2026/1126/1600710-trump-nato-ukraine"
        }
       ]
      },
      {
       "date": "2026-11-25",
-      "text": "The Bundestag votes the 2027 defence budget on 25 Nov: €139.4 billion, including €29.6 billion from the Bundeswehr special fund, with procurement above €60 billion—the highest level since the Cold War. On 23 Nov Pistorius hosted UKR Defence Minister Khmara, funding ~€34 million of production capacity for the Babka reconnaissance drone and signing an MoI on the Delta battle-management system; he said UKR has the right to strike military targets in RUS.",
+      "text": "The Bundestag adopted the 2027 defence budget on 25 Nov (CDU/CSU and SPD for; AfD, Greens and Left against): €139.4 billion in total, including €29.6 billion from the Bundeswehr special fund, with procurement above €60 billion. In the general debate the same day Merz said Russia “wants more than Ukraine” and is escalating “massively” in GER too, while AfD leader Chrupalla attacked Ukraine aid. On 23 Nov Pistorius hosted UKR Defence Minister Khmara, funding ~€34 million of production capacity for the Babka reconnaissance drone and signing an MoI on the Delta battle-management system.",
       "sources": [
        {
-        "name": "Bundestag",
+        "name": "Deutscher Bundestag",
         "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw48-de-verteidigung-1232490"
+       },
+       {
+        "name": "ZDFheute",
+        "url": "https://www.zdfheute.de/politik/merz-generaldebatte-bundestag-haushalt-opposition-100.html"
        },
        {
         "name": "BMVg",
         "url": "https://www.bmvg.de/de/aktuelles/antrittsbesuch-amtskollege-ukraine-6174352"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-25",
+      "text": "EU leaders meet in Brussels on 26–27 Nov for a special European Council on UKR financing for 2027 and the next long-term budget. Previewing it in Strasbourg on 25 Nov, von der Leyen presented a €45 billion instrument for 2027 (€20 billion budget support, €25 billion military) and a 22nd sanctions package, and acknowledged a remaining 2027 gap of about €70 billion. Costa’s invitation letter calls support for UKR “an investment in Europe’s own security”, but CZE PM Babiš opposes funding UKR through the EU budget.",
+      "sources": [
+       {
+        "name": "Eunews",
+        "url": "https://www.eunews.it/en/2026/11/25/parliament-calls-for-a-united-eu-voice-and-a-just-peace-for-ukraine-kyivs-security-is-europes-security/"
+       },
+       {
+        "name": "European Pravda",
+        "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250684/"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-25",
+      "text": "UKR air defence remains the pressing gap. Zelensky said on 25 Nov that partners committed more than $700 million under PURL after Ramstein, specifically for anti-ballistic interceptors, and that NOR and GER took new decisions on air defence and interceptor production; but US Patriot deliveries are “still delayed”. ISW counts at least 48 PURL-funded Patriot interceptors held up.",
+      "sources": [
+       {
+        "name": "President of Ukraine",
+        "url": "https://www.president.gov.ua/en/news/ramshtajn-dav-dodatkovi-paketi-sered-nih-bilsh-nizh-700-milj-107509"
+       },
+       {
+        "name": "ISW / Critical Threats",
+        "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026"
        }
       ]
      },
@@ -79,12 +127,16 @@
       ]
      },
      {
-      "date": "2026-11-24",
-      "text": "MI5’s National Protective Security Authority warned UK firms supplying UKR’s armed forces that they are targeted by the RUS state through cyber attacks, sabotage and disinformation. Ministers met defence and critical-infrastructure executives on 24–25 Nov; Security Minister Jarvis cited “recent sabotage attempts right across Europe”.",
+      "date": "2026-11-25",
+      "text": "MI5’s National Protective Security Authority and the MoD warned UK firms supplying UKR’s armed forces that operatives acting for RUS may target them, typically through proxies and low-sophistication methods such as arson. Closed-door briefings for defence and critical-infrastructure leaders ran on 24–25 Nov; Security Minister Jarvis cited “recent sabotage attempts right across Europe”. The RUS embassy denied the claims.",
       "sources": [
        {
         "name": "Defence Industry Europe",
         "url": "https://defence-industry.eu/russia-is-targeting-british-firms-supplying-ukraines-armed-forces-mi5-unit-warns/"
+       },
+       {
+        "name": "Al Jazeera (Reuters)",
+        "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat"
        }
       ]
      }
@@ -94,20 +146,42 @@
     "title": "RUS-UKR war negotiations",
     "paragraphs": [
      {
-      "date": "2026-11-24",
-      "text": "Zelensky called on 23 Nov for four-party talks (UKR, Europe, US, RUS) as soon as possible, and told Bloomberg that Witkoff and Kushner want “to move very quickly”, adding that peace must not come “at Ukraine’s expense alone”. Peskov said Moscow does not yet understand what “added value” Europeans would bring; no date is set for the next trilateral round in Abu Dhabi.",
+      "date": "2026-11-25",
+      "text": "The fight is now over the format of the next round. Zelensky said on 25 Nov that Kyiv is “waiting for the American side to set a date” for a meeting that should now be quadrilateral (UKR, US, Europe, RUS), and von der Leyen announced that a strong European team will join. Moscow is resisting: Peskov saw no “added value” in Europeans on 24 Nov, and DFM Ryabkov said on 25 Nov that the E3 are invited to Moscow but would “lose any chance of taking part” if they set preconditions. No date or venue has been set since the Abu Dhabi round of 10–11 Nov.",
       "sources": [
        {
         "name": "President of Ukraine",
-        "url": "https://www.president.gov.ua/en/news/vdyachnij-usim-hto-prosuvaye-same-cyu-ideyu-nato-z-ukrayinoy-107453"
+        "url": "https://www.president.gov.ua/en/news/prezident-obgovoriv-iz-ministrom-zakordonnih-sprav-estoniyi-107501"
        },
        {
-        "name": "European Pravda",
-        "url": "https://eurointegration.com.ua/eng/news/2026/11/24/7250689"
+        "name": "Kyiv Post",
+        "url": "https://www.kyivpost.com/post/91182"
        },
        {
         "name": "TASS",
-        "url": "https://tass.com/politics/2223947"
+        "url": "https://tass.com/politics/2224873"
+       },
+       {
+        "name": "Censor.NET",
+        "url": "https://censor.net/en/news/4035336/putin-did-not-hand-over-any-documents-to-trump-and-xi-regarding-ending-war-in-ukraine-peskov"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-25",
+      "text": "US envoy Kushner, in a podcast with Axel Springer’s Döpfner released on 25 Nov, said the war has “effectively become a proxy war” funded by Europe, that territorial talks are deadlocked and that Putin is not interested in a ceasefire-first approach, warning that a miscalculation could make it escalate massively. The framing sits uneasily with Washington’s role as broker and will be welcome in Moscow. ISW judges that the approval chain for the Article 5-like guarantees in the US plan (Congress, RUS, a European arrangement) “may well prove impossible to execute”.",
+      "sources": [
+       {
+        "name": "Kyiv Post",
+        "url": "https://www.kyivpost.com/post/91223"
+       },
+       {
+        "name": "Arab News (AFP)",
+        "url": "https://www.arabnews.com/world/us-envoy-kushner-warns-against-ukraine-war-escalation-3014051"
+       },
+       {
+        "name": "ISW / Critical Threats",
+        "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026"
        }
       ]
      }
@@ -118,10 +192,20 @@
     "paragraphs": [
      {
       "date": "2026-11-24",
+      "text": "HUN PM Péter Magyar met Zelensky in Zakarpattia on 24 Nov, a marked change of tone in bilateral relations. They agreed on cooperation on energy (diesel supplies to UKR), rail links and border crossings, and UKR offered corn after Hungary’s poor harvest; Zelensky welcomed HUN support for opening UKR’s EU accession clusters and said “Friendship with Putin leads nowhere”.",
+      "sources": [
+       {
+        "name": "President of Ukraine",
+        "url": "https://www.president.gov.ua/en/news/ukrayina-nalashtovana-na-konstruktivni-vidnosini-z-ugorshino-107493"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-24",
       "text": "ROU issued an RO-Alert in northern Tulcea on 24 Nov after radar detected a presumed RUS drone in UKR airspace near the border; two ESP F-18s on NATO air policing scrambled from Mihail Kogălniceanu. MApN reported no violation of ROU airspace.",
       "sources": [
        {
-        "name": "BZI.ro",
+        "name": "BZI",
         "url": "https://www.bzi.ro/alerta-aeriana-in-judetul-tulcea-o-drona-a-fost-detectata-in-apropierea-granitei-cu-romania-doua-avioane-f-18-au-decolat-de-la-baza-mihail-kogalniceanu-5647636"
        }
       ]
