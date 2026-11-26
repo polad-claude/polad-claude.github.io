@@ -110,6 +110,21 @@ details.arch .day>h2{display:none}
 .bsa .bar button{font:600 14px var(--f-body);color:#fff;background:var(--navy);border:0;border-radius:6px;padding:0 14px;min-height:40px;cursor:pointer}
 .bsa .st{font:500 12px var(--f-mono);color:var(--muted)}
 body.tab-bluesa .legend,body.tab-bluesa .seg{display:none}
+/* timeline of upcoming international events */
+.tl{margin-top:22px}
+.tl h2{font:600 15px var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--navy);margin:0 0 10px;display:flex;gap:10px;align-items:baseline}
+.tl h2 span{font:500 12px var(--f-mono);letter-spacing:0;color:var(--muted);text-transform:none}
+.tl ol{list-style:none;margin:0;padding:0 0 6px;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(170px,1fr);gap:8px;overflow-x:auto;scroll-snap-type:x proximity}
+.tl li{scroll-snap-align:start;background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--navy);border-radius:6px;padding:10px 12px;display:flex;flex-direction:column;gap:3px}
+.tl li.now{border-top-color:var(--official)}
+.tl li.cat-global{border-top-color:var(--media)}
+.tl li.cat-osce,.tl li.cat-conf{border-top-color:var(--analysis)}
+.tl .d{font:600 13px var(--f-mono);color:var(--navy);font-variant-numeric:tabular-nums}
+.tl .d em{display:block;font:600 10.5px var(--f-body);font-style:normal;letter-spacing:.04em;text-transform:uppercase;color:var(--official);margin:2px 0 0}
+.tl .ti{font-weight:600;font-size:14.5px;line-height:1.3}
+.tl .ti a{color:var(--ink);text-decoration:none}.tl .ti a:hover{text-decoration:underline}
+.tl .pl{font-size:13px;color:var(--muted)}
+body.tab-bluesa .tl{display:none}
 footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;max-width:80ch}
 @media (max-width:600px){.mast .latest{text-align:left}.day>h2{font-size:24px}}
 </style>
@@ -121,7 +136,7 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
       <h1>POLAD Claude</h1>
       <p data-i="tagline">Daily digest of institutional statements on European security (NATO, the EU and member states, Ukraine, the Coalition of the Willing) and of hybrid activity targeting Europe.</p>
     </div>
-    <div class="latest"><button type="button" class="langbtn" id="lang" aria-label="Lire en français">FR</button><div><span data-i="latestLbl">Latest report</span><b id="latest">–</b><span id="upd" class="upd"></span></div></div>
+    <div class="latest"><button type="button" class="langbtn" id="contact" data-i="contact">Contact</button> <button type="button" class="langbtn" id="lang" aria-label="Lire en français">FR</button><div><span data-i="latestLbl">Latest report</span><b id="latest">–</b><span id="upd" class="upd"></span></div></div>
   </div>
 </header>
 
@@ -137,6 +152,7 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
 </div>
 
 <main class="wrap">
+  <section class="tl" id="tl" hidden></section>
   <div class="legend">
     <span><span class="tag official" data-i="tagOff">Official statement</span> <span data-i="legOff">published on the institution's own channel</span></span>
     <span><span class="tag media" data-i="tagMed">Media-reported</span> <span data-i="legMed">known through press or agency reporting</span></span>
@@ -154,11 +170,11 @@ footer{margin:56px 0 40px;font-size:13px;color:var(--muted);border-top:1px solid
 
 <script>
 {
-const S={reports:[],bsa:[],src:"all",q:"",tab:"latest",lang:"en"};
+const S={reports:[],bsa:[],events:[],src:"all",q:"",tab:"latest",lang:"en"};
 try{const l=localStorage.getItem("polad-lang");if(l==="fr"||l==="en")S.lang=l}catch(e){}
 const T={
- en:{tagline:"Daily digest of institutional statements on European security (NATO, the EU and member states, Ukraine, the Coalition of the Willing) and of hybrid activity targeting Europe.",latestLbl:"Latest report",all:"All sources",offOnly:"Official only",tagOff:"Official statement",tagMed:"Media-reported",tagPub:"Analysis",legOff:"published on the institution's own channel",legMed:"known through press or agency reporting",legPub:"think tank or research output",tabLatest:"Latest report",tabArch:"Archive",footer:"Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.",search:"Search in this tab: country, name, topic",items:"items",official:"official",matching:"matching",kj:"Key judgement.",cov:"Coverage:",src:"Source:",none:"No statement met the time and scope criteria for this cycle.",nomatch:"No item matches these filters in this tab.",noearlier:"No earlier report yet.",loading:"Loading reports…",fail:"The reports could not be loaded. Please reload the page.",first:"first reported",para:"paraphrase",btn:"FR",btnLbl:"Lire en français",locale:"en-GB",title:"POLAD Claude",hyb:"Hybrid activity",hybSub:"incidents against NATO and EU states, last 48 h",attOff:"Officially attributed",attPat:"Fits the pattern",attUnc:"Unconfirmed",tracker:"Flagged by",inc:"incidents",legHyb:"hybrid incident, with its attribution status",upd:"Updated",tabBsa:"Blue SA",bsaWeek:"Week",bsaDraft:"In progress, updated daily, complete on Friday morning",bsaFinal:"Complete",bsaCopy:"Copy text",bsaCopied:"Copied",bsaLang:"The Blue SA is written in English.",bsaNone:"No Blue SA yet.",paras:"paragraphs"},
- fr:{tagline:"Synthèse quotidienne des déclarations institutionnelles sur la sécurité européenne (OTAN, UE et États membres, Ukraine, Coalition des volontaires) et des activités hybrides visant l’Europe.",latestLbl:"Dernier rapport",all:"Toutes sources",offOnly:"Officiel uniquement",tagOff:"Déclaration officielle",tagMed:"Rapporté par la presse",tagPub:"Analyse",legOff:"publiée sur le canal propre de l’institution",legMed:"connue par la presse ou une agence",legPub:"think tank ou publication de recherche",tabLatest:"Dernier rapport",tabArch:"Archives",footer:"Synthèse en sources ouvertes établie chaque matin vers 7 h (heure de Berlin). Traduction française des citations et des analyses ; la version anglaise fait foi. Traductions et paraphrases signalées. Vérifiez chaque élément via son lien source avant tout usage. Fenêtres : 24 h pour l’exécutif, 72 h pour les think tanks, 96 h pour les parlements.",search:"Rechercher dans cet onglet : pays, nom, thème",items:"éléments",official:"officiels",matching:"correspondants",kj:"Appréciation.",cov:"Couverture :",src:"Source :",none:"Aucune déclaration ne remplit les critères de temps et de périmètre pour ce cycle.",nomatch:"Aucun élément ne correspond à ces filtres dans cet onglet.",noearlier:"Pas encore de rapport antérieur.",loading:"Chargement des rapports…",fail:"Impossible de charger les rapports. Rechargez la page.",first:"première mention",para:"paraphrase",btn:"EN",btnLbl:"Read in English",locale:"fr-FR",title:"POLAD Claude",hyb:"Activités hybrides",hybSub:"incidents visant des États de l’OTAN et de l’UE, dernières 48 h",attOff:"Officiellement attribué",attPat:"Compatible avec le schéma",attUnc:"Non confirmé",tracker:"Signalé par",inc:"incidents",legHyb:"incident hybride, avec son statut d’attribution",upd:"Mis à jour le",tabBsa:"Blue SA",bsaWeek:"Semaine",bsaDraft:"En cours, mis à jour chaque jour, complet le vendredi matin",bsaFinal:"Complet",bsaCopy:"Copier le texte",bsaCopied:"Copié",bsaLang:"Le Blue SA est rédigé en anglais.",bsaNone:"Pas encore de Blue SA.",paras:"paragraphes"}};
+ en:{tagline:"Daily digest of institutional statements on European security (NATO, the EU and member states, Ukraine, the Coalition of the Willing) and of hybrid activity targeting Europe.",latestLbl:"Latest report",all:"All sources",offOnly:"Official only",tagOff:"Official statement",tagMed:"Media-reported",tagPub:"Analysis",legOff:"published on the institution's own channel",legMed:"known through press or agency reporting",legPub:"think tank or research output",tabLatest:"Latest report",tabArch:"Archive",footer:"Open-source digest compiled each morning around 07:00 Berlin time. Quotes are in English; translations and paraphrases are flagged. Check each item through its source link before any use. Time windows: 24 h for executive statements, 72 h for think tanks, 96 h for parliaments.",search:"Search in this tab: country, name, topic",items:"items",official:"official",matching:"matching",kj:"Key judgement.",cov:"Coverage:",src:"Source:",none:"No statement met the time and scope criteria for this cycle.",nomatch:"No item matches these filters in this tab.",noearlier:"No earlier report yet.",loading:"Loading reports…",fail:"The reports could not be loaded. Please reload the page.",first:"first reported",para:"paraphrase",btn:"FR",btnLbl:"Lire en français",locale:"en-GB",title:"POLAD Claude",hyb:"Hybrid activity",hybSub:"incidents against NATO and EU states, last 48 h",attOff:"Officially attributed",attPat:"Fits the pattern",attUnc:"Unconfirmed",tracker:"Flagged by",inc:"incidents",legHyb:"hybrid incident, with its attribution status",upd:"Updated",tabBsa:"Blue SA",bsaWeek:"Week",bsaDraft:"In progress, updated daily, complete on Friday morning",bsaFinal:"Complete",bsaCopy:"Copy text",bsaCopied:"Copied",bsaLang:"The Blue SA is written in English.",bsaNone:"No Blue SA yet.",paras:"paragraphs",contact:"Contact",contactLbl:"Contact the administrator by email",tlTitle:"Upcoming international events",tlSub:"summits, ministerials and key dates",tlNow:"ongoing",tlTbc:"date to be confirmed"},
+ fr:{tagline:"Synthèse quotidienne des déclarations institutionnelles sur la sécurité européenne (OTAN, UE et États membres, Ukraine, Coalition des volontaires) et des activités hybrides visant l’Europe.",latestLbl:"Dernier rapport",all:"Toutes sources",offOnly:"Officiel uniquement",tagOff:"Déclaration officielle",tagMed:"Rapporté par la presse",tagPub:"Analyse",legOff:"publiée sur le canal propre de l’institution",legMed:"connue par la presse ou une agence",legPub:"think tank ou publication de recherche",tabLatest:"Dernier rapport",tabArch:"Archives",footer:"Synthèse en sources ouvertes établie chaque matin vers 7 h (heure de Berlin). Traduction française des citations et des analyses ; la version anglaise fait foi. Traductions et paraphrases signalées. Vérifiez chaque élément via son lien source avant tout usage. Fenêtres : 24 h pour l’exécutif, 72 h pour les think tanks, 96 h pour les parlements.",search:"Rechercher dans cet onglet : pays, nom, thème",items:"éléments",official:"officiels",matching:"correspondants",kj:"Appréciation.",cov:"Couverture :",src:"Source :",none:"Aucune déclaration ne remplit les critères de temps et de périmètre pour ce cycle.",nomatch:"Aucun élément ne correspond à ces filtres dans cet onglet.",noearlier:"Pas encore de rapport antérieur.",loading:"Chargement des rapports…",fail:"Impossible de charger les rapports. Rechargez la page.",first:"première mention",para:"paraphrase",btn:"EN",btnLbl:"Read in English",locale:"fr-FR",title:"POLAD Claude",hyb:"Activités hybrides",hybSub:"incidents visant des États de l’OTAN et de l’UE, dernières 48 h",attOff:"Officiellement attribué",attPat:"Compatible avec le schéma",attUnc:"Non confirmé",tracker:"Signalé par",inc:"incidents",legHyb:"incident hybride, avec son statut d’attribution",upd:"Mis à jour le",tabBsa:"Blue SA",bsaWeek:"Semaine",bsaDraft:"En cours, mis à jour chaque jour, complet le vendredi matin",bsaFinal:"Complet",bsaCopy:"Copier le texte",bsaCopied:"Copié",bsaLang:"Le Blue SA est rédigé en anglais.",bsaNone:"Pas encore de Blue SA.",paras:"paragraphes",contact:"Contact",contactLbl:"Contacter l’administrateur par e-mail",tlTitle:"Prochains événements internationaux",tlSub:"sommets, réunions ministérielles et échéances",tlNow:"en cours",tlTbc:"date à confirmer"}};
 const t=k=>T[S.lang][k];
 const offW=n=>S.lang==="fr"?(n>1?"officiels":"officiel"):"official";
 const ENT={"UNITED STATES":"ÉTATS-UNIS","UKRAINE":"UKRAINE","FRANCE":"FRANCE","GERMANY":"ALLEMAGNE","UNITED KINGDOM":"ROYAUME-UNI","POLAND":"POLOGNE","RUSSIA":"RUSSIE","CHINA":"CHINE","ITALY":"ITALIE","DENMARK":"DANEMARK","FINLAND":"FINLANDE","ESTONIA":"ESTONIE","NORWAY":"NORVÈGE","SWEDEN":"SUÈDE","ICELAND":"ISLANDE","EUROPEAN UNION":"UNION EUROPÉENNE","EU":"UE","NATO":"OTAN","PARTNERS":"PARTENAIRES","COALITION OF THE WILLING":"COALITION DES VOLONTAIRES","TURKEY":"TURQUIE","TÜRKIYE":"TURQUIE","CANADA":"CANADA","NETHERLANDS":"PAYS-BAS","BELGIUM":"BELGIQUE","SPAIN":"ESPAGNE","PORTUGAL":"PORTUGAL","GREECE":"GRÈCE","ROMANIA":"ROUMANIE","BULGARIA":"BULGARIE","HUNGARY":"HONGRIE","SLOVAKIA":"SLOVAQUIE","CZECH REPUBLIC":"RÉPUBLIQUE TCHÈQUE","CZECHIA":"TCHÉQUIE","LITHUANIA":"LITUANIE","LATVIA":"LETTONIE","INDIA":"INDE","BRAZIL":"BRÉSIL","SOUTH AFRICA":"AFRIQUE DU SUD","IRAN":"IRAN","EGYPT":"ÉGYPTE","UNITED ARAB EMIRATES":"ÉMIRATS ARABES UNIS","UAE":"ÉMIRATS ARABES UNIS","ETHIOPIA":"ÉTHIOPIE","INDONESIA":"INDONÉSIE","BELARUS":"BIÉLORUSSIE","MOLDOVA":"MOLDAVIE","GEORGIA":"GÉORGIE","CROATIA":"CROATIE","SLOVENIA":"SLOVÉNIE","ALBANIA":"ALBANIE","MONTENEGRO":"MONTÉNÉGRO","NORTH MACEDONIA":"MACÉDOINE DU NORD","LUXEMBOURG":"LUXEMBOURG"};
@@ -282,6 +298,30 @@ function render(){
   document.getElementById("days").innerHTML=parts||`<p class="empty">${filtering?t("nomatch"):t("noearlier")}</p>`;
   document.getElementById("count").textContent=n+" "+t("items");
 }
+function renderTl(){
+  const el=document.getElementById("tl");
+  const today=new Date().toLocaleDateString("en-CA",{timeZone:"Europe/Berlin"});
+  const ev=S.events.filter(e=>(e.endDate||e.date).length===7?(e.endDate||e.date)>=today.slice(0,7):(e.endDate||e.date)>=today).slice(0,10);
+  if(!ev.length){el.hidden=true;return}
+  const D=d=>new Date(d+"T12:00:00Z"),loc=t("locale");
+  const fd=(a,b)=>{try{
+    if(a.length===7)return D(a+"-01").toLocaleDateString(loc,{month:"long",year:"numeric",timeZone:"UTC"});
+    const o={day:"numeric",month:"short",timeZone:"UTC"};
+    if(!b)return D(a).toLocaleDateString(loc,{...o,year:"numeric"});
+    const x=D(a),y=D(b),yr=y.toLocaleDateString(loc,{year:"numeric",timeZone:"UTC"});
+    return (x.getUTCMonth()===y.getUTCMonth()?x.getUTCDate():x.toLocaleDateString(loc,o))+"–"+y.toLocaleDateString(loc,o)+" "+yr;
+  }catch(e){return a}};
+  el.innerHTML=`<h2>${t("tlTitle")} <span>${t("tlSub")}</span></h2><ol>${ev.map(e=>{
+    const now=e.date.length>7&&e.date<=today&&(e.endDate||e.date)>=today;
+    const ti=esc(L(e,"title")),pl=esc(L(e,"place"));
+    return `<li class="cat-${esc(e.category||"")}${now?" now":""}"><span class="d">${esc(fd(e.date,e.endDate))}${now?`<em>${t("tlNow")}</em>`:""}</span>
+    <span class="ti">${e.url?`<a href="${safe(e.url)}" target="_blank" rel="noopener noreferrer">${ti}</a>`:ti}</span><span class="pl">${pl}${e.tbc||e.date.length===7?` · ${t("tlTbc")}`:""}</span></li>`}).join("")}</ol>`;
+  el.hidden=false;
+}
+document.getElementById("contact").addEventListener("click",()=>{
+  const a=[105,104,104,123,108,115,71,110,116,104,112,115,53,106,118,116].map(c=>String.fromCharCode(c-7)).join("");
+  location.href="mai"+"lto:"+a+"?subject="+encodeURIComponent("POLAD Claude");
+});
 function setTab(t){
   S.tab=t;
   document.getElementById("t-latest").setAttribute("aria-selected",t==="latest");
@@ -300,6 +340,8 @@ function applyLang(){
   if(ts){try{const d=new Date(ts);if(!isNaN(d)){const o={timeZone:"Europe/Berlin"};
     u=`${t("upd")} ${d.toLocaleDateString(t("locale"),{...o,day:"numeric",month:"long"})}, ${d.toLocaleTimeString(t("locale"),{...o,hour:"2-digit",minute:"2-digit"})} (${S.lang==="fr"?"heure de Berlin":"Berlin time"})`}}catch(e){}}
   document.getElementById("upd").textContent=u;
+  document.getElementById("contact").setAttribute("aria-label",t("contactLbl"));document.getElementById("contact").title=t("contactLbl");
+  renderTl();
 }
 document.getElementById("lang").addEventListener("click",()=>{
   S.lang=S.lang==="en"?"fr":"en";try{localStorage.setItem("polad-lang",S.lang)}catch(e){}
@@ -308,6 +350,9 @@ document.getElementById("lang").addEventListener("click",()=>{
 document.getElementById("t-latest").addEventListener("click",()=>setTab("latest"));
 document.getElementById("t-archive").addEventListener("click",()=>setTab("archive"));
 document.getElementById("t-bluesa").addEventListener("click",()=>setTab("bluesa"));
+fetch("data/events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
+  S.events=(Array.isArray(d)?d:[]).filter(e=>e&&e.date&&e.title).sort((a,b)=>a.date.localeCompare(b.date));renderTl();
+}).catch(()=>{});
 fetch("data/bluesa.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   S.bsa=(Array.isArray(d)?d:[]).filter(w=>w&&w.weekStart).sort((a,b)=>b.weekStart.localeCompare(a.weekStart));
   if(S.tab==="bluesa")render();

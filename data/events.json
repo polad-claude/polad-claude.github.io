@@ -1,0 +1,22 @@
+[
+ {"date": "2026-11-26", "endDate": "2026-11-27", "category": "eu", "title": "Special European Council (EU budget 2028-2034)", "place": "Brussels", "url": "https://www.consilium.europa.eu/en/meetings/future-euco-meetings/",
+  "fr": {"title": "Conseil européen extraordinaire (budget de l’UE 2028-2034)", "place": "Bruxelles"}},
+ {"date": "2026-12-03", "endDate": "2026-12-04", "category": "osce", "title": "OSCE Ministerial Council", "place": "Lugano", "url": "https://www.eda.admin.ch/en/swiss-chairpersonship-osce-2026",
+  "fr": {"title": "Conseil ministériel de l’OSCE", "place": "Lugano"}},
+ {"date": "2026-12-14", "category": "eu", "title": "EU Foreign Affairs Council", "place": "Brussels", "url": "https://www.consilium.europa.eu/en/meetings/fac/2026/12/14/",
+  "fr": {"title": "Conseil des affaires étrangères de l’UE", "place": "Bruxelles"}},
+ {"date": "2026-12-14", "endDate": "2026-12-15", "category": "global", "title": "G20 Leaders’ Summit", "place": "Doral (Miami)", "url": "https://g20.utoronto.ca/summits/2026miami.html",
+  "fr": {"title": "Sommet des dirigeants du G20", "place": "Doral (Miami)"}},
+ {"date": "2026-12-17", "endDate": "2026-12-18", "category": "eu", "title": "European Council", "place": "Brussels", "url": "https://www.consilium.europa.eu/en/meetings/future-euco-meetings/",
+  "fr": {"title": "Conseil européen", "place": "Bruxelles"}},
+ {"date": "2027-01-01", "category": "eu", "title": "Lithuania takes over the EU Council presidency", "place": "Vilnius", "url": "https://www.lrt.lt/en/news-in-english/19/3062101/lithuania-begins-100-day-countdown-to-eu-council-presidency",
+  "fr": {"title": "La Lituanie prend la présidence du Conseil de l’UE", "place": "Vilnius"}},
+ {"date": "2027-02-12", "endDate": "2027-02-14", "category": "conf", "tbc": true, "title": "Munich Security Conference", "place": "Munich", "url": "https://securityconference.org/en/msc/",
+  "fr": {"title": "Conférence de Munich sur la sécurité", "place": "Munich"}},
+ {"date": "2027-03-18", "endDate": "2027-03-19", "category": "eu", "title": "European Council", "place": "Brussels", "url": "https://data.consilium.europa.eu/doc/document/ST-28-2025-INIT/en/pdf",
+  "fr": {"title": "Conseil européen", "place": "Bruxelles"}},
+ {"date": "2027-04", "category": "eu", "title": "European Political Community summit", "place": "Zurich", "url": "https://www.swissinfo.ch/eng/foreign-affairs/switzerland-to-host-epc-summit-in-2027-antonio-costa/89404403",
+  "fr": {"title": "Sommet de la Communauté politique européenne", "place": "Zurich"}},
+ {"date": "2027-06-17", "endDate": "2027-06-18", "category": "eu", "title": "European Council", "place": "Brussels", "url": "https://data.consilium.europa.eu/doc/document/ST-28-2025-INIT/en/pdf",
+  "fr": {"title": "Conseil européen", "place": "Bruxelles"}}
+]
