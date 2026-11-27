@@ -2,8 +2,8 @@
  {
   "weekStart": "2026-11-21",
   "weekEnd": "2026-11-27",
-  "status": "draft",
-  "updatedAt": "2026-11-26T05:50:06Z",
+  "status": "final",
+  "updatedAt": "2026-11-27T06:45:00Z",
   "sections": [
    {
     "title": "",
@@ -35,20 +35,52 @@
       ]
      },
      {
-      "date": "2026-11-25",
-      "text": "Rutte met Trump at Mar-a-Lago on 25 Nov. Their joint statement called the meeting “outstanding”, urged RUS to avoid actions that “intentionally, or unintentionally, expand the war” and stressed higher defence spending and production across NATO; it also covered Iran. Rutte said Trump is “testing Putin” and that any deal needs security guarantees for UKR. No new commitment on Ukraine was announced; AFP reports Hegseth is expected to announce the review of US force presence in Europe in the coming weeks.",
+      "date": "2026-11-27",
+      "text": "The special European Council on 26–27 Nov ended without agreement after almost 14 hours. The €45 billion instrument for UKR in 2027 (€20 billion budget support, €25 billion military) was not supported by SVK, HUN and CZE, and BGR will join only the civilian part; the 2028–2034 budget talks also stalled. Costa said leaders “will revert to this issue in December”, i.e. at the 17–18 Dec European Council, while Macron warned that abandoning UKR “would jeopardise our own security”. Peskov called the EU funding “not money for peace”. Kyiv’s 2027 financing gap therefore remains open for at least three more weeks.",
       "sources": [
        {
+        "name": "Euronews",
+        "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid"
+       },
+       {
+        "name": "TASS",
+        "url": "https://tass.com/politics/2225277"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-26",
+      "text": "Rutte met Trump at Mar-a-Lago on 25 Nov. Their joint statement, published by NATO on 26 Nov, called the meeting “outstanding”, urged RUS to avoid actions that “intentionally, or unintentionally, expand the war” and stressed higher defence spending and production across NATO; it also covered Iran. The next day Trump posted that he wants Putin to “pull back all Military aggression against territories throughout Europe”; Peskov replied that the call appears aimed at Kyiv. No new US commitment on UKR was announced, and Hegseth is expected to announce the review of US force presence in Europe in the coming weeks.",
+      "sources": [
+       {
+        "name": "NATO",
+        "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/26/joint-statement-by-the-president-of-the-united-states-of-america-and-the-nato-secretary-general"
+       },
+       {
         "name": "Kyiv Post",
-        "url": "https://www.kyivpost.com/post/91224"
+        "url": "https://www.kyivpost.com/post/91326"
        },
        {
-        "name": "Arab News (AFP)",
-        "url": "https://www.arabnews.com/world/trump-nato-chief-urge-russia-not-to-expand-ukraine-war-3014079"
+        "name": "TASS",
+        "url": "https://tass.com/politics/2225277"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-26",
+      "text": "RUS sabotage pressure on European supporters of UKR is rising. MI5’s National Protective Security Authority and the MoD warned UK firms supplying UKR’s armed forces on 24–25 Nov that RUS proxies may target them, typically by arson. On 26 Nov MFA spokeswoman Zakharova said civilian staff of Western defence firms involved in UKR strikes are “not only legitimate military targets” but face criminal liability, naming Destinus. An IISS report released the same day finds that sabotage with explosives and arson roughly doubled over the past year, with GER and POL accounting for over half of incidents and a growing risk of mass casualties; arrests and expulsions have not deterred Moscow.",
+      "sources": [
+       {
+        "name": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat"
        },
        {
-        "name": "RTÉ (AFP)",
-        "url": "https://rte.ie/news/ukraine/2026/1126/1600710-trump-nato-ukraine"
+        "name": "TASS",
+        "url": "https://tass.com/politics/2225501"
+       },
+       {
+        "name": "CP24 (CNN)",
+        "url": "https://www.cp24.com/news/world/2026/11/26/alleged-russia-directed-sabotage-in-europe-risks-mass-casualty-event-think-tank-warns/"
        }
       ]
      },
@@ -71,22 +103,8 @@
       ]
      },
      {
-      "date": "2026-11-25",
-      "text": "EU leaders meet in Brussels on 26–27 Nov for a special European Council on UKR financing for 2027 and the next long-term budget. Previewing it in Strasbourg on 25 Nov, von der Leyen presented a €45 billion instrument for 2027 (€20 billion budget support, €25 billion military) and a 22nd sanctions package, and acknowledged a remaining 2027 gap of about €70 billion. Costa’s invitation letter calls support for UKR “an investment in Europe’s own security”, but CZE PM Babiš opposes funding UKR through the EU budget.",
-      "sources": [
-       {
-        "name": "Eunews",
-        "url": "https://www.eunews.it/en/2026/11/25/parliament-calls-for-a-united-eu-voice-and-a-just-peace-for-ukraine-kyivs-security-is-europes-security/"
-       },
-       {
-        "name": "European Pravda",
-        "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250684/"
-       }
-      ]
-     },
-     {
-      "date": "2026-11-25",
-      "text": "UKR air defence remains the pressing gap. Zelensky said on 25 Nov that partners committed more than $700 million under PURL after Ramstein, specifically for anti-ballistic interceptors, and that NOR and GER took new decisions on air defence and interceptor production; but US Patriot deliveries are “still delayed”. ISW counts at least 48 PURL-funded Patriot interceptors held up.",
+      "date": "2026-11-26",
+      "text": "UKR air defence remains the pressing gap. Zelensky said on 25 Nov that partners committed more than $700 million under PURL after Ramstein, specifically for anti-ballistic interceptors, and that NOR and GER took new decisions on air defence and interceptor production, but US Patriot deliveries are “still delayed”; ISW counts at least 48 PURL-funded Patriot interceptors held up. On 26 Nov he warned of another massive RUS strike being prepared and said new weapons packages from partners “in Europe and beyond” are being worked out to protect infrastructure against drones.",
       "sources": [
        {
         "name": "President of Ukraine",
@@ -95,20 +113,10 @@
        {
         "name": "ISW / Critical Threats",
         "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-25-2026"
-       }
-      ]
-     },
-     {
-      "date": "2026-11-23",
-      "text": "At the NATO Parliamentary Assembly in Berlin, Rutte urged national parliaments to vote the budgets needed for the new spending commitments; the Assembly called for a shift from short-term aid to a defence-industrial partnership with UKR. Wadephul said “Protecting Vilnius is protecting Berlin”, while Merz called reports of a RUS nuclear-capable satellite shocking; Peskov said they were “hardly worth taking seriously”.",
-      "sources": [
-       {
-        "name": "NATO",
-        "url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/11/23/address-by-the-secretary-general-to-the-npa"
        },
        {
-        "name": "NATO PA",
-        "url": "https://www.nato-pa.int/news/nato-parliamentarians-call-step-change-allied-defence"
+        "name": "President of Ukraine",
+        "url": "https://www.president.gov.ua/en/news/mayemo-na-zhal-informaciyu-pro-pidgotovku-rosiyanami-novogo-107521"
        }
       ]
      },
@@ -127,16 +135,16 @@
       ]
      },
      {
-      "date": "2026-11-25",
-      "text": "MI5’s National Protective Security Authority and the MoD warned UK firms supplying UKR’s armed forces that operatives acting for RUS may target them, typically through proxies and low-sophistication methods such as arson. Closed-door briefings for defence and critical-infrastructure leaders ran on 24–25 Nov; Security Minister Jarvis cited “recent sabotage attempts right across Europe”. The RUS embassy denied the claims.",
+      "date": "2026-11-23",
+      "text": "At the NATO Parliamentary Assembly in Berlin, Rutte urged national parliaments to vote the budgets needed for the new spending commitments; the Assembly called for a shift from short-term aid to a defence-industrial partnership with UKR. Wadephul said “Protecting Vilnius is protecting Berlin”, while Merz called reports of a RUS nuclear-capable satellite shocking; Peskov said they were “hardly worth taking seriously”.",
       "sources": [
        {
-        "name": "Defence Industry Europe",
-        "url": "https://defence-industry.eu/russia-is-targeting-british-firms-supplying-ukraines-armed-forces-mi5-unit-warns/"
+        "name": "NATO",
+        "url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/11/23/address-by-the-secretary-general-to-the-npa"
        },
        {
-        "name": "Al Jazeera (Reuters)",
-        "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat"
+        "name": "NATO PA",
+        "url": "https://www.nato-pa.int/news/nato-parliamentarians-call-step-change-allied-defence"
        }
       ]
      }
@@ -146,8 +154,8 @@
     "title": "RUS-UKR war negotiations",
     "paragraphs": [
      {
-      "date": "2026-11-25",
-      "text": "The fight is now over the format of the next round. Zelensky said on 25 Nov that Kyiv is “waiting for the American side to set a date” for a meeting that should now be quadrilateral (UKR, US, Europe, RUS), and von der Leyen announced that a strong European team will join. Moscow is resisting: Peskov saw no “added value” in Europeans on 24 Nov, and DFM Ryabkov said on 25 Nov that the E3 are invited to Moscow but would “lose any chance of taking part” if they set preconditions. No date or venue has been set since the Abu Dhabi round of 10–11 Nov.",
+      "date": "2026-11-26",
+      "text": "The fight is now over the format of the next round. Zelensky said on 25 Nov that Kyiv is “waiting for the American side to set a date” for a meeting that should now be quadrilateral (UKR, US, Europe, RUS), and von der Leyen announced that a strong European team will join. Moscow is resisting: Peskov saw no “added value” in Europeans on 24 Nov, and DFM Ryabkov said on 25 Nov that the E3 are invited to Moscow but would “lose any chance of taking part” if they set preconditions. On 26 Nov Peskov said the process “isn’t going along smoothly” and dismissed the EU’s claim to a mediating role; only a prisoner exchange under the Abu Dhabi arrangements is being prepared. No date or venue has been set since the Abu Dhabi round of 10–11 Nov.",
       "sources": [
        {
         "name": "President of Ukraine",
@@ -164,12 +172,16 @@
        {
         "name": "Censor.NET",
         "url": "https://censor.net/en/news/4035336/putin-did-not-hand-over-any-documents-to-trump-and-xi-regarding-ending-war-in-ukraine-peskov"
+       },
+       {
+        "name": "TASS",
+        "url": "https://tass.com/politics/2225067"
        }
       ]
      },
      {
-      "date": "2026-11-25",
-      "text": "US envoy Kushner, in a podcast with Axel Springer’s Döpfner released on 25 Nov, said the war has “effectively become a proxy war” funded by Europe, that territorial talks are deadlocked and that Putin is not interested in a ceasefire-first approach, warning that a miscalculation could make it escalate massively. The framing sits uneasily with Washington’s role as broker and will be welcome in Moscow. ISW judges that the approval chain for the Article 5-like guarantees in the US plan (Congress, RUS, a European arrangement) “may well prove impossible to execute”.",
+      "date": "2026-11-26",
+      "text": "US envoy Kushner, in a podcast with Axel Springer’s Döpfner released on 25 Nov, said the war has “effectively become a proxy war” funded by Europe, that territorial talks are deadlocked and that Putin is not interested in a ceasefire-first approach. In another podcast reported on 26 Nov he said Putin “has showed restraint” and agreed not to use nuclear weapons. The framing sits uneasily with Washington’s role as broker and will be welcome in Moscow. ISW judges that the approval chain for the Article 5-like guarantees in the US plan “may well prove impossible to execute”.",
       "sources": [
        {
         "name": "Kyiv Post",
@@ -178,6 +190,10 @@
        {
         "name": "Arab News (AFP)",
         "url": "https://www.arabnews.com/world/us-envoy-kushner-warns-against-ukraine-war-escalation-3014051"
+       },
+       {
+        "name": "Meduza",
+        "url": "https://meduza.io/en/feature/2026/11/26/jared-kushner-says-putin-has-shown-restraint-in-ukraine-and-promised-not-to-use-nuclear-weapons"
        },
        {
         "name": "ISW / Critical Threats",
@@ -190,6 +206,20 @@
    {
     "title": "Blue Note",
     "paragraphs": [
+     {
+      "date": "2026-11-26",
+      "text": "FIN, SWE, NOR, LTU and NLD will jointly procure more than 430 CV90 infantry fighting vehicles from BAE Systems Hägglunds, with SWE as lead nation; FIN takes 160 for €2.835 billion. Finnish MoD Häkkänen called it NATO’s largest joint land procurement; the vehicles are expected to include counter-drone capability. EST signed the 2025 statement of intent but withdrew.",
+      "sources": [
+       {
+        "name": "Finnish MoD",
+        "url": "https://defmin.fi/en/-/minister-of-defence-hakkanen-finland-will-procure-cv90-infantry-fighting-vehicles-for-eur-2.835-billion"
+       },
+       {
+        "name": "Anadolu Agency",
+        "url": "https://www.aa.com.tr/en/europe/5-european-countries-join-forces-to-procure-bae-systems-combat-vehicles/4139348"
+       }
+      ]
+     },
      {
       "date": "2026-11-24",
       "text": "HUN PM Péter Magyar met Zelensky in Zakarpattia on 24 Nov, a marked change of tone in bilateral relations. They agreed on cooperation on energy (diesel supplies to UKR), rail links and border crossings, and UKR offered corn after Hungary’s poor harvest; Zelensky welcomed HUN support for opening UKR’s EU accession clusters and said “Friendship with Putin leads nowhere”.",
