@@ -1,5 +1,458 @@
 [
  {
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T06:40:00Z",
+  "synthesis": "The special European Council ended without agreement on the €45 billion Ukraine instrument for 2027, blocked by Slovakia, Hungary and Czechia, and deferred it to December, while Moscow portrays EU funding as 'not money for peace'. In Washington, Trump urged Putin to pull back from Europe as envoy Kushner praised Putin's nuclear 'restraint'.",
+  "note": "No qualifying item for Germany, the United Kingdom, Poland, NATO or China within the 24-hour window; no significant opposition statement was found. The European Council and Finnish Ministry of Defence pages could not be opened, and Russian items rely on TASS.",
+  "hybridNote": "Trackers screened: Hybrid Warfare Tracker and Sahaidachnyi Security Center. One incident retained; leads on Latvian border pressure, GPS interference near Stockholm and intimidation in the UK were outside the window or not confirmed by an official or reliable source.",
+  "fr": {
+   "synthesis": "Le Conseil européen extraordinaire s’est achevé sans accord sur l’instrument de 45 milliards d’euros pour l’Ukraine en 2027, bloqué par la Slovaquie, la Hongrie et la Tchéquie, et renvoyé à décembre, tandis que Moscou présente le financement européen comme « pas de l’argent pour la paix ». À Washington, Trump a appelé Poutine à renoncer à toute agression en Europe, alors que l’envoyé Kushner saluait la « retenue » nucléaire de Poutine.",
+   "note": "Aucun élément retenu pour l’Allemagne, le Royaume-Uni, la Pologne, l’OTAN ou la Chine dans la fenêtre de 24 heures ; aucune déclaration significative de l’opposition n’a été relevée. Les pages du Conseil européen et du ministère finlandais de la Défense n’ont pas pu être consultées ; les éléments russes reposent sur TASS.",
+   "hybridNote": "Traqueurs consultés : Hybrid Warfare Tracker et Sahaidachnyi Security Center. Un incident retenu ; les pistes relatives à la pression migratoire à la frontière lettone, aux brouillages GNSS près de Stockholm et à des intimidations au Royaume-Uni étaient hors fenêtre ou non confirmées par une source officielle ou fiable."
+  },
+  "items": [
+   {
+    "entity": "UNITED STATES",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Donald Trump",
+    "role": "President of the United States",
+    "topic": "Call on Putin to pull back military aggression across Europe",
+    "date": "2026-11-26",
+    "quotes": [
+     {
+      "text": "pull back all Military aggression against territories throughout Europe",
+      "label": "posted on Truth Social, as reported by Kyiv Post",
+      "paraphrase": false
+     },
+     {
+      "text": "Trump said he would like to see Putin halt aggression across Europe and called a settlement a strong possibility, adding that the subject had come up in his conversation with Putin.",
+      "label": "paraphrase, as reported by Kyiv Post",
+      "paraphrase": true
+     }
+    ],
+    "context": "Posted the day after the Mar-a-Lago meeting with NATO Secretary General Rutte, whose joint statement urged Russia to avoid actions that could expand the war. The Kremlin read the call as aimed at Kyiv (see Russia).",
+    "sourceName": "Kyiv Post",
+    "url": "https://www.kyivpost.com/post/91326",
+    "fr": {
+     "role": "Président des États-Unis",
+     "topic": "Appel à Poutine pour qu’il renonce à toute agression militaire en Europe",
+     "context": "Message publié au lendemain de la rencontre de Mar-a-Lago avec le secrétaire général de l’OTAN Mark Rutte, dont la déclaration conjointe appelait la Russie à éviter toute action susceptible d’élargir la guerre. Le Kremlin y voit un message adressé à Kyiv (voir Russie).",
+     "quotes": [
+      {
+       "text": "retirer toute agression militaire contre des territoires partout en Europe",
+       "label": "publié sur Truth Social, rapporté par Kyiv Post, traduit de l’anglais"
+      },
+      {
+       "text": "Trump dit souhaiter que Poutine mette fin à l’agression en Europe, juge un règlement très possible et indique que le sujet a été abordé lors de son échange avec Poutine.",
+       "label": "paraphrase, rapportée par Kyiv Post"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UNITED STATES",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Jared Kushner",
+    "role": "US presidential envoy in the Ukraine talks",
+    "topic": "Putin's nuclear posture and conduct of the war",
+    "date": "2026-11-26 (first reported)",
+    "firstReported": "2026-11-26",
+    "quotes": [
+     {
+      "text": "So far Putin has showed restraint.",
+      "label": "podcast interview (MD Meets), as reported by Meduza",
+      "paraphrase": false
+     },
+     {
+      "text": "He's agreed not to use nuclear weapons, which obviously is a big thing",
+      "label": "podcast interview (MD Meets), as reported by Meduza",
+      "paraphrase": false
+     }
+    ],
+    "context": "Comes a day after Kushner described the war as a Europe-funded proxy war in another podcast. The recording date is not stated; the remarks were first reported on 26 November. No official US transcript was found.",
+    "sourceName": "Meduza",
+    "url": "https://meduza.io/en/feature/2026/11/26/jared-kushner-says-putin-has-shown-restraint-in-ukraine-and-promised-not-to-use-nuclear-weapons",
+    "fr": {
+     "role": "Envoyé présidentiel américain dans les négociations sur l’Ukraine",
+     "topic": "Posture nucléaire de Poutine et conduite de la guerre",
+     "context": "Ces propos interviennent au lendemain d’un autre podcast où Kushner qualifiait la guerre de guerre par procuration financée par l’Europe. La date d’enregistrement n’est pas précisée ; les propos ont été rapportés pour la première fois le 26 novembre. Aucune transcription officielle américaine n’a été trouvée.",
+     "quotes": [
+      {
+       "text": "Jusqu’ici, Poutine a fait preuve de retenue.",
+       "label": "entretien en podcast (MD Meets), rapporté par Meduza, traduit de l’anglais"
+      },
+      {
+       "text": "Il a accepté de ne pas utiliser l’arme nucléaire, ce qui est évidemment important",
+       "label": "entretien en podcast (MD Meets), rapporté par Meduza, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "official",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine",
+    "topic": "Expected Russian massive strike, new weapons packages from partners, prisoner exchange",
+    "date": "2026-11-26",
+    "quotes": [
+     {
+      "text": "we have information that the Russians are preparing another massive strike",
+      "label": "evening address",
+      "paraphrase": false
+     },
+     {
+      "text": "Work is under way with partners in Europe and beyond on additional weapons packages to protect infrastructure, in particular against drones; the next prisoner exchange is being prepared.",
+      "label": "paraphrase of the evening address",
+      "paraphrase": true
+     }
+    ],
+    "context": "Zelensky met in Kyiv a representative of one assisting country and reported a reset in relations with Hungary, which joined the coalition for the return of Ukrainian children (54 states). The address did not mention the negotiations or the United States.",
+    "sourceName": "President of Ukraine",
+    "url": "https://www.president.gov.ua/en/news/mayemo-na-zhal-informaciyu-pro-pidgotovku-rosiyanami-novogo-107521",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Frappe massive russe attendue, nouveaux paquets d’armement des partenaires, échange de prisonniers",
+     "context": "Zelensky a reçu à Kyiv un représentant d’un pays partenaire et fait état d’une « remise à zéro » des relations avec la Hongrie, qui a rejoint la coalition pour le retour des enfants ukrainiens (54 États). L’allocution ne mentionne ni les négociations ni les États-Unis.",
+     "quotes": [
+      {
+       "text": "nous disposons d’informations selon lesquelles les Russes préparent une nouvelle frappe massive",
+       "label": "allocution du soir, traduit de l’anglais"
+      },
+      {
+       "text": "Des travaux sont en cours avec des partenaires en Europe et au-delà sur des paquets d’armement supplémentaires pour protéger les infrastructures, notamment contre les drones ; le prochain échange de prisonniers est en préparation.",
+       "label": "paraphrase de l’allocution du soir"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "FRANCE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Emmanuel Macron",
+    "role": "President of the Republic",
+    "topic": "EU funding for Ukraine at the special European Council",
+    "date": "2026-11-26",
+    "quotes": [
+     {
+      "text": "Abandoning Ukraine would jeopardise our own security in the short to medium term",
+      "label": "press remarks at the European Council, as reported by Euronews",
+      "paraphrase": false
+     },
+     {
+      "text": "We can conclude by 31st December, but that is the absolute limit.",
+      "label": "press remarks, as reported by Euronews (on the EU budget)",
+      "paraphrase": false
+     }
+    ],
+    "context": "Macron also defended the Common Agricultural Policy envelope in the long-term budget talks. The summit ended without agreement (see EU).",
+    "sourceName": "Euronews",
+    "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+    "fr": {
+     "role": "Président de la République",
+     "topic": "Financement européen de l’Ukraine au Conseil européen extraordinaire",
+     "context": "Emmanuel Macron a également défendu l’enveloppe de la politique agricole commune dans les négociations sur le cadre financier pluriannuel. Le sommet s’est achevé sans accord (voir UE).",
+     "quotes": [
+      {
+       "text": "Abandonner l’Ukraine mettrait en péril notre propre sécurité à court et moyen terme",
+       "label": "déclaration à la presse au Conseil européen, rapportée par Euronews, traduit de l’anglais"
+      },
+      {
+       "text": "Nous pouvons conclure d’ici le 31 décembre, mais c’est la limite absolue.",
+       "label": "déclaration à la presse, rapportée par Euronews, traduit de l’anglais (sur le budget de l’UE)"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "EU",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "António Costa",
+    "role": "President of the European Council",
+    "topic": "€45 billion Ukraine instrument for 2027 and long-term budget: no agreement",
+    "date": "2026-11-26 (night of 26–27)",
+    "quotes": [
+     {
+      "text": "We will revert to this issue in December",
+      "label": "closing press conference, as reported by Euronews",
+      "paraphrase": false
+     },
+     {
+      "text": "Costa said Slovakia, Hungary and Czechia did not support the €45 billion loan for Ukraine and Bulgaria would join only its civilian part; after almost 14 hours the leaders found no deal on the 2028–2034 budget.",
+      "label": "paraphrase, as reported by Euronews",
+      "paraphrase": true
+     }
+    ],
+    "context": "Special European Council of 26–27 November in Brussels. The instrument proposed by the Commission combines €20 billion of budget support and €25 billion of military aid. Talks are expected to resume at the 17–18 December European Council. The Council's official pages could not be opened.",
+    "sourceName": "Euronews",
+    "url": "https://www.euronews.com/2026/11/26/eu-summit-leaders-ready-to-spar-over-new-budget-and-ukraine-aid",
+    "fr": {
+     "role": "Président du Conseil européen",
+     "topic": "Instrument de 45 milliards d’euros pour l’Ukraine en 2027 et budget pluriannuel : pas d’accord",
+     "context": "Conseil européen extraordinaire des 26 et 27 novembre à Bruxelles. L’instrument proposé par la Commission associe 20 milliards d’euros d’aide budgétaire et 25 milliards d’aide militaire. Les discussions doivent reprendre au Conseil européen des 17 et 18 décembre. Les pages officielles du Conseil n’ont pas pu être consultées.",
+     "quotes": [
+      {
+       "text": "Nous reviendrons sur cette question en décembre",
+       "label": "conférence de presse de clôture, rapportée par Euronews, traduit de l’anglais"
+      },
+      {
+       "text": "Selon António Costa, la Slovaquie, la Hongrie et la Tchéquie n’ont pas soutenu le prêt de 45 milliards d’euros à l’Ukraine et la Bulgarie ne s’associera qu’à son volet civil ; après près de 14 heures, les dirigeants n’ont trouvé aucun accord sur le budget 2028-2034.",
+       "label": "paraphrase, rapportée par Euronews"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Dmitry Peskov",
+    "role": "Kremlin spokesman",
+    "topic": "EU funding for Ukraine, reading of Trump's call, EU role in the talks, prisoner exchange",
+    "date": "2026-11-26",
+    "quotes": [
+     {
+      "text": "This is not money for peace.",
+      "label": "daily briefing, on EU funding for Ukraine, as reported by TASS",
+      "paraphrase": false
+     },
+     {
+      "text": "it appears that what is meant is the Kiev regime's attempts",
+      "label": "daily briefing, on Trump's call not to widen the war, as reported by TASS",
+      "paraphrase": false
+     },
+     {
+      "text": "it is very difficult to claim the role of a mediator",
+      "label": "interview with Vesti, on the EU, as reported by TASS",
+      "paraphrase": false
+     }
+    ],
+    "context": "Peskov said the peace process is not going smoothly, that prisoner lists are being compiled under the latest Abu Dhabi arrangements, and that Putin has not decided on attending the G20 summit in Miami (14–15 December). He rejected von der Leyen's call for a winter energy truce as an ultimatum. No official Kremlin transcript was found.",
+    "sourceName": "TASS",
+    "url": "https://tass.com/politics/2225277",
+    "fr": {
+     "role": "Porte-parole du Kremlin",
+     "topic": "Financement européen de l’Ukraine, lecture de l’appel de Trump, rôle de l’UE dans les négociations, échange de prisonniers",
+     "context": "Peskov a déclaré que le processus de paix « ne se déroule pas sans heurts », que les listes de prisonniers sont en cours d’établissement en application des derniers arrangements d’Abou Dhabi et que Poutine n’a pas décidé de sa participation au sommet du G20 à Miami (14-15 décembre). Il a rejeté comme un ultimatum l’appel de von der Leyen à une trêve énergétique hivernale. Aucune transcription officielle du Kremlin n’a été trouvée.",
+     "quotes": [
+      {
+       "text": "Ce n’est pas de l’argent pour la paix.",
+       "label": "point de presse, sur le financement européen de l’Ukraine, rapporté par TASS, traduit de l’anglais"
+      },
+      {
+       "text": "il semble qu’il s’agisse des tentatives du régime de Kiev",
+       "label": "point de presse, sur l’appel de Trump à ne pas élargir la guerre, rapporté par TASS, traduit de l’anglais"
+      },
+      {
+       "text": "il est très difficile de prétendre au rôle de médiateur",
+       "label": "entretien à Vesti, sur l’UE, rapporté par TASS, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Maria Zakharova",
+    "role": "Spokeswoman, Ministry of Foreign Affairs",
+    "topic": "Warning to Western defence-company personnel; United Kingdom, Germany",
+    "date": "2026-11-26",
+    "quotes": [
+     {
+      "text": "not only legitimate military targets for the Russian Armed Forces",
+      "label": "weekly briefing, on Western civilian staff helping Ukrainian strikes, as reported by TASS",
+      "paraphrase": false
+     },
+     {
+      "text": "the list of such targets is determined by the British",
+      "label": "weekly briefing, on Ukrainian strikes in Russia, as reported by TASS",
+      "paraphrase": false
+     }
+    ],
+    "context": "Zakharova said civilian employees of Western defence firms involved in Ukrainian attacks (naming Destinus) could be targeted and face criminal liability, and that states directing them could be treated as parties to the conflict. She told German FM Wadephul that confrontation with Russia 'has always turned into a disaster for Germany'. No mid.ru transcript was found.",
+    "sourceName": "TASS",
+    "url": "https://tass.com/politics/2225501",
+    "fr": {
+     "role": "Porte-parole du ministère des Affaires étrangères",
+     "topic": "Avertissement au personnel des industriels de défense occidentaux ; Royaume-Uni, Allemagne",
+     "context": "Maria Zakharova a affirmé que les employés civils d’entreprises de défense occidentales participant aux frappes ukrainiennes (citant Destinus) pourraient être visés et poursuivis pénalement, et que les États qui les dirigent pourraient être considérés comme parties au conflit. Elle a lancé au ministre allemand Wadephul que la confrontation avec la Russie « a toujours tourné au désastre pour l’Allemagne ». Aucune transcription sur mid.ru n’a été trouvée.",
+     "quotes": [
+      {
+       "text": "pas seulement des cibles militaires légitimes pour les forces armées russes",
+       "label": "point de presse hebdomadaire, sur le personnel civil occidental aidant les frappes ukrainiennes, rapporté par TASS, traduit de l’anglais"
+      },
+      {
+       "text": "la liste de ces cibles est déterminée par les Britanniques",
+       "label": "point de presse hebdomadaire, sur les frappes ukrainiennes en Russie, rapporté par TASS, traduit de l’anglais"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "INTERNATIONAL INSTITUTE FOR STRATEGIC STUDIES (IISS)",
+    "tier": 1,
+    "category": "thinktank",
+    "sourceType": "media",
+    "actor": "IISS",
+    "role": "Think tank (London)",
+    "topic": "Russian sabotage campaign in Europe",
+    "date": "2026-11-26",
+    "docType": "Report",
+    "quotes": [
+     {
+      "text": "Attacks have focused on sectors critical to the Ukrainian war effort",
+      "label": "report, as reported by CNN/CP24",
+      "paraphrase": false
+     },
+     {
+      "text": "Sabotage using explosives and arson roughly doubled over the past year, with a risk of mass casualties; Germany and Poland account for over half of incidents (Oct 2025–Sep 2026); arrests and expulsions have not deterred Moscow.",
+      "label": "paraphrase of the report's findings, as reported by CNN/CP24",
+      "paraphrase": true
+     }
+    ],
+    "context": "The report identifies 29 Moscow-linked incidents in Poland over the period and surges suggesting central planning, with tactical (delaying aid to Ukraine) and strategic (raising the cost of support) aims. The IISS page itself was not opened.",
+    "sourceName": "CP24 (CNN)",
+    "url": "https://www.cp24.com/news/world/2026/11/26/alleged-russia-directed-sabotage-in-europe-risks-mass-casualty-event-think-tank-warns/",
+    "fr": {
+     "role": "Groupe de réflexion (Londres)",
+     "topic": "Campagne russe de sabotage en Europe",
+     "docType": "Rapport",
+     "context": "Le rapport recense 29 incidents liés à Moscou en Pologne sur la période et des pics d’activité laissant supposer une planification centralisée, avec des objectifs tactiques (retarder l’aide à l’Ukraine) et stratégiques (rendre le soutien trop coûteux). La page de l’IISS n’a pas été consultée.",
+     "quotes": [
+      {
+       "text": "Les attaques ont visé des secteurs essentiels à l’effort de guerre ukrainien",
+       "label": "rapport, rapporté par CNN/CP24, traduit de l’anglais"
+      },
+      {
+       "text": "Les sabotages par explosifs et incendie ont environ doublé en un an, avec un risque de victimes en masse ; l’Allemagne et la Pologne concentrent plus de la moitié des incidents (oct. 2025-sept. 2026) ; arrestations et expulsions n’ont pas dissuadé Moscou.",
+       "label": "paraphrase des conclusions du rapport, rapportée par CNN/CP24"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "FINLAND / SWEDEN / NORWAY / LITHUANIA / NETHERLANDS",
+    "tier": 2,
+    "category": "executive",
+    "sourceType": "official",
+    "actor": "Antti Häkkänen",
+    "role": "Minister of Defence of Finland",
+    "topic": "Joint procurement of more than 430 CV90 infantry fighting vehicles",
+    "date": "2026-11-26",
+    "quotes": [
+     {
+      "text": "Finland will procure CV90 infantry fighting vehicles for EUR 2.835 billion",
+      "label": "Finnish Ministry of Defence release title",
+      "paraphrase": false
+     },
+     {
+      "text": "Five allies will jointly buy over 430 CV90s from BAE Systems Hägglunds, Sweden leading; Finland takes 160. Häkkänen called it NATO's largest joint land procurement.",
+      "label": "paraphrase, as reported by Anadolu Agency",
+      "paraphrase": true
+     }
+    ],
+    "context": "The vehicles replace ageing fleets and are expected to include counter-drone capability. Estonia signed the 2025 statement of intent but later withdrew. The Finnish release could not be opened; its title was seen in search results.",
+    "sourceName": "Finnish Ministry of Defence",
+    "url": "https://defmin.fi/en/-/minister-of-defence-hakkanen-finland-will-procure-cv90-infantry-fighting-vehicles-for-eur-2.835-billion",
+    "fr": {
+     "role": "Ministre de la Défense de la Finlande",
+     "topic": "Acquisition conjointe de plus de 430 véhicules de combat d’infanterie CV90",
+     "context": "Les véhicules remplacent des parcs vieillissants et devraient intégrer une capacité de lutte anti-drones. L’Estonie, signataire de la déclaration d’intention de 2025, s’est retirée depuis. Le communiqué finlandais n’a pas pu être consulté ; son titre figure dans les résultats de recherche.",
+     "quotes": [
+      {
+       "text": "La Finlande acquerra des véhicules de combat d’infanterie CV90 pour 2,835 milliards d’euros",
+       "label": "titre du communiqué du ministère finlandais de la Défense, traduit de l’anglais"
+      },
+      {
+       "text": "Cinq alliés achèteront conjointement plus de 430 CV90 à BAE Systems Hägglunds, sous direction suédoise ; la Finlande en prend 160. M. Häkkänen y voit la plus grande acquisition terrestre conjointe de l’OTAN.",
+       "label": "paraphrase, rapportée par l’agence Anadolu"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "ESTONIA",
+    "tier": 2,
+    "category": "parliament",
+    "sourceType": "media",
+    "actor": "Martin Herem",
+    "role": "Minister of Defence (answer in the Riigikogu)",
+    "topic": "Ukrainian drones and Estonian airspace",
+    "date": "2026-11-25",
+    "quotes": [
+     {
+      "text": "These drones enter our airspace for technical reasons",
+      "label": "answer to a parliamentary question, as reported by ERR",
+      "paraphrase": false
+     },
+     {
+      "text": "Moreover, Ukraine has never asked for it.",
+      "label": "answer to a parliamentary question, as reported by ERR",
+      "paraphrase": false
+     }
+    ],
+    "context": "Answering MP Varro Vooglaid, Herem rejected the claim, repeated by the Kremlin, that Ukraine uses Estonian airspace to strike Russia; incursions are due to technical problems, countermeasures or weather, and the matter has been raised with Kyiv.",
+    "sourceName": "ERR News",
+    "url": "https://news.err.ee/1610206390/defense-minister-in-parliament-ukraine-not-using-estonian-airspace-to-attack-russia",
+    "fr": {
+     "role": "Ministre de la Défense (réponse au Riigikogu)",
+     "topic": "Drones ukrainiens et espace aérien estonien",
+     "context": "Répondant au député Varro Vooglaid, Martin Herem a rejeté l’allégation, reprise par le Kremlin, selon laquelle l’Ukraine utiliserait l’espace aérien estonien pour frapper la Russie ; les incursions sont dues à des problèmes techniques, à des contre-mesures ou à la météo, et la question a été soulevée auprès de Kyiv.",
+     "quotes": [
+      {
+       "text": "Ces drones pénètrent dans notre espace aérien pour des raisons techniques",
+       "label": "réponse à une question parlementaire, rapportée par ERR, traduit de l’anglais"
+      },
+      {
+       "text": "De plus, l’Ukraine ne l’a jamais demandé.",
+       "label": "réponse à une question parlementaire, rapportée par ERR, traduit de l’anglais"
+      }
+     ]
+    }
+   }
+  ],
+  "hybrid": [
+   {
+    "date": "2026-11-26",
+    "country": "LATVIA",
+    "attribution": "official",
+    "type": "Disinformation (rebuttal of a Russian MFA claim)",
+    "summary": "Latvia's Ministry of Foreign Affairs rejected as false a Russian MFA claim that Riga had demanded the closure of the Social Security Division of the Russian Embassy's consular section, stressing that the 1994 bilateral pensions agreement remains in force. It said Russian restrictions since late 2025 have prevented its embassy in Moscow from hiring local staff and invoked reciprocity.",
+    "actor": "Ministry of Foreign Affairs of Latvia",
+    "actorRole": "Institutional statement",
+    "sourceName": "Ministry of Foreign Affairs of Latvia",
+    "url": "https://www.mfa.gov.lv/en/article/regarding-disinformation-disseminated-russian-ministry-foreign-affairs",
+    "quote": {
+     "text": "The Ministry of Foreign Affairs of Latvia rejects as false",
+     "label": "Latvian MFA statement"
+    },
+    "tracker": "Hybrid Warfare Tracker",
+    "fr": {
+     "type": "Désinformation (démenti d’une affirmation du MAE russe)",
+     "summary": "Le ministère letton des Affaires étrangères a rejeté comme fausse l’affirmation du MAE russe selon laquelle Riga aurait exigé la fermeture de la division de sécurité sociale de la section consulaire de l’ambassade de Russie, rappelant que l’accord bilatéral de 1994 sur les retraites reste en vigueur. Il indique que les restrictions russes en vigueur depuis fin 2025 empêchent son ambassade à Moscou de recruter du personnel local et invoque la réciprocité.",
+     "actorRole": "Déclaration institutionnelle",
+     "quote": {
+      "text": "Le ministère des Affaires étrangères de Lettonie rejette comme fausse",
+      "label": "déclaration du MAE letton, traduit de l’anglais"
+     }
+    }
+   }
+  ]
+ },
+ {
   "date": "2026-11-26",
   "generatedAt": "2026-11-26T05:49:03Z",
   "synthesis": "The format of the next round of Ukraine talks is now the central dispute: Kyiv and the Commission announce a European team and await a US date for a four-party meeting, while Moscow (Ryabkov) warns the E3 against preconditions and US envoy Kushner calls the war a Europe-funded proxy war. Poland is pressing NATO to intercept Russian missiles over Ukraine, so far without allied consensus.",
