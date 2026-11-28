@@ -1,5 +1,249 @@
 [
  {
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T06:40:00Z",
+  "synthesis": "Zelensky publicly rejected the idea of the United States as a neutral mediator and adjusted Ukraine's long-range strike plan, including coordination with partners for operations in neutral waters, while Italy denied having coordinated the Ukrainian strike on a Russian corvette in Libya.",
+  "note": "Quiet day after the US Thanksgiving holiday: no qualifying item for the United States, France, Germany, the United Kingdom, Poland, NATO, the EU or China within the 24-hour window, and no significant opposition statement. The European Commission and Kremlin websites could not be reached; Ukrainian and Russian items rely on media reporting.",
+  "hybridNote": "Trackers screened: Hybrid Warfare Tracker and Sahaidachnyi Security Center. One incident retained; leads on GPS interference over Sweden and Finland, intimidation in the UK and a plot in Italy were not confirmed by an official or reliable source.",
+  "fr": {
+   "synthesis": "Zelensky a publiquement récusé l’idée d’un rôle de médiateur neutre pour les États-Unis et ajusté le plan ukrainien de frappes dans la profondeur, y compris la coordination avec les partenaires pour des opérations en eaux neutres, tandis que l’Italie a démenti toute coordination de la frappe ukrainienne contre une corvette russe en Libye.",
+   "note": "Journée calme au lendemain de Thanksgiving : aucun élément retenu pour les États-Unis, la France, l’Allemagne, le Royaume-Uni, la Pologne, l’OTAN, l’UE ou la Chine dans la fenêtre de 24 heures, et aucune déclaration d’opposition significative. Les sites de la Commission européenne et du Kremlin n’ont pas pu être consultés ; les éléments ukrainiens et russes reposent sur la presse.",
+   "hybridNote": "Trackers examinés : Hybrid Warfare Tracker et Sahaidachnyi Security Center. Un incident retenu ; les pistes relatives à des brouillages GPS au-dessus de la Suède et de la Finlande, à des intimidations au Royaume-Uni et à un projet d’attentat en Italie n’ont pas été confirmées par une source officielle ou fiable."
+  },
+  "items": [
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine",
+    "topic": "Adjustment of the long-range strike plan; coordination with partners for operations in neutral waters",
+    "date": "2026-11-27",
+    "quotes": [
+     {
+      "text": "We have made some adjustments to the operational plan",
+      "label": "posted on Telegram, as reported by Interfax-Ukraine",
+      "paraphrase": false
+     },
+     {
+      "text": "After a Stavka meeting with intelligence, the Defence Ministry, the military and the SBU, Zelensky said long-range strikes would aim to slow Russian military production, and that he discussed with the security services and the Foreign Ministry coordinating operations with partners in neutral waters outside Ukraine.",
+      "label": "paraphrase, as reported by Interfax-Ukraine",
+      "paraphrase": true
+     }
+    ],
+    "context": "Follows Ukrainian strikes on Russian shipping beyond Ukraine, including the cargo ship Sparta II in the Gulf of Finland (21 Nov) and the corvette Merkury at Benghazi, Libya (22 Nov). No official version was found on the presidential website.",
+    "sourceName": "Interfax-Ukraine",
+    "url": "https://en.interfax.com.ua/news/general/1243725.html",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Ajustement du plan de frappes dans la profondeur ; coordination avec les partenaires pour des opérations en eaux neutres",
+     "context": "Intervient après des frappes ukrainiennes contre des navires russes hors d’Ukraine, notamment le cargo Sparta II dans le golfe de Finlande (21 novembre) et la corvette Merkury à Benghazi, en Libye (22 novembre). Aucune version officielle n’a été trouvée sur le site présidentiel.",
+     "quotes": [
+      {
+       "text": "Nous avons apporté certains ajustements au plan opérationnel",
+       "label": "publié sur Telegram, rapporté par Interfax-Ukraine ; traduit de l’anglais"
+      },
+      {
+       "text": "À l’issue d’une réunion de la Stavka avec le renseignement, le ministère de la Défense, l’armée et le SBU, Zelensky a indiqué que les frappes dans la profondeur viseraient à ralentir la production militaire russe, et qu’il avait évoqué avec les services de sécurité et le ministère des Affaires étrangères la coordination avec les partenaires d’opérations en eaux neutres hors d’Ukraine.",
+       "label": "paraphrase, rapporté par Interfax-Ukraine"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "UKRAINE",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Volodymyr Zelensky",
+    "role": "President of Ukraine",
+    "topic": "US role as mediator, Trump's description of Putin as a 'friend', air defence shortages",
+    "date": "2026-11-26 (BBC interview)",
+    "firstReported": "2026-11-27",
+    "quotes": [
+     {
+      "text": "The United States cannot simply be a mediator, a neutral one",
+      "label": "BBC interview, as reported by Interfax-Ukraine",
+      "paraphrase": false
+     },
+     {
+      "text": "He [Putin] is an aggressor and a killer.",
+      "label": "BBC interview, as reported by Interfax-Ukraine",
+      "paraphrase": false
+     },
+     {
+      "text": "Zelensky cited a severe shortage of Patriot and anti-ballistic interceptors as the US prioritises the Middle East, said Starshield restrictions still hamper interceptions, and announced important meetings in Ukraine next week on security guarantees.",
+      "label": "paraphrase, as reported by Interfax-Ukraine and Kyiv Independent",
+      "paraphrase": true
+     }
+    ],
+    "context": "Response to Trump calling Putin a 'friend' at the Shenzhen summit on 19 Nov. Interviews published late on 26 Nov and reported on 27 Nov; Patriot transfers still await US sign-off.",
+    "sourceName": "Interfax-Ukraine",
+    "url": "https://en.interfax.com.ua/news/general/1243247.html",
+    "fr": {
+     "role": "Président de l’Ukraine",
+     "topic": "Rôle de médiateur des États-Unis, Poutine qualifié d’« ami » par Trump, pénurie de défense aérienne",
+     "context": "Réponse à Trump, qui a qualifié Poutine d’« ami » au sommet de Shenzhen le 19 novembre. Entretiens publiés tard le 26 novembre et rapportés le 27 ; les transferts de Patriot attendent toujours le feu vert américain.",
+     "quotes": [
+      {
+       "text": "Les États-Unis ne peuvent pas être simplement un médiateur, un médiateur neutre",
+       "label": "entretien à la BBC, rapporté par Interfax-Ukraine ; traduit de l’anglais"
+      },
+      {
+       "text": "Il [Poutine] est un agresseur et un assassin.",
+       "label": "entretien à la BBC, rapporté par Interfax-Ukraine ; traduit de l’anglais"
+      },
+      {
+       "text": "Zelensky a fait état d’une grave pénurie d’intercepteurs Patriot et antibalistiques, les États-Unis donnant la priorité au Moyen-Orient, a indiqué que les restrictions Starshield entravent toujours les interceptions et annoncé d’importantes réunions en Ukraine la semaine prochaine sur les garanties de sécurité.",
+       "label": "paraphrase, rapporté par Interfax-Ukraine et Kyiv Independent"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "RUSSIA",
+    "tier": 1,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Maria Zakharova",
+    "role": "Spokeswoman, Ministry of Foreign Affairs of Russia",
+    "topic": "Latvia: planned 'derussification' declaration, threat of retaliation",
+    "date": "2026-11-27",
+    "quotes": [
+     {
+      "text": "Latvia acts as an instigator and stands at the forefront of confrontation with Russia.",
+      "label": "as reported by TASS (TASS English translation)",
+      "paraphrase": false
+     },
+     {
+      "text": "Zakharova said Moscow cannot ignore these threats and reserves the right to take decisive political and diplomatic retaliatory measures, adding that Riga would not normalise relations even after a ceasefire in Ukraine.",
+      "label": "paraphrase, as reported by TASS",
+      "paraphrase": true
+     }
+    ],
+    "context": "Reaction to the new Kulbergs government's plan for a declaration on 'derussification'; Zakharova also cited Latvia's role in the drone coalition with the United Kingdom. Follows Latvia's 26 Nov rebuttal of a Russian MFA disinformation claim. No official version found on mid.ru.",
+    "sourceName": "TASS",
+    "url": "https://tass.com/politics/2226217",
+    "fr": {
+     "role": "Porte-parole du ministère russe des Affaires étrangères",
+     "topic": "Lettonie : projet de déclaration de « dérussification », menace de représailles",
+     "context": "Réaction au projet du nouveau gouvernement Kulbergs d’adopter une déclaration de « dérussification » ; Zakharova a aussi cité le rôle de la Lettonie dans la coalition drones avec le Royaume-Uni. Fait suite au démenti letton du 26 novembre d’une affirmation du MAE russe. Aucune version officielle trouvée sur mid.ru.",
+     "quotes": [
+      {
+       "text": "La Lettonie agit en instigatrice et se tient en première ligne de la confrontation avec la Russie.",
+       "label": "rapporté par TASS ; traduit de l’anglais (traduction TASS)"
+      },
+      {
+       "text": "Zakharova a déclaré que Moscou ne peut ignorer ces menaces et se réserve le droit de prendre des mesures de rétorsion politiques et diplomatiques décisives, ajoutant que Riga ne normaliserait pas ses relations même après un cessez-le-feu en Ukraine.",
+       "label": "paraphrase, rapporté par TASS"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "INSTITUTE FOR THE STUDY OF WAR (ISW)",
+    "tier": 1,
+    "category": "thinktank",
+    "sourceType": "publication",
+    "actor": "Institute for the Study of War / Critical Threats",
+    "role": "Russian Offensive Campaign Assessment, 27 November 2026",
+    "topic": "Possible Russian false-flag operation against Moldova; Russian air defence failures",
+    "date": "2026-11-27",
+    "docType": "Daily assessment",
+    "quotes": [
+     {
+      "text": "Moscow may be preparing a false flag operation",
+      "label": "ISW assessment, on Moldova",
+      "paraphrase": false
+     },
+     {
+      "text": "ISW links the arrest of the deputy commander of the Russian Aerospace Forces, Col. Yuri Grekhov, to a possible effort to scapegoat him for air defence failures against Ukrainian strikes.",
+      "label": "paraphrase",
+      "paraphrase": true
+     }
+    ],
+    "context": "The Moldova assessment rests on a 26 Nov claim by the Russian Embassy in Chisinau about a possible 'provocation'. Moldova borders Romania and has seen repeated Russian drone incursions.",
+    "sourceName": "Critical Threats (AEI) / ISW",
+    "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-27-2026",
+    "fr": {
+     "role": "Évaluation quotidienne de l’offensive russe, 27 novembre 2026",
+     "topic": "Possible opération russe sous faux drapeau contre la Moldavie ; défaillances de la défense aérienne russe",
+     "docType": "Évaluation quotidienne",
+     "context": "L’évaluation sur la Moldavie s’appuie sur une affirmation de l’ambassade de Russie à Chisinau, le 26 novembre, évoquant une possible « provocation ». La Moldavie, frontalière de la Roumanie, subit des incursions répétées de drones russes.",
+     "quotes": [
+      {
+       "text": "Moscou pourrait préparer une opération sous faux drapeau",
+       "label": "évaluation de l’ISW, sur la Moldavie ; traduit de l’anglais"
+      },
+      {
+       "text": "L’ISW relie l’arrestation du commandant adjoint des forces aérospatiales russes, le colonel Iouri Grekhov, à une possible volonté d’en faire le bouc émissaire des échecs de la défense aérienne face aux frappes ukrainiennes.",
+       "label": "paraphrase"
+      }
+     ]
+    }
+   },
+   {
+    "entity": "ITALY",
+    "tier": 2,
+    "category": "executive",
+    "sourceType": "media",
+    "actor": "Antonio Tajani",
+    "role": "Deputy Prime Minister and Minister of Foreign Affairs of Italy",
+    "topic": "Denial of coordination over the Ukrainian strike on a Russian corvette in Libya",
+    "date": "2026-11-27",
+    "quotes": [
+     {
+      "text": "So what Zelensky said is not true,",
+      "label": "Sky TG24 interview, as reported by Kyiv Independent (translated from Italian)",
+      "paraphrase": false
+     }
+    ],
+    "context": "Zelensky told the BBC that Ukrainian forces never strike without coordination with partners. Ukrainian naval drones hit the Russian corvette Merkury at Benghazi on 22 Nov; PM Meloni said on 26 Nov the war must not extend to the Mediterranean.",
+    "sourceName": "Kyiv Independent",
+    "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/",
+    "fr": {
+     "role": "Vice-président du Conseil et ministre des Affaires étrangères de l’Italie",
+     "topic": "Démenti de toute coordination de la frappe ukrainienne contre une corvette russe en Libye",
+     "context": "Zelensky avait déclaré à la BBC que les forces ukrainiennes ne frappent jamais sans coordination avec leurs partenaires. Des drones navals ukrainiens ont touché la corvette russe Merkury à Benghazi le 22 novembre ; la présidente du Conseil Meloni a affirmé le 26 novembre que la guerre ne devait pas s’étendre à la Méditerranée.",
+     "quotes": [
+      {
+       "text": "Donc ce qu’a dit Zelensky n’est pas vrai",
+       "label": "entretien à Sky TG24, rapporté par Kyiv Independent ; traduit de l’italien"
+      }
+     ]
+    }
+   }
+  ],
+  "hybrid": [
+   {
+    "date": "2026-11-27",
+    "country": "LATVIA",
+    "attribution": "pattern",
+    "type": "Airspace violation (drone)",
+    "summary": "Overnight on 26–27 Nov the National Armed Forces declared an air threat over Ludza, then Balvi, near the Russian border after a UAV briefly entered Latvian airspace. NATO Baltic Air Policing fighters were scrambled and an interceptor drone launched; the alerts ended by about 03:30. The origin of the UAV was not identified; Estonia issued a similar alert the same morning amid Ukrainian drone strikes on Russia's Leningrad region.",
+    "actor": "National Armed Forces of Latvia",
+    "actorRole": "Institutional statement",
+    "sourceName": "LSM (Latvian Public Broadcasting)",
+    "url": "https://eng.lsm.lv/article/society/defence/27.11.2026-possible-air-threats-in-balvi-and-ludza-municipalities-are-over.a673686/",
+    "quote": {
+     "text": "an airspace threat was declared in the Ludza region",
+     "label": "National Armed Forces, as reported by LSM"
+    },
+    "tracker": "Hybrid Warfare Tracker",
+    "fr": {
+     "type": "Violation de l’espace aérien (drone)",
+     "summary": "Dans la nuit du 26 au 27 novembre, les forces armées nationales ont déclaré une menace aérienne sur Ludza, puis Balvi, près de la frontière russe, après la brève entrée d’un drone dans l’espace aérien letton. Des chasseurs de la police du ciel balte de l’OTAN ont décollé et un drone intercepteur a été lancé ; les alertes ont pris fin vers 3 h 30. L’origine du drone n’a pas été identifiée ; l’Estonie a émis une alerte similaire le même matin, sur fond de frappes de drones ukrainiens dans la région de Léningrad.",
+     "actorRole": "Déclaration institutionnelle",
+     "quote": {
+      "text": "une menace aérienne a été déclarée dans la région de Ludza",
+      "label": "forces armées nationales, rapporté par LSM ; traduit de l’anglais"
+     }
+    }
+   }
+  ]
+ },
+ {
   "date": "2026-11-27",
   "generatedAt": "2026-11-27T06:40:00Z",
   "synthesis": "The special European Council ended without agreement on the €45 billion Ukraine instrument for 2027, blocked by Slovakia, Hungary and Czechia, and deferred it to December, while Moscow portrays EU funding as 'not money for peace'. In Washington, Trump urged Putin to pull back from Europe as envoy Kushner praised Putin's nuclear 'restraint'.",
