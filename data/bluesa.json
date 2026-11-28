@@ -1,5 +1,104 @@
 [
  {
+  "weekStart": "2026-11-28",
+  "weekEnd": "2026-12-04",
+  "status": "draft",
+  "updatedAt": "2026-11-28T06:50:00Z",
+  "sections": [
+   {
+    "title": "",
+    "paragraphs": [
+     {
+      "date": "2026-11-27",
+      "text": "Zelensky hardened his tone towards Washington. In BBC interviews published on 26–27 Nov he said “The United States cannot simply be a mediator, a neutral one”, called Putin “an aggressor and a killer” in reply to Trump’s “friend” remark at Shenzhen, and pointed to a severe shortage of Patriot and anti-ballistic interceptors as the US prioritises the Middle East. Patriot transfers still await sign-off by Secretary of War Hegseth, and Starshield restrictions continue to hamper UKR interceptions of jet-powered drones.",
+      "sources": [
+       {
+        "name": "Interfax-Ukraine",
+        "url": "https://en.interfax.com.ua/news/general/1243247.html"
+       },
+       {
+        "name": "Kyiv Independent",
+        "url": "https://kyivindependent.com/starshield-restrictions-still-hampering-ukraines-drone-defenses-zelensky-tells-bbc/"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-27",
+      "text": "UKR is widening its strike campaign beyond its own theatre. After a Stavka meeting on 27 Nov, Zelensky said the long-range strike plan had been adjusted to slow RUS military production and that operations “in neutral waters” would be coordinated with partners. The coordination claim is contested: ITA FM Tajani said on 27 Nov that Zelensky’s statement on coordinating the 22 Nov naval-drone strike on the RUS corvette Merkury at Benghazi was “not true”, after PM Meloni warned the war must not reach the Mediterranean. European unease over escalation at sea is likely to grow.",
+      "sources": [
+       {
+        "name": "Interfax-Ukraine",
+        "url": "https://en.interfax.com.ua/news/general/1243725.html"
+       },
+       {
+        "name": "Kyiv Independent",
+        "url": "https://kyivindependent.com/zelensky-says-ukraine-aligns-naval-strikes-with-partners-italy-denies-coordination-over-libya-attack/"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-27",
+      "text": "Pressure on LVA is rising on two fronts. RUS MFA spokeswoman Zakharova said on 27 Nov that Riga “stands at the forefront of confrontation with Russia”, that Moscow reserves the right to “decisive retaliatory measures” over the Kulbergs government’s planned declaration on “derussification”, and that LVA would not normalise relations even after a ceasefire. Overnight on 26–27 Nov a UAV briefly entered LVA airspace near Ludza; NATO Baltic Air Policing fighters were scrambled and an interceptor drone launched. The origin was not identified; EST issued a similar air-threat alert in six southern counties the same morning, amid UKR drone strikes on the Leningrad region.",
+      "sources": [
+       {
+        "name": "TASS",
+        "url": "https://tass.com/politics/2226217"
+       },
+       {
+        "name": "LSM",
+        "url": "https://eng.lsm.lv/article/society/defence/27.11.2026-possible-air-threats-in-balvi-and-ludza-municipalities-are-over.a673686/"
+       },
+       {
+        "name": "ERR News",
+        "url": "https://news.err.ee/1610208679/potential-air-threat-alert-warning-issued-across-south-estonia"
+       }
+      ]
+     },
+     {
+      "date": "2026-11-27",
+      "text": "The EU’s €45 billion instrument for UKR in 2027 remains open after the special European Council of 26–27 Nov deferred the decision to December. President Costa said 24 member states back it, with BGR limiting its participation to the non-military component, while SVK, HUN and CZE hold out; Chancellor Merz has threatened to halt talks on the long-term budget unless all contribute. Next step: the European Council on 17–18 Dec.",
+      "sources": [
+       {
+        "name": "The Defence Briefing (War Brief)",
+        "url": "https://warbrief.substack.com/p/the-defence-briefing-i-friday-27"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "RUS-UKR war negotiations",
+    "paragraphs": [
+     {
+      "date": "2026-11-27",
+      "text": "Zelensky said important meetings on security guarantees are expected in UKR next week and noted progress on prisoner exchanges and on European representation in the talks. No date, venue or list of participants has been announced, and there is no public RUS reply on the guarantees.",
+      "sources": [
+       {
+        "name": "Interfax-Ukraine",
+        "url": "https://en.interfax.com.ua/news/general/1243247.html"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Blue Note",
+    "paragraphs": [
+     {
+      "date": "2026-11-27",
+      "text": "ISW assessed on 27 Nov that Moscow “may be preparing a false flag operation” against MDA, after the RUS Embassy in Chisinau warned on 26 Nov of a possible “provocation”. MDA, bordering ROU, has seen repeated RUS drone incursions this autumn. ISW also links the arrest of RUS Aerospace Forces deputy commander Col. Grekhov to possible scapegoating for air defence failures.",
+      "sources": [
+       {
+        "name": "Critical Threats / ISW",
+        "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-27-2026"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
   "weekStart": "2026-11-21",
   "weekEnd": "2026-11-27",
   "status": "final",
